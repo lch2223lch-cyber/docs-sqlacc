@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-![logo](/img/logo.png)
+![logo](/img/account-logo.png)
 
 Learn more about [SQL Account](https://sql.com.my).
 

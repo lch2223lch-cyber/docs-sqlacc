@@ -10,11 +10,11 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "SQL Account Documentation",
   tagline: "SQL Account documentation",
-  favicon: "img/logo.png",
+  favicon: "img/account-logo.png",
   staticDirectories: ["static"],
 
   // Set the production url of your site here
-  url: "",
+  url: "https://example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -51,7 +51,7 @@ const config = {
         title: "SQL Account Documentation",
         logo: {
           alt: "SQL Account",
-          src: "img/logo.png",
+          src: "img/account-logo.png",
         },
       },
       footer: {
