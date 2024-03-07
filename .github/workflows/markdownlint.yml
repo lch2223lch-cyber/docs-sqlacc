@@ -15,5 +15,6 @@ jobs:
     - uses: DavidAnson/markdownlint-cli2-action@v15
       if: steps.changed-files.outputs.any_changed == 'true'
       with:
+        config: 'config/.markdownlint.json'
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
