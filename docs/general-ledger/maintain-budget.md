@@ -13,7 +13,7 @@ tags: ["SQL Account", "Budget", "General Ledger"]
 
 2. Click on Maintain Budget
 
-    ![1](/img/general-ledger/maintain-budget/1.png)
+    ![1](../../static/img/general-ledger/maintain-budget/1.png)
 
 3. Select the year you want to set the budget
 
@@ -27,7 +27,7 @@ tags: ["SQL Account", "Budget", "General Ledger"]
 
 8. Click Save
 
-    ![2](/img/general-ledger/maintain-budget/2.png)
+    ![2](../../static/img/general-ledger/maintain-budget/2.png)
 
 ## Profit And Loss Statement with Budget Report
 
@@ -43,7 +43,7 @@ tags: ["SQL Account", "Budget", "General Ledger"]
 
     B : Year to date Vs Yearly Budget
 
-    ![3](/img/general-ledger/maintain-budget/3.png)
+    ![3](../../static/img/general-ledger/maintain-budget/3.png)
 
 ## Balance Sheet Statement with Budget Report
 
@@ -59,4 +59,4 @@ tags: ["SQL Account", "Budget", "General Ledger"]
 
     D : Year to date Vs Yearly Budget
 
-    ![4](/img/general-ledger/maintain-budget/4.png)
+    ![4](../../static/img/general-ledger/maintain-budget/4.png)

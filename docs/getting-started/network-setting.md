@@ -15,15 +15,15 @@ tags: ["SQL Account", "Getting Started", "Network Setting"]
 
    1. Install Firebird 3.0 version or higher. If Window System Type is 64 Bits, please download Firebird 3.0- 64 Bits
 
-      ![1](/img/getting-started/network-setting/1.png)
+      ![1](../../static/img/getting-started/network-setting/1.png)
 
    2. Run Firebird setup | Press **Ok** | Select **I accept the agreement** | Click 5 times **Next** | Make sure it is "**Run Firebird in SuperServer Mode**"
 
-      ![2](/img/getting-started/network-setting/2.png)
+      ![2](../../static/img/getting-started/network-setting/2.png)
 
    3. Leave it blank to use default password of master key.
 
-      ![3](/img/getting-started/network-setting/3.png)
+      ![3](../../static/img/getting-started/network-setting/3.png)
 
    4. Click on **Next** | **Install** | **Next** | Click on **Finish** to complete
 
@@ -77,7 +77,7 @@ tags: ["SQL Account", "Getting Started", "Network Setting"]
 
    4. Database Engine = Firebird Server | Click **Test Connection**. If the status shown in blue color, press **OK**
 
-      ![4](/img/getting-started/network-setting/4.png)
+      ![4](../../static/img/getting-started/network-setting/4.png)
 
 5. Client PC Setting
 
@@ -87,8 +87,8 @@ tags: ["SQL Account", "Getting Started", "Network Setting"]
 
    3. Select Share folder (At Step 4)| Select Default DCF
 
-      ![5](/img/getting-started/network-setting/5.png)
+      ![5](../../static/img/getting-started/network-setting/5.png)
 
-      ![6](/img/getting-started/network-setting/6.png)
+      ![6](../../static/img/getting-started/network-setting/6.png)
 
    4. Click on Firebird icon and Logon as usual.

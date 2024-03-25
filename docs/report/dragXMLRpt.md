@@ -17,11 +17,11 @@ If this XML report is Supplier Aging Report, go to Supplier Aging to drag the XM
 
 1. Open the XML Report & also Customer Aging, drag the XML Report into the Report Name field
 
-   ![1](/img/report/dragXMLRpt/1.png)
+   ![1](../../static/img/report/dragXMLRpt/1.png)
 
 2. Double Click on the new report template in blue color.
 
-   ![2](/img/report/dragXMLRpt/2.png)
+   ![2](../../static/img/report/dragXMLRpt/2.png)
 
 3. Click on the arrow down key to choose the right template
 

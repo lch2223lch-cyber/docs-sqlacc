@@ -13,7 +13,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice","User Guide"]
 SQL Account is a centralize system to assist the business (or departments) to record and process daily documents from sales, purchase, stock, and bank. It also a tool for GST reporting to Royal Malaysia Customs Diraja (RMCD).
 :::
 
-![1](/img/singapore-gst/singapore-user-guide/1.png)
+![1](../../static/img/singapore-gst/singapore-user-guide/1.png)
 
 1. **General Ledger**, a general ledger accounting where records all transactions posted from various journal (eg. general, sales, purchase, bank), an entry for general journal and expenses payment (eg. sales person claims, water and electricity expenses). Bank reconciliation, cash flow statement and financial reports are available in this module.
 
@@ -39,13 +39,13 @@ SQL Account is a centralize system to assist the business (or departments) to re
 
 1. **Tools | Options**
 
-    ![2](/img/singapore-gst/singapore-user-guide/2.png)
+    ![2](../../static/img/singapore-gst/singapore-user-guide/2.png)
 
 2. Select **General Ledger**
 
 3. Select **Financial Start Period & System Conversion Date**
 
-    ![3](/img/singapore-gst/singapore-user-guide/3.png)
+    ![3](../../static/img/singapore-gst/singapore-user-guide/3.png)
 
 :::tip **Situation 1:**
 
@@ -71,41 +71,41 @@ This is to initiate setup of the GST Singapore Module in SQL Accounting System.
 
 2. Select **Singapore**
 
-    ![4](/img/singapore-gst/singapore-user-guide/4.png)
+    ![4](../../static/img/singapore-gst/singapore-user-guide/4.png)
 
 3. Select **Singapore Flag** and **checked on acknowledgement**
 
-    ![5](/img/singapore-gst/singapore-user-guide/5.png)
+    ![5](../../static/img/singapore-gst/singapore-user-guide/5.png)
 
 4. Set **GST effective date** for your company
 
-    ![6](/img/singapore-gst/singapore-user-guide/6.png)
+    ![6](../../static/img/singapore-gst/singapore-user-guide/6.png)
 
 5. Key in your company’s **GST registration number**
 
-    ![7](/img/singapore-gst/singapore-user-guide/7.png)
+    ![7](../../static/img/singapore-gst/singapore-user-guide/7.png)
 
 6. Select **Finish**
 
-    ![8](/img/singapore-gst/singapore-user-guide/8.png)
+    ![8](../../static/img/singapore-gst/singapore-user-guide/8.png)
 
 7. It will prompt you with this message, please log on again to complete the GST Profile setup
 
-    ![9](/img/singapore-gst/singapore-user-guide/9.png)
+    ![9](../../static/img/singapore-gst/singapore-user-guide/9.png)
 
 8. After logging in again, you should see a new drop-down list with GST functions, the GST setup is now complete.
 
-    ![10](/img/singapore-gst/singapore-user-guide/10.png)
+    ![10](../../static/img/singapore-gst/singapore-user-guide/10.png)
 
 ### 2.3 Setting up Company Profile
 
 Step 1: **File | Company Profile**
 
-![11](/img/singapore-gst/singapore-user-guide/11.png)
+![11](../../static/img/singapore-gst/singapore-user-guide/11.png)
 
 Step 2: Select **Report Header**
 
-![12](/img/singapore-gst/singapore-user-guide/12.png)
+![12](../../static/img/singapore-gst/singapore-user-guide/12.png)
 
 ## 3 Master Data Creation
 
@@ -123,9 +123,9 @@ Step 2: Select **Report Header**
 
 4. Click **OK**. Your new account is now created.
 
-    ![13](/img/singapore-gst/singapore-user-guide/13.png)
+    ![13](../../static/img/singapore-gst/singapore-user-guide/13.png)
 
-    ![14](/img/singapore-gst/singapore-user-guide/14.png)
+    ![14](../../static/img/singapore-gst/singapore-user-guide/14.png)
 
 #### 3.1.2 Creating a Sub Account
 
@@ -133,7 +133,7 @@ Step 2: Select **Report Header**
 
 2. Follow the same steps from **2.1.1 Create New Account**
 
-    ![15](/img/singapore-gst/singapore-user-guide/15.png)
+    ![15](../../static/img/singapore-gst/singapore-user-guide/15.png)
 
 ### 3.2 Maintain Customer
 
@@ -167,11 +167,11 @@ There are 4 main tabs under Maintain Customer, let’s look at them
     Due Date: Based on after due date (terms)
     :::
 
-![16](/img/singapore-gst/singapore-user-guide/16.png)
+![16](../../static/img/singapore-gst/singapore-user-guide/16.png)
 
-![17](/img/singapore-gst/singapore-user-guide/17.png)
+![17](../../static/img/singapore-gst/singapore-user-guide/17.png)
 
-![18](/img/singapore-gst/singapore-user-guide/18.png)
+![18](../../static/img/singapore-gst/singapore-user-guide/18.png)
 
 #### 3.2.2 Advance Credit Control (*Pro Package Inclusive)
 
@@ -184,7 +184,7 @@ You can set the credit limit and overdue limit amounts as well as blocking a cer
 
 #### 3.2.3 Tax
 
-![19](/img/singapore-gst/singapore-user-guide/19.png)
+![19](../../static/img/singapore-gst/singapore-user-guide/19.png)
 
 For the **Tax** tab, you are advised to update the customer’s GST registration number and to input the tax code. The tax exemption number and expiry date **DO NOT** need to be updated for the GST period.
 
@@ -194,7 +194,7 @@ You DO NOT need to key in the SR as output tax code for every customer. You can 
 
 ### 3.3 Maintain Supplier
 
-![20](/img/singapore-gst/singapore-user-guide/20.png)
+![20](../../static/img/singapore-gst/singapore-user-guide/20.png)
 
 :::caution Attention
 **Maintain Supplier** it’s just a mirror of Maintain Customer, please refer to 2.2 Maintain Customer.
@@ -214,7 +214,7 @@ Allows the user to set default account posting for the a particular group of ite
 
 1. **Stock | Maintain Stock Group | New**
 
-    ![21](/img/singapore-gst/singapore-user-guide/21.png)
+    ![21](../../static/img/singapore-gst/singapore-user-guide/21.png)
 
 2. You can enter your **code** and **description**; you can also assign your **costing method** e.g. FIFO, Weighted Average & Fixed Cost.
 
@@ -234,7 +234,7 @@ Allows user to maintain an item or service that you provide for your business.
 
 1. **Stock | Maintain Stock Item | New.**
 
-    ![22](/img/singapore-gst/singapore-user-guide/22.png)
+    ![22](../../static/img/singapore-gst/singapore-user-guide/22.png)
 
 2. You can enter your **code** and **description**.
 
@@ -266,7 +266,7 @@ Allows user to maintain an item or service that you provide for your business.
 
 I am selling blue pens, blue pens haves different packaging, I can sell by *pcs*, by *box* or by *carton*. Now, I can pre-set them this way:
 
-![23](/img/singapore-gst/singapore-user-guide/23.png)
+![23](../../static/img/singapore-gst/singapore-user-guide/23.png)
 
 :::note As you can see above, I have different Units of Measurement (UOM) and different rates,
 Base Rate = PCS = 1
@@ -282,7 +282,7 @@ Carton = 24 PCS
 
 Example of sales process work flow aligned with SQL Account flow:
 
-![24](/img/singapore-gst/singapore-user-guide/24.png)
+![24](../../static/img/singapore-gst/singapore-user-guide/24.png)
 
 ### 4.2 Purchase Order
 
@@ -290,7 +290,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 2. **Select Supplier**
 
-    ![25](/img/singapore-gst/singapore-user-guide/25.png)
+    ![25](../../static/img/singapore-gst/singapore-user-guide/25.png)
 
 3. **Insert Item Code and details** (e.g. Qty, Unit Cost)
 
@@ -302,13 +302,13 @@ Example of sales process work flow aligned with SQL Account flow:
 
     - c. If you want to key in for a discount amount, you may tick the discount field by following step 3b and update the discount field. You can key in multiple levels of discount as shown by the picture attached.
 
-    ![26](/img/singapore-gst/singapore-user-guide/26.png)
+    ![26](../../static/img/singapore-gst/singapore-user-guide/26.png)
 
 4. After updating, click **Save**.
 
 5. To preview the report, you may click on the preview button and select the format you wish to print.
 
-    ![27](/img/singapore-gst/singapore-user-guide/27.png)
+    ![27](../../static/img/singapore-gst/singapore-user-guide/27.png)
 
 ### 4.3 Purchase Goods Received
 
@@ -318,7 +318,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 3. **Right Click on G/R Note title**, select **Transfer from Purchase Order**, tick the document that you wish to transfer
 
-    ![28](/img/singapore-gst/singapore-user-guide/28.png)
+    ![28](../../static/img/singapore-gst/singapore-user-guide/28.png)
 
 4. **Save** the Goods Received Note
 
@@ -336,13 +336,13 @@ Once you save the Goods Received Note, the system will automatically update the 
 
 4. **Save** the Purchase Invoice
 
-    ![29](/img/singapore-gst/singapore-user-guide/29.png)
+    ![29](../../static/img/singapore-gst/singapore-user-guide/29.png)
 
 ### 4.5 Sales Work Flow
 
 Example of sales process work flow aligned with SQL Account flow:
 
-    ![30](/img/singapore-gst/singapore-user-guide/30.png)
+    ![30](../../static/img/singapore-gst/singapore-user-guide/30.png)
 
 ### 4.6 Sales Quotation
 
@@ -354,13 +354,13 @@ Example of sales process work flow aligned with SQL Account flow:
 
 3. Insert the item that is requested by the customer, and you can estimate your profit & loss in this transaction by checking on **Profit Estimator**
 
-    ![31](/img/singapore-gst/singapore-user-guide/31.png)
+    ![31](../../static/img/singapore-gst/singapore-user-guide/31.png)
 
 4. After everything is keyed in correctly, save the **Sales Quotation**
 
 5. **Preview** the report and you can **print** or **export** it into PDF/ Email/ RTF(Microsoft Word)/Excel or others.
 
-    ![32](/img/singapore-gst/singapore-user-guide/32.png)
+    ![32](../../static/img/singapore-gst/singapore-user-guide/32.png)
 
 ### 4.7 Sales Order
 
@@ -372,7 +372,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 3. **Right Click on Sales Order title**, select **Transfer from Quotation**. You can either transfer the whole quotation or only part of the quotation document (*Partial Delivery Module requested)
 
-    ![33](/img/singapore-gst/singapore-user-guide/33.png)
+    ![33](../../static/img/singapore-gst/singapore-user-guide/33.png)
 
 4. Save the **Sales Order**.
 
@@ -417,11 +417,11 @@ Example of sales process work flow aligned with SQL Account flow:
 
 First Method - After you save then invoice then you can press on keyboard short cut key “ Ctrl + O” to get the show double entry result.
 
-![34](/img/singapore-gst/singapore-user-guide/34.png)
+![34](../../static/img/singapore-gst/singapore-user-guide/34.png)
 
 Second Method – After you save the invoice, you may right click on the wording of Invoice then select “Show Double Entry”.
 
-![35](/img/singapore-gst/singapore-user-guide/35.png)
+![35](../../static/img/singapore-gst/singapore-user-guide/35.png)
 
 #### 4.9.2 Tax Inclusive
 
@@ -433,13 +433,13 @@ According to RMCD [Retailing Guidelines](https://gst.customs.gov.my/en/rg/SiteAs
 
 3. Edit | Tick “Tax Inclusive”
 
-    ![36](/img/singapore-gst/singapore-user-guide/36.png)
+    ![36](../../static/img/singapore-gst/singapore-user-guide/36.png)
 
 4. Go to Invoice, select Item Code, you will find the Tax Inclusive is tick.
 
-    ![37](/img/singapore-gst/singapore-user-guide/37.png)
+    ![37](../../static/img/singapore-gst/singapore-user-guide/37.png)
 
-    ![38](/img/singapore-gst/singapore-user-guide/38.png)
+    ![38](../../static/img/singapore-gst/singapore-user-guide/38.png)
 
 ### 4.10 Sales Cash Sales
 
@@ -451,9 +451,9 @@ According to RMCD [Retailing Guidelines](https://gst.customs.gov.my/en/rg/SiteAs
 
 4. When saving, the system will prompt a **Payment/ Change** dialog box
 
-    ![39](/img/singapore-gst/singapore-user-guide/39.png)
+    ![39](../../static/img/singapore-gst/singapore-user-guide/39.png)
 
-    ![40](/img/singapore-gst/singapore-user-guide/40.png)
+    ![40](../../static/img/singapore-gst/singapore-user-guide/40.png)
 
 ### 4.11 Sales Credit Note
 
@@ -479,11 +479,11 @@ Sales Cancelled Note is used for the cancelling of any outstanding Sales Order.
 
 2. **Right Click on the Cancelled Note title**, select **Transfer from Sales Order**; (in Sales Cancelled Note, items can only be inserted by transferring from Sales Order)
 
-    ![41](/img/singapore-gst/singapore-user-guide/41.png)
+    ![41](../../static/img/singapore-gst/singapore-user-guide/41.png)
 
 3. You can choose to transfer the sales order either by the whole document or partially.
 
-    ![42](/img/singapore-gst/singapore-user-guide/42.png)
+    ![42](../../static/img/singapore-gst/singapore-user-guide/42.png)
 
 4. **Save** the Cancelled Note.
 
@@ -492,7 +492,7 @@ Sales Cancelled Note is used for the cancelling of any outstanding Sales Order.
 ### 5.1 Customers Flow (AR*)
 
 Example of **customer (AR)** process work flow aligned with SQL Account flow:
-![43](/img/singapore-gst/singapore-user-guide/43.png)
+![43](../../static/img/singapore-gst/singapore-user-guide/43.png)
 
 :::note
 *AR = Account Receivable*
@@ -506,7 +506,7 @@ Example of **customer (AR)** process work flow aligned with SQL Account flow:
 **Sales Invoice** is linked to the stock and account modules. Hence, we advise users who need to key in stock items to use Sales Invoice. Once the information in the Sales Invoice is updated, the information in the Customer Invoice will automatically be updated by the system.
 :::
 
-![44](/img/singapore-gst/singapore-user-guide/44.png)
+![44](../../static/img/singapore-gst/singapore-user-guide/44.png)
 
 #### Create a new **Customer Invoice**
 
@@ -516,7 +516,7 @@ Example of **customer (AR)** process work flow aligned with SQL Account flow:
 
 3. **Save**
 
-![45](/img/singapore-gst/singapore-user-guide/45.png)
+![45](../../static/img/singapore-gst/singapore-user-guide/45.png)
 
 ### 5.3 Customer Payment
 
@@ -534,27 +534,27 @@ Example of **customer (AR)** process work flow aligned with SQL Account flow:
 
 5. **Tick the corresponding invoice/debit note to be knocked off**
 
-    ![46](/img/singapore-gst/singapore-user-guide/46.png)
+    ![46](../../static/img/singapore-gst/singapore-user-guide/46.png)
 
 #### 5.3.2 Post Dated Cheque
 
 1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Set Posting Date**
 
-![47](/img/singapore-gst/singapore-user-guide/47.png)
+![47](../../static/img/singapore-gst/singapore-user-guide/47.png)
 
-![48](/img/singapore-gst/singapore-user-guide/48.png)
+![48](../../static/img/singapore-gst/singapore-user-guide/48.png)
 
 #### 5.3.3 Bounced Cheque
 
 1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Bounced Status**
 
-![49](/img/singapore-gst/singapore-user-guide/49.png)
+![49](../../static/img/singapore-gst/singapore-user-guide/49.png)
 
-![50](/img/singapore-gst/singapore-user-guide/50.png)
+![50](../../static/img/singapore-gst/singapore-user-guide/50.png)
 
 After bounced, system will auto revert the payment out, you can view your ledger.
 
-![51](/img/singapore-gst/singapore-user-guide/51.png)
+![51](../../static/img/singapore-gst/singapore-user-guide/51.png)
 
 ### 5.4 Customer Credit Note
 
@@ -568,7 +568,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
 3. **Knocked off accordingly.**
 
-![52](/img/singapore-gst/singapore-user-guide/52.png)
+![52](../../static/img/singapore-gst/singapore-user-guide/52.png)
 
 :::caution
 **If it does not involve with returned stock, e.g. discount given with steps below**
@@ -580,7 +580,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
 3. **Knocked off accordingly.**
 
-![53](/img/singapore-gst/singapore-user-guide/53.png)
+![53](../../static/img/singapore-gst/singapore-user-guide/53.png)
 
 #### 5.4.1 New JE
 
@@ -593,7 +593,7 @@ For non-GST adjustment purpose, a new Journal (JE) is available in
 
 2. **New | Select Customer | Select GL Account | Amount.**
 
-![54](/img/singapore-gst/singapore-user-guide/54.png)
+![54](../../static/img/singapore-gst/singapore-user-guide/54.png)
 
 ### 5.5 Customer Refund
 
@@ -605,7 +605,7 @@ You can use this document to refund a customer. You can knock off with Customer 
 
 3. **Knock off the payment or credit note and save.**
 
-![55](/img/singapore-gst/singapore-user-guide/55.png)
+![55](../../static/img/singapore-gst/singapore-user-guide/55.png)
 
 ### 5.6 Customer Contra
 
@@ -617,11 +617,11 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
 1. **Tools | Options**.
 
-    ![56](/img/singapore-gst/singapore-user-guide/56.png)
+    ![56](../../static/img/singapore-gst/singapore-user-guide/56.png)
 
 2. **General Ledger | Make sure you have assigned a contra account**.
 
-    ![57](/img/singapore-gst/singapore-user-guide/57.png)
+    ![57](../../static/img/singapore-gst/singapore-user-guide/57.png)
 
 3. **Customer | Customer Contra |** Click **New**.
 
@@ -629,25 +629,25 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
 5. **Knock off the corresponding invoice and Save**.
 
-    ![58](/img/singapore-gst/singapore-user-guide/58.png)
+    ![58](../../static/img/singapore-gst/singapore-user-guide/58.png)
 
 6. Go to **Supplier | Supplier Contra**.
 
 7. You will realize that the **SAME transaction will appear at Supplier Contra Screen**, you just have to **EDIT** the supplier contra.
 
-    ![59](/img/singapore-gst/singapore-user-guide/59.png)
+    ![59](../../static/img/singapore-gst/singapore-user-guide/59.png)
 
 8. **After Editing** you need to **update the supplier contra info accordingly and knock off the outstanding invoices of supplier.**
 
 9. **Save** the Supplier Contra.
 
-    ![60](/img/singapore-gst/singapore-user-guide/60.png)
+    ![60](../../static/img/singapore-gst/singapore-user-guide/60.png)
 
 ### 5.7 Supplier Work Flow (AP*)
 
 Example of **supplier (AP)** process work flow aligned with SQL Account flow:
 
-![61](/img/singapore-gst/singapore-user-guide/61.png)
+![61](../../static/img/singapore-gst/singapore-user-guide/61.png)
 
 :::note
 *AP = Account Payable*
@@ -677,7 +677,7 @@ Refer to Interbank GIRO guide start from *11 InterBank GIRO*.
 
 4. **Make sure the Dr and Cr figures tally**
 
-    ![62](/img/singapore-gst/singapore-user-guide/62.png)
+    ![62](../../static/img/singapore-gst/singapore-user-guide/62.png)
 
 #### 6.1.2 Customer and Supplier
 
@@ -689,7 +689,7 @@ Refer to Interbank GIRO guide start from *11 InterBank GIRO*.
 
 4. The words “Past Invoice” must appear; (they will not appear if the inserted date is after system conversion date) Click **Save**.
 
-    ![63](/img/singapore-gst/singapore-user-guide/63.png)
+    ![63](../../static/img/singapore-gst/singapore-user-guide/63.png)
 
 #### 6.1.3 Stock Value
 
@@ -699,7 +699,7 @@ Refer to Interbank GIRO guide start from *11 InterBank GIRO*.
 
 3. **Insert the Opening Balance**
 
-    ![64](/img/singapore-gst/singapore-user-guide/64.png)
+    ![64](../../static/img/singapore-gst/singapore-user-guide/64.png)
 
 #### 6.1.4 Bank Reconciliation
 
@@ -711,7 +711,7 @@ Refer to Interbank GIRO guide start from *11 InterBank GIRO*.
 
 ### 6.2 Journal Entry
 
-![65](/img/singapore-gst/singapore-user-guide/65.png)
+![65](../../static/img/singapore-gst/singapore-user-guide/65.png)
 
 1. **GL | Journal Entry**
 
@@ -719,7 +719,7 @@ Refer to Interbank GIRO guide start from *11 InterBank GIRO*.
 
 3. Click on **Save** (both Dr & Cr are tally before you are allowed to save)
 
-    ![66](/img/singapore-gst/singapore-user-guide/66.png)
+    ![66](../../static/img/singapore-gst/singapore-user-guide/66.png)
 
 ### 6.3 Cash Book Entry
 
@@ -731,11 +731,11 @@ Cash book entry is normally used for a non-customer/ supplier payment or receipt
 
 1. **GL | Cash Book Entry | New** (choose between Payment Voucher or Official Receipt)
 
-    ![67](/img/singapore-gst/singapore-user-guide/67.png)
+    ![67](../../static/img/singapore-gst/singapore-user-guide/67.png)
 
 2. **Insert Payable Name | Select GL Code /Tax /Amount**
 
-    ![68](/img/singapore-gst/singapore-user-guide/68.png)
+    ![68](../../static/img/singapore-gst/singapore-user-guide/68.png)
 
 ## 7 Inventory
 
@@ -745,7 +745,7 @@ Allows user to increase stock quantity without purchasing. It is normally used w
 
 1. **Stock | Stock Received | New.**
 
-![69](/img/singapore-gst/singapore-user-guide/69.png)
+![69](../../static/img/singapore-gst/singapore-user-guide/69.png)
 
 ### 7.2 Stock Issue
 
@@ -753,7 +753,7 @@ Allows user to **decrease stock quantity without selling**. It is normally used 
 
 1. **Stock | Stock Issue | New.**
 
-![70](/img/singapore-gst/singapore-user-guide/70.png)
+![70](../../static/img/singapore-gst/singapore-user-guide/70.png)
 
 ### 7.3 Stock Adjustment / Stock Take
 
@@ -766,33 +766,33 @@ issue. Normally used for stock take purposes. **(Stock | Stock Adjustment | New)
 
 **How SQL System can help during Stock Take?**
 
-![71](/img/singapore-gst/singapore-user-guide/71.png)
+![71](../../static/img/singapore-gst/singapore-user-guide/71.png)
 
 1. Click on Stock
 
 2. Choose Print Stock Physical Worksheet.
 
-    ![72](/img/singapore-gst/singapore-user-guide/72.png)
+    ![72](../../static/img/singapore-gst/singapore-user-guide/72.png)
 
 3. **Filter** by date, stock group or others **information** that you want to do for the stock take, please **make sure that you choose the correct location and batch if you have these two modules.**
 
 4. Click on **Apply and Preview**.
 
-    ![73](/img/singapore-gst/singapore-user-guide/73.png)
+    ![73](../../static/img/singapore-gst/singapore-user-guide/73.png)
 
 5. **Print out the “Stock Take Sheet”** for stock keeper. The stock keeper should manually **fill in the actual quantity into the “physical qty” column.**
 
-    ![74](/img/singapore-gst/singapore-user-guide/74.png)
+    ![74](../../static/img/singapore-gst/singapore-user-guide/74.png)
 
 6. After complete updating the stock take report, click on **Stock | Stock Adjustment | and drag out Book Qty and Physical Qty**.
 
-    ![75](/img/singapore-gst/singapore-user-guide/75.png)
+    ![75](../../static/img/singapore-gst/singapore-user-guide/75.png)
 
 7. **Repeat Steps 1 & 2** to display the Stock Physical Worksheet again, opening 2 windows simultaneously, “stock adjustment” and “stock physical worksheet”, then click on **Window | Tile Vertical.**
 
 8. Click on the first item in **Stock Physical Worksheet**, press on **Ctrl + A** on the keyboard to select all items. **Then Drag & Drop into Stock Adjustment.**
 
-    ![76](/img/singapore-gst/singapore-user-guide/76.png)
+    ![76](../../static/img/singapore-gst/singapore-user-guide/76.png)
 
 9. Based on the stock keeper’s Stock Take Report, **fill in the actual physical quantity** in your warehouse into the Stock Adjustment **Physical Qty column**, the system will calculate the variance based on the Book Qty and apply a correction to the Qty column.
 
@@ -830,7 +830,7 @@ Go to **GL | Print Balance Sheet**
 
 Step 6: **Apply**
 
-![77](/img/singapore-gst/singapore-user-guide/77.png)
+![77](../../static/img/singapore-gst/singapore-user-guide/77.png)
 
 #### 8.1.2 Profit & Loss Statement
 
@@ -852,7 +852,7 @@ Go to **GL | Print Profit and Loss Statement**
 
 5. **Apply**
 
-![78](/img/singapore-gst/singapore-user-guide/78.png)
+![78](../../static/img/singapore-gst/singapore-user-guide/78.png)
 
 #### 8.1.3 Trial Balance
 
@@ -892,7 +892,7 @@ Go to **GL | Print Ledger Report**
 
 6. **Apply**.
 
-    ![79](/img/singapore-gst/singapore-user-guide/79.png)
+    ![79](../../static/img/singapore-gst/singapore-user-guide/79.png)
 
 ### 8.2 Customer Report
 
@@ -906,7 +906,7 @@ Go to **GL | Print Ledger Report**
 
 4. Click on **Apply**
 
-    ![80](/img/singapore-gst/singapore-user-guide/80.png)
+    ![80](../../static/img/singapore-gst/singapore-user-guide/80.png)
 
 #### 8.2.2 Customer Statement
 
@@ -921,7 +921,7 @@ Go to **GL | Print Ledger Report**
 
 4. Click on **Apply**
 
-    ![81](/img/singapore-gst/singapore-user-guide/81.png)
+    ![81](../../static/img/singapore-gst/singapore-user-guide/81.png)
 
 #### 8.2.3 Customer Due Document Listing
 
@@ -935,17 +935,17 @@ In this report, you can print a reminder letter to remind customers of outstandi
 
 4. **Apply.**
 
-    ![82](/img/singapore-gst/singapore-user-guide/82.png)
+    ![82](../../static/img/singapore-gst/singapore-user-guide/82.png)
 
 5. If you want to **print a reminder letter, make sure you tick the customer code under “group / sort by” and Apply.**
 
-    ![83](/img/singapore-gst/singapore-user-guide/83.png)
+    ![83](../../static/img/singapore-gst/singapore-user-guide/83.png)
 
 6. Preview the report and you will see **Cust Overdue Letter**, choose your preferred format.
 
-    ![84](/img/singapore-gst/singapore-user-guide/84.png)
+    ![84](../../static/img/singapore-gst/singapore-user-guide/84.png)
 
-    ![85](/img/singapore-gst/singapore-user-guide/85.png)
+    ![85](../../static/img/singapore-gst/singapore-user-guide/85.png)
 
 #### 8.2.4 Customer Analysis By Document
 
@@ -957,7 +957,7 @@ This report is used to analyse all customer documents in one report. You can che
 
 3. **Apply.**
 
-![86](/img/singapore-gst/singapore-user-guide/86.png)
+![86](../../static/img/singapore-gst/singapore-user-guide/86.png)
 
 ### 8.3 Sales Report
 
@@ -975,7 +975,7 @@ Go to Sales | Print Sales Document Listing
 
 5. Click **Apply** to generate, whenever you change any setting under Step 3 or 4, please redo by clicking Apply
 
-    ![87](/img/singapore-gst/singapore-user-guide/87.png)
+    ![87](../../static/img/singapore-gst/singapore-user-guide/87.png)
 
 ##### 8.3.1.1 Export report into Excel
 
@@ -983,7 +983,7 @@ Go to Sales | Print Sales Document Listing
 
 2. **Click on Grid Export | Export to Excel.**
 
-    ![88](/img/singapore-gst/singapore-user-guide/88.png)
+    ![88](../../static/img/singapore-gst/singapore-user-guide/88.png)
 
 ##### 8.3.1.2 Batch Printing Invoices
 
@@ -995,7 +995,7 @@ If you want to print out entire month invoices by batch and into a page-by-page 
 
 <!-- [Batch Print Invoice Video](http://www.sql.com.my/video/sqlacc_tutorial/06-04b_Batch_Print_Invoices.mp4) -->
 
-    ![89](/img/singapore-gst/singapore-user-guide/89.png)
+    ![89](../../static/img/singapore-gst/singapore-user-guide/89.png)
 
 #### 8.3.2 Outstanding Sales Document Listing (Require Partial Delivery Module)
 
@@ -1014,11 +1014,11 @@ This report can help you check the transfer document’s info, such as the amoun
 
 4. **Apply**.
 
-    ![90](/img/singapore-gst/singapore-user-guide/90.png)
+    ![90](../../static/img/singapore-gst/singapore-user-guide/90.png)
 
 5. If you want to know where this **document has already been transferred to**, you just **Preview** the report.
 
-    ![91](/img/singapore-gst/singapore-user-guide/91.png)
+    ![91](../../static/img/singapore-gst/singapore-user-guide/91.png)
 
 ### 8.4 Inventory Report
 
@@ -1028,7 +1028,7 @@ A subsidiary report where each individual movement of stock is recorded, includi
 
 1. **Stock | Print Stock Card | Apply**.
 
-![92](/img/singapore-gst/singapore-user-guide/92.png)
+![92](../../static/img/singapore-gst/singapore-user-guide/92.png)
 
 #### 8.4.2 Stock Card Qty
 
@@ -1036,7 +1036,7 @@ Same purpose with stock card but stock card qty is without costing and pricing, 
 
 1. **Stock | Print Stock Card Qty | Apply.**
 
-    ![93](/img/singapore-gst/singapore-user-guide/93.png)
+    ![93](../../static/img/singapore-gst/singapore-user-guide/93.png)
 
 #### 8.4.3 Stock Month End Balance
 
@@ -1044,7 +1044,7 @@ The Monthly Stock Balance Report summarizes the stock balances of the participan
 
 1. **Stock | Print Stock Card Qty | Apply.**
 
-![94](/img/singapore-gst/singapore-user-guide/94.png)
+![94](../../static/img/singapore-gst/singapore-user-guide/94.png)
 
 #### 8.4.4 Stock Reorder Advice
 
@@ -1052,9 +1052,9 @@ This report is to show reorder advice according to stock level, normally used to
 
 1. **Stock | Print Stock Reorder Advice | Apply**.
 
-![95](/img/singapore-gst/singapore-user-guide/95.png)
+![95](../../static/img/singapore-gst/singapore-user-guide/95.png)
 
-![96](/img/singapore-gst/singapore-user-guide/96.png)
+![96](../../static/img/singapore-gst/singapore-user-guide/96.png)
 
 ## 9 GST
 
@@ -1072,11 +1072,11 @@ GST was introduced in Singapore on 1 Apr 1994. The table below displays the chro
 
 Overview of the GST Tax Code in SQL Account and represent to GST F5 and IAF.
 
-![97](/img/singapore-gst/singapore-user-guide/97.png)
+![97](../../static/img/singapore-gst/singapore-user-guide/97.png)
 
 ### 9.2 Common Tax Codes used by most businesses
 
-![98](/img/singapore-gst/singapore-user-guide/98.png)
+![98](../../static/img/singapore-gst/singapore-user-guide/98.png)
 
 ### 9.3 Disallowed Input Tax Claims
 
@@ -1105,19 +1105,19 @@ Overview of the GST Tax Code in SQL Account and represent to GST F5 and IAF.
 
 2. Key in payment voucher as usual and select BL Tax Code
 
-    ![99](/img/singapore-gst/singapore-user-guide/99.png)
+    ![99](../../static/img/singapore-gst/singapore-user-guide/99.png)
 
 3. If in GST | Maintain Tax , the Tax Account you left it empty, system will auto post the 6% of tax amount according to the document’s GL Code.
 
-    ![100](/img/singapore-gst/singapore-user-guide/100.png)
+    ![100](../../static/img/singapore-gst/singapore-user-guide/100.png)
 
-    ![101](/img/singapore-gst/singapore-user-guide/101.png)
+    ![101](../../static/img/singapore-gst/singapore-user-guide/101.png)
 
 4. In GST | Maintain Tax |BL Tax code you can also pre-set your preferred expenses account. In this example, we set it to GST-Unclaimable under expenses account, system will auto post the 6% of tax amount according to the Tax account accordingly.
 
-![102](/img/singapore-gst/singapore-user-guide/102.png)
+![102](../../static/img/singapore-gst/singapore-user-guide/102.png)
 
-![103](/img/singapore-gst/singapore-user-guide/103.png)
+![103](../../static/img/singapore-gst/singapore-user-guide/103.png)
 
 ### 9.4 GST-F5 Draft
 
@@ -1125,15 +1125,15 @@ You are allowing to process a draft GST Return before you process the actual GST
 
 1. **GST | New GST Return.**
 
-    ![104](/img/singapore-gst/singapore-user-guide/104.png)
+    ![104](../../static/img/singapore-gst/singapore-user-guide/104.png)
 
 2. Select the arrow down button beside Process | then click on **“Process as Draft”**.
 
-    ![105](/img/singapore-gst/singapore-user-guide/105.png)
+    ![105](../../static/img/singapore-gst/singapore-user-guide/105.png)
 
 3. The Result is as below:
 
-    ![106](/img/singapore-gst/singapore-user-guide/106.png)
+    ![106](../../static/img/singapore-gst/singapore-user-guide/106.png)
 
 #### 9.4.1 GST- F5 Drill Down
 
@@ -1141,29 +1141,29 @@ GST-F5 allow to drill down, example:
 
 You can double click on Box 1 Column
 
-![107](/img/singapore-gst/singapore-user-guide/107.png)
+![107](../../static/img/singapore-gst/singapore-user-guide/107.png)
 
 Further drill down,
 
-![108](/img/singapore-gst/singapore-user-guide/108.png)
+![108](../../static/img/singapore-gst/singapore-user-guide/108.png)
 
 You can drill down until the particular document itself
 
-![109](/img/singapore-gst/singapore-user-guide/109.png)
+![109](../../static/img/singapore-gst/singapore-user-guide/109.png)
 
 ### 9.5 Submission GST Return To IRAS?
 
 1. **GST | New GST Return.**
 
-    ![110](/img/singapore-gst/singapore-user-guide/110.png)
+    ![110](../../static/img/singapore-gst/singapore-user-guide/110.png)
 
 2. **Process** monthly or every 3 months based on your company’s registration with IRAS.
 
-    ![111](/img/singapore-gst/singapore-user-guide/111.png)
+    ![111](../../static/img/singapore-gst/singapore-user-guide/111.png)
 
 3. Click on **GST F5 small Arrow Down.**
 
-    ![112](/img/singapore-gst/singapore-user-guide/112.png)
+    ![112](../../static/img/singapore-gst/singapore-user-guide/112.png)
 
 4. Scroll all the way to bottom
 
@@ -1173,15 +1173,15 @@ You can drill down until the particular document itself
 
 6. Click on **Submit** button
 
-    ![113](/img/singapore-gst/singapore-user-guide/113.png)
+    ![113](../../static/img/singapore-gst/singapore-user-guide/113.png)
 
 7. **Agree with all declaration**, fill up **Designation** and press **Ok**
 
-    ![114](/img/singapore-gst/singapore-user-guide/114.png)
+    ![114](../../static/img/singapore-gst/singapore-user-guide/114.png)
 
 8. You can logon either **Singpass App or Password Login**
 
-    ![115](/img/singapore-gst/singapore-user-guide/115.png)
+    ![115](../../static/img/singapore-gst/singapore-user-guide/115.png)
 
 9. May logon and follow wizard to submit to IRAS
 
@@ -1195,15 +1195,15 @@ When you received a Purchase Tax Invoice which is dated in the previous taxable 
 
 2. Select **Set Tax Date.**
 
-    ![116](/img/singapore-gst/singapore-user-guide/116.png)
+    ![116](../../static/img/singapore-gst/singapore-user-guide/116.png)
 
 3. **Insert the date** that you want to claim the input tax. This is normally the date when that you received the tax invoice. Then click **OK**.
 
-    ![117](/img/singapore-gst/singapore-user-guide/117.png)
+    ![117](../../static/img/singapore-gst/singapore-user-guide/117.png)
 
 4. **When you process the next cycle of New GST Return**, it will show in Box 5 **“Purchases”** as usual.
 
-    ![118](/img/singapore-gst/singapore-user-guide/118.png)
+    ![118](../../static/img/singapore-gst/singapore-user-guide/118.png)
 
 ### 9.7 Generate GST Audit File (IAF)
 
@@ -1214,33 +1214,33 @@ upon request. It is not required to be submitted with GST-F5.
 
 1. Click on **GST | Open GST Return**
 
-    ![119](/img/singapore-gst/singapore-user-guide/119.png)
+    ![119](../../static/img/singapore-gst/singapore-user-guide/119.png)
 
 2. Select the cycle for the GAF that you want to generate. Then click on the **arrow down button** and select **Generate GST Audit File(GAF)**.
 
-    ![120](/img/singapore-gst/singapore-user-guide/120.png)
+    ![120](../../static/img/singapore-gst/singapore-user-guide/120.png)
 
 3. The result is generated based on **General, Sales & Purchase Ledger** for you to check your transactions before submitting to Customs for auditing purposes.
 
-    ![121](/img/singapore-gst/singapore-user-guide/121.png)
+    ![121](../../static/img/singapore-gst/singapore-user-guide/121.png)
 
 4. You may check the report.
 
 5. Click on **Save To IAF**
 
-    ![122](/img/singapore-gst/singapore-user-guide/122.png)
+    ![122](../../static/img/singapore-gst/singapore-user-guide/122.png)
 
 6. Save your IAF text file to desktop.
 
-    ![123](/img/singapore-gst/singapore-user-guide/123.png)
+    ![123](../../static/img/singapore-gst/singapore-user-guide/123.png)
 
 7. After saving, the message “File generated successfully” will automatically pop-up, just click **OK**.
 
-    ![124](/img/singapore-gst/singapore-user-guide/124.png)
+    ![124](../../static/img/singapore-gst/singapore-user-guide/124.png)
 
 8. Go to desktop to select the GAF.txt file. The output will be similar to the image below:
 
-    ![125](/img/singapore-gst/singapore-user-guide/125.png)
+    ![125](../../static/img/singapore-gst/singapore-user-guide/125.png)
 
 The above is the exported file that has fulfilled all requirements by IRAS
 
@@ -1260,7 +1260,7 @@ GLDataStart= General Ledger transaction
 
 This report is to analyse the detail of GST transactions grouped by tax type. It can be used to check against GST-F5
 
-![126](/img/singapore-gst/singapore-user-guide/126.png)
+![126](../../static/img/singapore-gst/singapore-user-guide/126.png)
 
 1. **GST | Print GST Listing.**
 
@@ -1268,11 +1268,11 @@ This report is to analyse the detail of GST transactions grouped by tax type. It
 
 3. Click **Apply**.
 
-    ![127](/img/singapore-gst/singapore-user-guide/127.png)
+    ![127](../../static/img/singapore-gst/singapore-user-guide/127.png)
 
 4. You can filter any keyword, system will auto filter based on keyword you key
 
-    ![128](/img/singapore-gst/singapore-user-guide/128.png)
+    ![128](../../static/img/singapore-gst/singapore-user-guide/128.png)
 
 ## 10 Advance GST Info
 
@@ -1286,16 +1286,16 @@ There are two methods to handle for bank charges GST Reversal :
 
 1. Supplier | Supplier Payment | Bank Charges = Bank Charge Amount (RM 0.50) + GST Amount (RM 0.03).
 
-    ![129](/img/singapore-gst/singapore-user-guide/129.png)
+    ![129](../../static/img/singapore-gst/singapore-user-guide/129.png)
 
     At the month end, you should reverse back total how much for bank charge Tax Amount, may get it from bank
     Statement. May refer your bank statement as below:
 
-    ![130](/img/singapore-gst/singapore-user-guide/130.png)
+    ![130](../../static/img/singapore-gst/singapore-user-guide/130.png)
 
 2. GL | Journal Entry | New | Select Bank Charges – GST Reversal.
 
-    ![131](/img/singapore-gst/singapore-user-guide/131.png)
+    ![131](../../static/img/singapore-gst/singapore-user-guide/131.png)
 
 :::tip Steps
 A : Select Bank Charges Account to reverse out.
@@ -1312,7 +1312,7 @@ D : Enter Bank Charges Tax Amount. (May get it from Bank Statement)
 You may use Payment Voucher to capture the bank charges with GST after you received your monthly bank statement. With this method, you don’t have to do GST Reversal at Journal Entry anymore.
 
 1. GL | Cash Book Entry | Payment Voucher key in as below :
-    ![132](/img/singapore-gst/singapore-user-guide/132.png)
+    ![132](../../static/img/singapore-gst/singapore-user-guide/132.png)
 
 ### 10.2 Gift / Deemed Supply
 
@@ -1335,7 +1335,7 @@ On the other hand, if you as a customer have not paid your supplier within 12 mo
 Company issued an Invoice at 5th January 2022. The 12th month expires as at end of 5th Dec 2022. The bad debt relief **can be claimed after** in Jan 23 taxable period.
 :::
 
-![133](/img/singapore-gst/singapore-user-guide/133.png)
+![133](../../static/img/singapore-gst/singapore-user-guide/133.png)
 
 #### Claiming Bad Debt Relief
 
@@ -1353,14 +1353,14 @@ The bad debt relief claim has to be made within 5 years from the date of your su
 When you recover a bad debt i.e. receive payment from your customer after you have claimed Bad Debt Relief, you
 should repay to the Comptroller the amount calculated according to the following formula:
 
-![134](/img/singapore-gst/singapore-user-guide/134.png)
+![134](../../static/img/singapore-gst/singapore-user-guide/134.png)
 
 :::info Scenario B
 Scenario B :
 Invoice issued at 15th January 2022. The 12th month expires at the end of Jan 2023 and the bad debt relief claim in Jan 2023. Payment recovered from debtor in 20th Apr 2023. Then Bad Debt recovered GST **must be paid immediately** in April taxable period.
 :::
 
-![135](/img/singapore-gst/singapore-user-guide/135.png)
+![135](../../static/img/singapore-gst/singapore-user-guide/135.png)
 
 :::danger Warning
 WARNING: “Bad Debt” goes **both** ways. If you didn’t pay your supplier, then 12 months later you are required payback Kastam then input tax that your business have claim earlier
@@ -1376,25 +1376,25 @@ How to be more effort to avoid “bad debt” relief?
 
 1. Customer | Print Customer Statement | Filter the options accordingly | Apply | Preview | Print.
 
-    ![136](/img/singapore-gst/singapore-user-guide/136.png)
+    ![136](../../static/img/singapore-gst/singapore-user-guide/136.png)
 
 #### Customer Overdue Letter
 
 1. Customer Print Customer Due Document Listing | Filter the options accordingly | Select Group By “ Customer Name” | Apply | Preview | Select report “ Customer Overdue Letter” | OK.
 
-    ![137](/img/singapore-gst/singapore-user-guide/137.png)
+    ![137](../../static/img/singapore-gst/singapore-user-guide/137.png)
 
 The following scenario demonstrates how the system handles Bad Debt Relief automatically. Refer to the listing below there are few invoices in January 2023, assuming company submits GST on a quarterly basis.
 
-![138](/img/singapore-gst/singapore-user-guide/138.png)
+![138](../../static/img/singapore-gst/singapore-user-guide/138.png)
 
 When you process which is from 01/01/2024 until 31/03/2024, the screen below will prompt out :
 
-![139](/img/singapore-gst/singapore-user-guide/139.png)
+![139](../../static/img/singapore-gst/singapore-user-guide/139.png)
 
 Bad Debt Relief applies to both sales and purchases. In the case of outstanding purchase invoices for which you had claimed input tax 12 months ago, you are required to refund the corresponding amount to IRAS. However, there's no need to worry as the system will automatically handle this issue for you.
 
-![140](/img/singapore-gst/singapore-user-guide/140.png)
+![140](../../static/img/singapore-gst/singapore-user-guide/140.png)
 
 And you can see those outstanding purchase invoice will appear in the list under Purchase | Billing (Payable).
 
@@ -1405,11 +1405,11 @@ Relief. For instance, if we received customer payment on 26/4/2024, refer below 
 
 1. Issue Customer | Customer Payment | and knock off the invoice which have 12 months bad debt relief.
 
-    ![141](/img/singapore-gst/singapore-user-guide/141.png)
+    ![141](../../static/img/singapore-gst/singapore-user-guide/141.png)
 
 2. After this we process to GST Return from 1/4/2024 until 30/06/2024, system will auto list you the both payment with the tax recover figure.
 
-    ![142](/img/singapore-gst/singapore-user-guide/142.png)
+    ![142](../../static/img/singapore-gst/singapore-user-guide/142.png)
 
 #### 10.3.3 Double Entry (Bad Debt Relief)
 
@@ -1480,19 +1480,19 @@ Relief. For instance, if we received customer payment on 26/4/2024, refer below 
 
 2. Click on Company Profile
 
-    ![143](/img/singapore-gst/singapore-user-guide/143.png)
+    ![143](../../static/img/singapore-gst/singapore-user-guide/143.png)
 
 3. Click on **Peppol** Tab
 
 4. Click on **Register As Peppol User** to register your own company Peppol ID
 
-    ![144](/img/singapore-gst/singapore-user-guide/144.png)
+    ![144](../../static/img/singapore-gst/singapore-user-guide/144.png)
 
 5. It will be directed to our website to **complete the required details**
 
     Upon successful registration, user will receive notification email from Datapost within 1 to 3 working days. Once registered , your company Peppol ID will be listed in [Singapore Peppol Directory](https://www.peppoldirectory.sg/)
 
-    ![145](/img/singapore-gst/singapore-user-guide/145.png)
+    ![145](../../static/img/singapore-gst/singapore-user-guide/145.png)
 
 :::caution
 Please note that obtaining the API Key and API Secret will incur additional charges
@@ -1510,7 +1510,7 @@ Please note that obtaining the API Key and API Secret will incur additional char
 
 3. **Save**
 
-![146](/img/singapore-gst/singapore-user-guide/146.png)
+![146](../../static/img/singapore-gst/singapore-user-guide/146.png)
 
 #### 11.2.2 B2G (Business To Government)
 
@@ -1518,7 +1518,7 @@ Please note that obtaining the API Key and API Secret will incur additional char
 
 2. **Save**
 
-![147](/img/singapore-gst/singapore-user-guide/147.png)
+![147](../../static/img/singapore-gst/singapore-user-guide/147.png)
 
 ### 11.3 Maintain Customer & Supplier Peppol ID
 
@@ -1526,7 +1526,7 @@ Please note that obtaining the API Key and API Secret will incur additional char
 
 2. Click on **Maintain Customer** > Double Click your customer
 
-    ![148](/img/singapore-gst/singapore-user-guide/148.png)
+    ![148](../../static/img/singapore-gst/singapore-user-guide/148.png)
 
 #### 11.3.1 Peppol B2B (Business To Business)
 
@@ -1543,7 +1543,7 @@ Please note that obtaining the API Key and API Secret will incur additional char
 
 6. Click **Save**
 
-![149](/img/singapore-gst/singapore-user-guide/149.png)
+![149](../../static/img/singapore-gst/singapore-user-guide/149.png)
 
 #### 11.3.2 Peppol B2G (Business To Government)
 
@@ -1557,7 +1557,7 @@ Please note that obtaining the API Key and API Secret will incur additional char
 
     For Example : IMDA1 not listed , click the **IMDA1**
 
-    ![150](/img/singapore-gst/singapore-user-guide/150.png)
+    ![150](../../static/img/singapore-gst/singapore-user-guide/150.png)
 
 :::note
 For Supplier : Go to Supplier > Maintain Supplier > Edit > Note Tab
@@ -1571,13 +1571,13 @@ For Supplier : Go to Supplier > Maintain Supplier > Edit > Note Tab
 
     *Make sure the Peppol ID and UEN Number had filled in correctly in Maintain Customer*
 
-    ![151](/img/singapore-gst/singapore-user-guide/151.png)
+    ![151](../../static/img/singapore-gst/singapore-user-guide/151.png)
 
 #### 11.4.2 Send Document by B2G (Business To Government)
 
 B2G follows the same steps as B2C, but B2G's Peppol ID must be **0195:SGUENT08GA0028A** (refer Topic 11.3.2). Additionally, there are additional validations for B2G transactions.
 
-![152](/img/singapore-gst/singapore-user-guide/152.png)
+![152](../../static/img/singapore-gst/singapore-user-guide/152.png)
 
 ### 11.5 Item Code Mapping
 
@@ -1589,7 +1589,7 @@ Item codes for items in the Peppol document will be automatically selected if th
 
 2. Click on Maintain Stock Item
 
-    ![153](/img/singapore-gst/singapore-user-guide/153.png)
+    ![153](../../static/img/singapore-gst/singapore-user-guide/153.png)
 
 3. Click **Edit**
 
@@ -1601,7 +1601,7 @@ Item codes for items in the Peppol document will be automatically selected if th
 
 7. **Save**
 
-    ![154](/img/singapore-gst/singapore-user-guide/154.png)
+    ![154](../../static/img/singapore-gst/singapore-user-guide/154.png)
 
 After done settings, when you import a document from Peppol, the items will be automatically mapped item code and displayed as shown in the picture below, as an example:
 
@@ -1609,7 +1609,7 @@ After done settings, when you import a document from Peppol, the items will be a
  2. **Item Description matched**
  3. **Item Code set automatically**
 
-    ![155](/img/singapore-gst/singapore-user-guide/155.png)
+    ![155](../../static/img/singapore-gst/singapore-user-guide/155.png)
 
 :::note
 You can manually map item codes during the invoice import process even if you not follow this step to map item code
@@ -1621,7 +1621,7 @@ You can manually map item codes during the invoice import process even if you no
 
 2. Peppol Import
 
-    ![156](/img/singapore-gst/singapore-user-guide/156.png)
+    ![156](../../static/img/singapore-gst/singapore-user-guide/156.png)
 
 3. Select date range and click Apply
 
@@ -1629,20 +1629,20 @@ You can manually map item codes during the invoice import process even if you no
 
 5. Click Import button
 
-    ![157](/img/singapore-gst/singapore-user-guide/157.png)
+    ![157](../../static/img/singapore-gst/singapore-user-guide/157.png)
 
     A pop up message will show for **Posting Done**
 
-    ![158](/img/singapore-gst/singapore-user-guide/158.png)
+    ![158](../../static/img/singapore-gst/singapore-user-guide/158.png)
 
 ### 11.7 List Of Status
 
-![205](/img/singapore-gst/singapore-user-guide/205.png)
+![205](../../static/img/singapore-gst/singapore-user-guide/205.png)
 
 ### 11.8 Error code and Message
 
-![159](/img/singapore-gst/singapore-user-guide/159.png)
-![160](/img/singapore-gst/singapore-user-guide/160.png)
+![159](../../static/img/singapore-gst/singapore-user-guide/159.png)
+![160](../../static/img/singapore-gst/singapore-user-guide/160.png)
 
 ## 12 Tools
 
@@ -1654,7 +1654,7 @@ You can manually map item codes during the invoice import process even if you no
 
 3. Click on **More** Options and look for **Change Password.**
 
-    ![161](/img/singapore-gst/singapore-user-guide/161.png)
+    ![161](../../static/img/singapore-gst/singapore-user-guide/161.png)
 
 4. Click **Save**. Your new user account is now created.
 
@@ -1674,7 +1674,7 @@ Not every user is going to have the same access rights as ADMIN, and ADMIN user 
 
 3. You need to check the transactions / functions (row), compare with the user (column) and **tick = Allowed** or **untick = Disallowed**, the action for a particular user for particular transactions. For example, base on the setting in the following images, the user is not allowed to delete Customers or to view Customer Payments.
 
-    ![162](/img/singapore-gst/singapore-user-guide/162.png)
+    ![162](../../static/img/singapore-gst/singapore-user-guide/162.png)
 
 ### 12.2 Maintain Document Number
 
@@ -1713,7 +1713,7 @@ Brief – Any document which date falls within the allowed transaction dates. CA
 
 4. **Save**.
 
-    ![163](/img/singapore-gst/singapore-user-guide/163.png)
+    ![163](../../static/img/singapore-gst/singapore-user-guide/163.png)
 
 Example: Date From **(01/02/2016) & Date To (29/02/2016)** allows an Invoice with date (08/02/2016) to be edited/created.
 
@@ -1735,17 +1735,17 @@ To override i.e. save a document that falls outside the acceptable transaction d
 
 4. **Save** the access right.
 
-![164](/img/singapore-gst/singapore-user-guide/164.png)
+![164](../../static/img/singapore-gst/singapore-user-guide/164.png)
 
 If the user Is not permitted to override, the system will prompt with an option and you can choose either
 
 - **OK = cancel saving**
 
-![165](/img/singapore-gst/singapore-user-guide/165.png)
+![165](../../static/img/singapore-gst/singapore-user-guide/165.png)
 
 - **Override = Enter user the ID and password of a user who can override then save the transaction.**
 
-![166](/img/singapore-gst/singapore-user-guide/166.png)
+![166](../../static/img/singapore-gst/singapore-user-guide/166.png)
 
 ### 12.4 Maintain Form Mode
 
@@ -1757,29 +1757,29 @@ Form Mode helps to filter data based on defined criteria. It is used to restrict
 
 2. **Enter Code & Select the document** form that you want to filter, e.g. Invoice
 
-    ![167](/img/singapore-gst/singapore-user-guide/167.png)
+    ![167](../../static/img/singapore-gst/singapore-user-guide/167.png)
 
 3. Click on the **Customize Filter** and then click on the **press the button to add a new condition.**
 
-    ![168](/img/singapore-gst/singapore-user-guide/168.png)
+    ![168](../../static/img/singapore-gst/singapore-user-guide/168.png)
 
 4. Change the **“SL_IV.DOCKEY” to “SL_IV.Agent”** because right now I need to filter based on sales invoice agent field, then change **the “= equals” to “like”** after that **enter the agent code** that you want to filter and click on **OK**.
 
-    ![169](/img/singapore-gst/singapore-user-guide/169.png)
+    ![169](../../static/img/singapore-gst/singapore-user-guide/169.png)
 
 5. Make sure the info is updated correctly then you can **Save**
 
-    ![170](/img/singapore-gst/singapore-user-guide/170.png)
+    ![170](../../static/img/singapore-gst/singapore-user-guide/170.png)
 
     Other optional setting:
 
-    ![171](/img/singapore-gst/singapore-user-guide/171.png)
+    ![171](../../static/img/singapore-gst/singapore-user-guide/171.png)
 
-    ![172](/img/singapore-gst/singapore-user-guide/172.png)
+    ![172](../../static/img/singapore-gst/singapore-user-guide/172.png)
 
 6. If you have set **more than 1 form mode**, once you click Sales | Invoice | you will get the prompt browse mode to choose which form mode that you want to apply.
 
-    ![173](/img/singapore-gst/singapore-user-guide/173.png)
+    ![173](../../static/img/singapore-gst/singapore-user-guide/173.png)
 
 #### 12.4.1 Form Mode VS User
 
@@ -1801,15 +1801,15 @@ Maintain Terms allows the user to maintain their Customer and Supplier terms. In
 
 2. **Insert Code, Description and allocated Term Type.**
 
-    ![174](/img/singapore-gst/singapore-user-guide/174.png)
+    ![174](../../static/img/singapore-gst/singapore-user-guide/174.png)
 
     - **Due in number of days** – Means how many days until document is due, e.g. if you set 30 days then the document will be due on the 30th day from the document date
 
-    ![175](/img/singapore-gst/singapore-user-guide/175.png)
+    ![175](../../static/img/singapore-gst/singapore-user-guide/175.png)
 
     - Due on specific day of the month – Means how many months and which day the document is due, e.g. if you set it as 1 Month 6 Days the document will be due on the 6th of the next month.
 
-    ![176](/img/singapore-gst/singapore-user-guide/176.png)
+    ![176](../../static/img/singapore-gst/singapore-user-guide/176.png)
 
     - Due in the month end – Means how many months until the document is due at the end of the final month, e.g. if you set it as 2 months, the document will be due at the end of 2nd month.
 
@@ -1821,15 +1821,15 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
 1. **Tools | Maintain Currency | New**
 
-    ![177](/img/singapore-gst/singapore-user-guide/177.png)
+    ![177](../../static/img/singapore-gst/singapore-user-guide/177.png)
 
 2. **Maintain Customer / Supplier to assign the currency**
 
-    ![178](/img/singapore-gst/singapore-user-guide/178.png)
+    ![178](../../static/img/singapore-gst/singapore-user-guide/178.png)
 
 3. Sales document, select the customer, sample as below:
 
-    ![179](/img/singapore-gst/singapore-user-guide/179.png)
+    ![179](../../static/img/singapore-gst/singapore-user-guide/179.png)
 
 ### 12.7 Maintain Payment Method
 
@@ -1837,7 +1837,7 @@ Maintain Payment Method allows user to maintain cash and bank account, you canno
 
 1. **Tools | Maintain Payment Method | Edit.**
 
-    ![180](/img/singapore-gst/singapore-user-guide/180.png)
+    ![180](../../static/img/singapore-gst/singapore-user-guide/180.png)
 
     - **Currency** – You can select the currency for the particular payment method, so that the payment method will be in foreign currency payment. **(Requires Advance Currency Module)**
     - **Bank Charge Acc** – You can pre-set bank charges account to the payment method accordingly.
@@ -1850,31 +1850,31 @@ module for simple construction business as they get to view Profit and Loss / Ba
 
 1. Click on **Tools | Maintain Project.**
 
-    ![181](/img/singapore-gst/singapore-user-guide/181.png)
+    ![181](../../static/img/singapore-gst/singapore-user-guide/181.png)
 
 2. Insert **Project Code & Description**. Project Value and Project Cost is not compulsory fields to fill in, if you have filled in then it is for remark purpose.
 
-    ![182](/img/singapore-gst/singapore-user-guide/182.png)
+    ![182](../../static/img/singapore-gst/singapore-user-guide/182.png)
 
 3. Click on **Tools | Options**.
 
-    ![183](/img/singapore-gst/singapore-user-guide/183.png)
+    ![183](../../static/img/singapore-gst/singapore-user-guide/183.png)
 
 4. Then look for **Miscellaneous** | Make sure the option **“Show Document Project”** is ticked.
 
-    ![184](/img/singapore-gst/singapore-user-guide/184.png)
+    ![184](../../static/img/singapore-gst/singapore-user-guide/184.png)
 
 5. During **sales and purchase** transactions, make sure you can the **project column**, then **update** accordingly
 
-    ![185](/img/singapore-gst/singapore-user-guide/185.png)
+    ![185](../../static/img/singapore-gst/singapore-user-guide/185.png)
 
     *When keying-in a transaction, some users will ask why is there a project at item detail and another beside the Customer | More tab?*
 
     **What is the difference between More | Project |(Document Project) and Item Detail | Project (Item Project )?**
 
-    ![186](/img/singapore-gst/singapore-user-guide/186.png)
+    ![186](../../static/img/singapore-gst/singapore-user-guide/186.png)
 
-    ![187](/img/singapore-gst/singapore-user-guide/187.png)
+    ![187](../../static/img/singapore-gst/singapore-user-guide/187.png)
 
     **The project feature is also available for GL | Cash Book Entry.**
 
@@ -1884,7 +1884,7 @@ module for simple construction business as they get to view Profit and Loss / Ba
 
 6. Filter by the date that you want to view for the P&L report, then if you want to perform a project-to-project comparison then choose **“Comparison – Project (6 columns)”**
 
-    ![188](/img/singapore-gst/singapore-user-guide/188.png)
+    ![188](../../static/img/singapore-gst/singapore-user-guide/188.png)
 
     :::info
     6 Columns = up to 6 projects
@@ -1898,15 +1898,15 @@ module for simple construction business as they get to view Profit and Loss / Ba
     1. After selecting the report that you need, make sure to tick the **“Show Column Options”**, then the top of the report will show column options.
     2. You may change the period that you want to view, e.g. by default it will be **“Current Month”**. If you want to view the whole year figures, then you have to **change to “Current Year”**.
 
-    ![189](/img/singapore-gst/singapore-user-guide/189.png)
+    ![189](../../static/img/singapore-gst/singapore-user-guide/189.png)
 
 8. After changing the column options, you have to **tick the “Print Project Comparison”**, then the project tab will appear on the **right hand site**, you can select which project that you want to view then click on **Add**.
 
-    ![190](/img/singapore-gst/singapore-user-guide/190.png)
+    ![190](../../static/img/singapore-gst/singapore-user-guide/190.png)
 
 9. Click on **Apply** and you will see the result. The P&L report will compare each project that you select.
 
-    ![191](/img/singapore-gst/singapore-user-guide/191.png)
+    ![191](../../static/img/singapore-gst/singapore-user-guide/191.png)
 
 ### 12.9 5 Cents Rounding
 
@@ -1918,9 +1918,9 @@ We can pre-set the system to automatically round your invoice or cash sales amou
 
 2. **Tick 5 Cents Rounding for Sales Invoice/ Cash Sales**
 
-    ![192](/img/singapore-gst/singapore-user-guide/192.png)
+    ![192](../../static/img/singapore-gst/singapore-user-guide/192.png)
 
-    ![193](/img/singapore-gst/singapore-user-guide/193.png)
+    ![193](../../static/img/singapore-gst/singapore-user-guide/193.png)
 
 ## 13 Interbank GIRO (IBG)
 
@@ -1928,52 +1928,52 @@ We can pre-set the system to automatically round your invoice or cash sales amou
 
 The following shows list of banks file format that are currently supported.
 
-![194](/img/singapore-gst/singapore-user-guide/194.png)
+![194](../../static/img/singapore-gst/singapore-user-guide/194.png)
 
 1. Tools | Maintain Payment Method | Edit | Click on the Bank Info.
 
-    ![195](/img/singapore-gst/singapore-user-guide/195.png)
+    ![195](../../static/img/singapore-gst/singapore-user-guide/195.png)
 
 2. Choose a Bank.
 
-    ![196](/img/singapore-gst/singapore-user-guide/196.png)
+    ![196](../../static/img/singapore-gst/singapore-user-guide/196.png)
 
 3. Click Ok.
 
-    ![197](/img/singapore-gst/singapore-user-guide/197.png)
+    ![197](../../static/img/singapore-gst/singapore-user-guide/197.png)
 
 4. The bank you've choose may have more than one file format, please ensure you've chosen the right file format.
 
-    ![198](/img/singapore-gst/singapore-user-guide/198.png)
+    ![198](../../static/img/singapore-gst/singapore-user-guide/198.png)
 
 5. Enter bank information | Click OK button | Save.
 
-    ![199](/img/singapore-gst/singapore-user-guide/199.png)
+    ![199](../../static/img/singapore-gst/singapore-user-guide/199.png)
 
 ### 13.2 Supplier Bank Account
 
 1. Add Bank Account and Save.
 
-    ![200](/img/singapore-gst/singapore-user-guide/200.png)
+    ![200](../../static/img/singapore-gst/singapore-user-guide/200.png)
 
 ### 13.3 Supplier Payment Method
 
 1. Select Supplier Bank from drop down list.
 
-    ![201](/img/singapore-gst/singapore-user-guide/201.png)
+    ![201](../../static/img/singapore-gst/singapore-user-guide/201.png)
 
 2. Choose the payment method that contains bank information then Save.
 
-    ![202](/img/singapore-gst/singapore-user-guide/202.png)
+    ![202](../../static/img/singapore-gst/singapore-user-guide/202.png)
 
 ### 13.4 Print Supplier Document (Interbank GIRO) Listing
 
 1. Click on the Giro button.
 
-    ![203](/img/singapore-gst/singapore-user-guide/203.png)
+    ![203](../../static/img/singapore-gst/singapore-user-guide/203.png)
 
 2. Enter additional information and click on Save.
 
-    ![204](/img/singapore-gst/singapore-user-guide/204.png)
+    ![204](../../static/img/singapore-gst/singapore-user-guide/204.png)
 
 3. You can now upload bank instruction file to bank host.

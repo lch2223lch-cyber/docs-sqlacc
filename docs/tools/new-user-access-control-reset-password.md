@@ -11,25 +11,25 @@ tags: ["SQL Account", "Tools", "Account","Reset Password", "Access Control", "Ne
 
 1. Tools > maintain user
 
-    ![1](/img/tools/new-user-access-control-reset-password/1.png)
+    ![1](../../static/img/tools/new-user-access-control-reset-password/1.png)
 
 2. Press on **NEW**
 
-    ![2](/img/tools/new-user-access-control-reset-password/2.png)
+    ![2](../../static/img/tools/new-user-access-control-reset-password/2.png)
 
 3. Insert the login name & press save button
 
-    ![3](/img/tools/new-user-access-control-reset-password/3.png)
+    ![3](../../static/img/tools/new-user-access-control-reset-password/3.png)
 
 ## Set Access Control
 
 1. Click on More > Access Control
 
-    ![4](/img/tools/new-user-access-control-reset-password/4.png)
+    ![4](../../static/img/tools/new-user-access-control-reset-password/4.png)
 
 2. Tick or untick the access right , once done, click on save button
 
-    ![5](/img/tools/new-user-access-control-reset-password/5.png)
+    ![5](../../static/img/tools/new-user-access-control-reset-password/5.png)
 
     :::info
 
@@ -47,28 +47,28 @@ tags: ["SQL Account", "Tools", "Account","Reset Password", "Access Control", "Ne
 
 1. After save, click on MORE button, and select reset password
 
-    ![6](/img/tools/new-user-access-control-reset-password/6.png)
+    ![6](../../static/img/tools/new-user-access-control-reset-password/6.png)
 
 2. Click yes, to copy the temperorily password
 
-    ![7](/img/tools/new-user-access-control-reset-password/7.png)
+    ![7](../../static/img/tools/new-user-access-control-reset-password/7.png)
 
 3. Click on File > Logon to Logout your current user
 
-    ![8](/img/tools/new-user-access-control-reset-password/8.png)
+    ![8](../../static/img/tools/new-user-access-control-reset-password/8.png)
 
 4. Insert the Login Code & paste the temporarily password, then click on the Log On button
 
-    ![9](/img/tools/new-user-access-control-reset-password/9.png)
+    ![9](../../static/img/tools/new-user-access-control-reset-password/9.png)
 
 5. Paste again the temporarily password & click on OK
 
-    ![10](/img/tools/new-user-access-control-reset-password/10.png)
+    ![10](../../static/img/tools/new-user-access-control-reset-password/10.png)
 
 6. Insert your new password
 
-    ![11](/img/tools/new-user-access-control-reset-password/11.png)
+    ![11](../../static/img/tools/new-user-access-control-reset-password/11.png)
 
 7. Click OK once your new password set
 
-    ![12](/img/tools/new-user-access-control-reset-password/12.png)
+    ![12](../../static/img/tools/new-user-access-control-reset-password/12.png)

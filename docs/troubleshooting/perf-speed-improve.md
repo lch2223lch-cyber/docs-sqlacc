@@ -11,7 +11,7 @@ tags: ["SQL Account", "Troubleshooting"]
 
 1. Right click on the primary Hard Disc (eg. C:\), click to Properties\Hardware \Properties.
 
-   ![1](/img/troubleshooting/perf-speed-improve/1.png)
+   ![1](../../static/img/troubleshooting/perf-speed-improve/1.png)
 
 2. Go to ‘Policies’ tab.
 
@@ -21,7 +21,7 @@ tags: ["SQL Account", "Troubleshooting"]
 
 4. Press OK to EXIT.
 
-   ![2](/img/troubleshooting/perf-speed-improve/2.png)
+   ![2](../../static/img/troubleshooting/perf-speed-improve/2.png)
 
 ## Solution B (Recommended)
 
@@ -37,4 +37,4 @@ tags: ["SQL Account", "Troubleshooting"]
 
    5. Press OK to EXIT.
 
-   ![3](/img/troubleshooting/perf-speed-improve/3.png)
+   ![3](../../static/img/troubleshooting/perf-speed-improve/3.png)

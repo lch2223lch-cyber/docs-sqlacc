@@ -13,13 +13,13 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
 2. Click on **Company Profile**
 
-    ![1](/img/singapore-gst/sg-e-invoice/1.png)
+    ![1](../../static/img/singapore-gst/sg-e-invoice/1.png)
 
 3. Click on **Peppol Tab**
 
 4. Click on **Register As Peppol User** to register your own company Peppol ID
 
-    ![2](/img/singapore-gst/sg-e-invoice/2.png)
+    ![2](../../static/img/singapore-gst/sg-e-invoice/2.png)
 
 5. It will be directed to our website to **complete the required details**
 
@@ -27,7 +27,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
     Once registered , your company Peppol ID will be listed in [Singapore Peppol Directory](https://www.peppoldirectory.sg/)  
 
-    ![3](/img/singapore-gst/sg-e-invoice/3.png)
+    ![3](../../static/img/singapore-gst/sg-e-invoice/3.png)
 
 :::info Note
 **Please note that obtaining the API Key and API Secret will incur additional charges**
@@ -45,7 +45,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
 3. **Save**
 
-    ![4](/img/singapore-gst/sg-e-invoice/4.png)
+    ![4](../../static/img/singapore-gst/sg-e-invoice/4.png)
 
 ### 2.2 B2G (Business To Government)
 
@@ -53,7 +53,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
 2. **Save**
 
-    ![5](/img/singapore-gst/sg-e-invoice/5.png)
+    ![5](../../static/img/singapore-gst/sg-e-invoice/5.png)
 
 ## 3 Maintain Customer & Supplier Peppol ID
 
@@ -61,7 +61,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
 2. Click on Maintain Customer > Double Click your customer
 
-    ![6](/img/singapore-gst/sg-e-invoice/6.png)
+    ![6](../../static/img/singapore-gst/sg-e-invoice/6.png)
 
 ### 3.1 Peppol B2C (Business To Customer)
 
@@ -79,7 +79,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
 6. Click **Save**
 
-    ![7](/img/singapore-gst/sg-e-invoice/7.png)
+    ![7](../../static/img/singapore-gst/sg-e-invoice/7.png)
 
 ### 3.2 Peppol B2G (Business To Government)
 
@@ -93,7 +93,7 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
     For Example : IMDA1 not listed , click the **IMDA1**
 
-    ![8](/img/singapore-gst/sg-e-invoice/8.png)
+    ![8](../../static/img/singapore-gst/sg-e-invoice/8.png)
 
     :::info For Supplier
     Go to Supplier > Maintain Supplier > Edit > Note Tab
@@ -107,13 +107,13 @@ tags: ["SQL Account", "Singapore", "E-Invoice"]
 
     *Make sure the Peppol ID and UEN Number had filled in correctly in Maintain Customer*
 
-    ![9](/img/singapore-gst/sg-e-invoice/9.png)
+    ![9](../../static/img/singapore-gst/sg-e-invoice/9.png)
 
 ### 4.2 Send Document by B2G (Business To Government)
 
 B2G follows the same steps as B2C, but B2G's Peppol ID must be **0195:SGUENT08GA0028A (refer Topic 11.3.2)**. Additionally, there are additional validations for B2G transactions.
 
-![10](/img/singapore-gst/sg-e-invoice/10.png)
+![10](../../static/img/singapore-gst/sg-e-invoice/10.png)
 
 ## 5 Item Code Mapping
 
@@ -125,7 +125,7 @@ Item codes for items in the Peppol document will be automatically selected if th
 
 2. Click on **Maintain Stock Item**
 
-    ![11](/img/singapore-gst/sg-e-invoice/11.png)
+    ![11](../../static/img/singapore-gst/sg-e-invoice/11.png)
 
 3. Click **Edit**
 
@@ -137,7 +137,7 @@ Item codes for items in the Peppol document will be automatically selected if th
 
 7. **Save**
 
-    ![12](/img/singapore-gst/sg-e-invoice/12.png)
+    ![12](../../static/img/singapore-gst/sg-e-invoice/12.png)
 
 After done settings, when you import a document from Peppol, the items will be automatically mapped item code and displayed as shown in the picture below, as an example:
 
@@ -147,7 +147,7 @@ After done settings, when you import a document from Peppol, the items will be a
 
     **3. Item Code set automatically**
 
-![13](/img/singapore-gst/sg-e-invoice/13.png)
+![13](../../static/img/singapore-gst/sg-e-invoice/13.png)
 
 :::tip
 You can manually map item codes during the invoice import process even if you not follow this step to map item code
@@ -159,7 +159,7 @@ You can manually map item codes during the invoice import process even if you no
 
 2. Peppol Import
 
-    ![14](/img/singapore-gst/sg-e-invoice/14.png)
+    ![14](../../static/img/singapore-gst/sg-e-invoice/14.png)
 
 3. Select date range and click Apply
 
@@ -167,18 +167,18 @@ You can manually map item codes during the invoice import process even if you no
 
 5. Click Import button
 
-    ![15](/img/singapore-gst/sg-e-invoice/15.png)
+    ![15](../../static/img/singapore-gst/sg-e-invoice/15.png)
 
 6. A pop up message will show for **Posting Done**
 
-    ![16](/img/singapore-gst/sg-e-invoice/16.png)
+    ![16](../../static/img/singapore-gst/sg-e-invoice/16.png)
 
 ## 7 List Of Status
 
-![17](/img/singapore-gst/sg-e-invoice/17.png)
+![17](../../static/img/singapore-gst/sg-e-invoice/17.png)
 
 ## 8 Error code and Message
 
-![18](/img/singapore-gst/sg-e-invoice/18.png)
+![18](../../static/img/singapore-gst/sg-e-invoice/18.png)
 
-![19](/img/singapore-gst/sg-e-invoice/19.png)
+![19](../../static/img/singapore-gst/sg-e-invoice/19.png)

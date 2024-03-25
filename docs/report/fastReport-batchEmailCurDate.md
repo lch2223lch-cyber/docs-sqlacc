@@ -13,7 +13,7 @@ tags: ["Fast Report", "Batch Email"]
 
 1. In QT Template DocNo = EMAIL, PDF File Name may set in **Remark 2**
 
-    ![1](/img/report/fastReport-batchEmailCurDate/1.png)
+    ![1](../../static/img/report/fastReport-batchEmailCurDate/1.png)
 
     :::info[note]
     Remark 2 must fill in
@@ -21,11 +21,11 @@ tags: ["Fast Report", "Batch Email"]
 
 2. Preview your report | Click on **Report Name**
 
-    ![2](/img/report/fastReport-batchEmailCurDate/2.png)
+    ![2](../../static/img/report/fastReport-batchEmailCurDate/2.png)
 
 3. Click on **Code Tab** |
 
-    ![3](/img/report/fastReport-batchEmailCurDate/3.png)
+    ![3](../../static/img/report/fastReport-batchEmailCurDate/3.png)
 
 >procedure OnGetEmailSettings(EmailSettings: TStrings);
 >

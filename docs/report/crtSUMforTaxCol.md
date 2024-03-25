@@ -9,7 +9,7 @@ tags: ["Report", "ReportBuilder"]
 
 ## Steps & Instructions
 
-![1](/img/report/crtSUMforTaxCol/1.png)
+![1](../../static/img/report/crtSUMforTaxCol/1.png)
 
 1. Click on the variable icon
 

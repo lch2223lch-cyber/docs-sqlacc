@@ -15,11 +15,11 @@ tags: ["SQL Account", "Getting Started", "Register Company", "Change Address"]
 
 3. Refer to the picture below.
 
-   ![1](/img/getting-started/register-company/1.png)
+   ![1](../../static/img/getting-started/register-company/1.png)
 
 4. Click **File** | **Product Activation**.
 
-   ![1](/img/getting-started/register-company/2.png)
+   ![1](../../static/img/getting-started/register-company/2.png)
 
 5. Click under **Print Activation Request**.
 

@@ -11,14 +11,14 @@ tags: ["Fast Report", "Ledger Report"]
 
 **Before Amend :**
 
-![1](/img/report/fastReport-LRptNewGrpPg/1.png)
+![1](../../static/img/report/fastReport-LRptNewGrpPg/1.png)
 
 1. **Right Click** on **Group Header 1**, Select **Start New Page**
 
-   ![2](/img/report/fastReport-LRptNewGrpPg/2.png)
+   ![2](../../static/img/report/fastReport-LRptNewGrpPg/2.png)
 
 2. File | Save as | Enter New Report Name
 
 3. Preview
 
-   ![3](/img/report/fastReport-LRptNewGrpPg/3.png)
+   ![3](../../static/img/report/fastReport-LRptNewGrpPg/3.png)

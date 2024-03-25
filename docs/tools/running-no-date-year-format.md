@@ -21,7 +21,7 @@ Tools | Maintain Document No
 
 Create New or amend from the existing
 
-![1](/img/tools/running-no-date-year-format/1.png)
+![1](../../static/img/tools/running-no-date-year-format/1.png)
 
  :::caution
 make sure the format is follow the sample attached
@@ -29,9 +29,9 @@ make sure the format is follow the sample attached
 
 ### Step 3
 
-![2](/img/tools/running-no-date-year-format/2.png)
+![2](../../static/img/tools/running-no-date-year-format/2.png)
 
-![3](/img/tools/running-no-date-year-format/3.png)
+![3](../../static/img/tools/running-no-date-year-format/3.png)
 
 :::info
 We can also set default running no at for default payment method
@@ -41,9 +41,9 @@ We can also set default running no at for default payment method
 
 Go to tools | Maintain Payment Method
 
-![4](/img/tools/running-no-date-year-format/4.png)
+![4](../../static/img/tools/running-no-date-year-format/4.png)
 
-![5](/img/tools/running-no-date-year-format/5.png)
+![5](../../static/img/tools/running-no-date-year-format/5.png)
 
 :::note
 vice versa for Official Receipt

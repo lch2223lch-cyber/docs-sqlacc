@@ -7,7 +7,7 @@ slug: /banking/banking
 tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 ---
 
-<!-- ![3](/img/banking/3.png) -->
+<!-- ![3](../../static/img/banking/3.png) -->
 
 <!-- **Table of Contents**
 
@@ -38,43 +38,43 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
    Existing SQL user - Log on as usual
 
-   New SQL user - Click '![0](/img/banking/0.png)' to create database.
+   New SQL user - Click '![0](../../static/img/banking/0.png)' to create database.
 
-   ![1](/img/banking/1.png)
+   ![1](../../static/img/banking/1.png)
 
 2. Click 'Create Sample Database' -> 'OK'.
 
-   ![2](/img/banking/2.png)
+   ![2](../../static/img/banking/2.png)
 
 ### Maintain Bank Account in SQL
 
 1. Select 'GL' menu - > 'Maintain Account'
 
-   ![4](/img/banking/4.png)
+   ![4](../../static/img/banking/4.png)
 
 2. Select 'CASH AT BANK' -> 'New'
 
-   ![5](/img/banking/5.png)
+   ![5](../../static/img/banking/5.png)
 
 3. Fill in the information and click 'OK'.
 
    - Blue box is the mandatory field.
 
-      ![6](/img/banking/6.png)
+      ![6](../../static/img/banking/6.png)
 
 ### Link RHB Reflex Account
 
 1. Select Banking menu - > 'RHB Reflex'
 
-   ![7](/img/banking/7.png)
+   ![7](../../static/img/banking/7.png)
 
 2. Click 'here' for RHB Reflex user linking guide
 
-   ![8](/img/banking/8.png)
+   ![8](../../static/img/banking/8.png)
 
 3. Tick acknowledgement box - > click 'Next'
 
-   ![9](/img/banking/9.png)
+   ![9](../../static/img/banking/9.png)
 
 4. Fill in the information
 
@@ -84,39 +84,39 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 5. Click 'Link'
 
-   ![10](/img/banking/10.png)
+   ![10](../../static/img/banking/10.png)
 
-   ![11](/img/banking/11.png)
+   ![11](../../static/img/banking/11.png)
 
 6. Login the registered email to verify the user linking within 10 minutes.
 
-   ![12](/img/banking/12.png)
+   ![12](../../static/img/banking/12.png)
 
 7. Click the hyperlink (company subsidiary name) in the email from SQL Account.
 
-   ![13](/img/banking/13.png)
+   ![13](../../static/img/banking/13.png)
 
 8. Assign RHB bank account to the desired payment method.
 
-   ![14](/img/banking/14.png)
+   ![14](../../static/img/banking/14.png)
 
 9. Click 'Finish'
 
-   ![15](/img/banking/15.png)
+   ![15](../../static/img/banking/15.png)
 
 10. Click 'OK', your RHB Reflex bank account have now linked.
 
-    ![16](/img/banking/16.png)
+    ![16](../../static/img/banking/16.png)
 
 ### Bank Balance Inquiry
 
 1. Select Banking menu-> 'Bank Balance Inquiry'
 
-   ![17](/img/banking/17.png)
+   ![17](../../static/img/banking/17.png)
 
 2. Bank balance inquiry details for RHB Reflex bank accounts will be populated.
 
-   ![18](/img/banking/18.png)
+   ![18](../../static/img/banking/18.png)
 
 3. Close the window and reopen for real-time updated balance.
 
@@ -126,19 +126,19 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 1. Select Supplier menu - > 'Maintain Supplier'
 
-   ![19](/img/banking/19.png)
+   ![19](../../static/img/banking/19.png)
 
 2. Click 'New'
 
-   ![20](/img/banking/20.png)
+   ![20](../../static/img/banking/20.png)
 
 3. Fill in supplier details and click 'Save'
 
-   ![21](/img/banking/21.png)
+   ![21](../../static/img/banking/21.png)
 
 4. Select 'Bank Account' - > click '+'
 
-   ![22](/img/banking/22.png)
+   ![22](../../static/img/banking/22.png)
 
    1. Select Bank for RHB 3rd Party Transfer, IBG and Instant Transfer.
 
@@ -152,7 +152,7 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
       4. ID number
 
-         ![23](/img/banking/23.png)
+         ![23](../../static/img/banking/23.png)
 
    2. Select JomPAY for Bill Payment
 
@@ -162,7 +162,7 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
       2. JomPAY reference 1
 
-      ![24](/img/banking/24.png)
+      ![24](../../static/img/banking/24.png)
 
    3. Select DuitNow for DuitNow proxy transfer
 
@@ -172,7 +172,7 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
       3. ID number2
 
-      ![25](/img/banking/25.png)
+      ![25](../../static/img/banking/25.png)
 
 ### Payment mode
 
@@ -180,7 +180,7 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 1. Select Supplier -> Supplier Payment -> click 'New'
 
-   ![26](/img/banking/26.png)
+   ![26](../../static/img/banking/26.png)
 
 2. Select Supplier Code : created in Maintain Supplier
 
@@ -196,26 +196,26 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 7. Reflex Online Banking will be pop-out, click 'Submit' to proceed.
 
-   ![27](/img/banking/27.png)
+   ![27](../../static/img/banking/27.png)
 
 8. Enter SQL password and click 'Submit'.
 
-   ![28](/img/banking/28.png)
+   ![28](../../static/img/banking/28.png)
 
 9. Payment status will be populated after submission. Successful payment initiation status is 'Pending', otherwise please
    refer to the error message is shown or refer RHB Reflex for further details.
 
-   ![29](/img/banking/29.png)
+   ![29](../../static/img/banking/29.png)
 
 10. Login to RHB Reflex for payment authorization.
 
-    ![30](/img/banking/30.png)
+    ![30](../../static/img/banking/30.png)
 
 ### Payment - IBG
 
 1. Select Supplier -> Supplier Payment -> click “New”
 
-   ![26](/img/banking/26.png)
+   ![26](../../static/img/banking/26.png)
 
 2. Select Supplier Code : created in Maintain Supplier
 
@@ -233,25 +233,25 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 8. Reflex Online Banking will be pop-out, click “Submit” to proceed.
 
-   ![27](/img/banking/27.png)
+   ![27](../../static/img/banking/27.png)
 
 9. Enter SQL password and click “Submit”.
 
-   ![28](/img/banking/28.png)
+   ![28](../../static/img/banking/28.png)
 
 10. Payment status will be populated. Successful payment initiation status is “Pending”, otherwise please refer to the error message.
 
-    ![29](/img/banking/29.png)
+    ![29](../../static/img/banking/29.png)
 
 11. Login to RHB Reflex for payment authorization.
 
-    ![30](/img/banking/30.png)
+    ![30](../../static/img/banking/30.png)
 
 ### Payment – Instant Transfer
 
 1. Select Supplier -> Supplier Payment -> click “New”
 
-   ![26](/img/banking/26.png)
+   ![26](../../static/img/banking/26.png)
 
 2. Select Supplier Code : created in Maintain Supplier
 
@@ -269,21 +269,21 @@ tags: ["SQL Account", "Banking", "RHB", "Bank Reconciliation"]
 
 8. Reflex Online Banking will be pop-out, click “Submit” to proceed.
 
-   ![27](/img/banking/27.png)
+   ![27](../../static/img/banking/27.png)
 
 9. Enter SQL password and click “Submit”.
 
-   ![28](/img/banking/28.png)
+   ![28](../../static/img/banking/28.png)
 
 10. Payment status will be populated. Successful payment initiation status is “Pending”,
 
     otherwise please refer to the error message.
 
-    ![29](/img/banking/29.png)
+    ![29](../../static/img/banking/29.png)
 
 11. Login to RHB Reflex for payment authorization.
 
-    ![30](/img/banking/30.png)
+    ![30](../../static/img/banking/30.png)
 
 ### Payment – DuitNow
 
@@ -291,7 +291,7 @@ DuitNow transfer via proxy is supported includes IC Number, Business Registratio
 
 1. Select Supplier -> Supplier Payment -> click “New”
 
-   ![26](/img/banking/26.png)
+   ![26](../../static/img/banking/26.png)
 
 2. Select Supplier Code : created in Maintain Supplier
 
@@ -307,27 +307,27 @@ DuitNow transfer via proxy is supported includes IC Number, Business Registratio
 
 7. Reflex Online Banking will be pop-out, click “Submit” to proceed.
 
-   ![27](/img/banking/27.png)
+   ![27](../../static/img/banking/27.png)
 
 8. Enter SQL password and click “Submit”.
 
-   ![28](/img/banking/28.png)
+   ![28](../../static/img/banking/28.png)
 
 9. Payment status will be populated. Successful payment initiation status is “Pending”,
 
    otherwise please refer to the error message.
 
-   ![29](/img/banking/29.png)
+   ![29](../../static/img/banking/29.png)
 
 10. Login to RHB Reflex for payment authorization.
 
-    ![30](/img/banking/30.png)
+    ![30](../../static/img/banking/30.png)
 
 ### Payment – JomPay
 
 1. Select Supplier -> Supplier Payment -> click “New”
 
-   ![26](/img/banking/26.png)
+   ![26](../../static/img/banking/26.png)
 
 2. Select Supplier Code : created in Maintain Supplier
 
@@ -343,20 +343,20 @@ DuitNow transfer via proxy is supported includes IC Number, Business Registratio
 
 7. Reflex Online Banking will be pop-out, click “Submit” to proceed.
 
-   ![27](/img/banking/27.png)
+   ![27](../../static/img/banking/27.png)
 
 8. Enter SQL password and click “Submit”.
 
-   ![28](/img/banking/28.png)
+   ![28](../../static/img/banking/28.png)
 
 9. Payment status will be populated. Successful payment initiation status is “Pending”,
    otherwise please refer to the error message.
 
-   ![29](/img/banking/29.png)
+   ![29](../../static/img/banking/29.png)
 
 10. Login to RHB Reflex for payment authorization.
 
-    ![30](/img/banking/30.png)
+    ![30](../../static/img/banking/30.png)
 
 ### Payment Status Update
 
@@ -364,7 +364,7 @@ To perform payment status update, click on the green icon.
 
 Success – Payment has successfully processed by the bank
 
-   ![31](/img/banking/31.png)
+   ![31](../../static/img/banking/31.png)
 
 Unsuccess – Payment has rejected by the bank, please login to RHB Reflex for further details
 
@@ -372,23 +372,23 @@ or contact RHB Reflex customer service @ **+603-9206 8118**, then select languag
 
 ‘ 3 ’ to speak to Reflex agent.
 
-    ![32](/img/banking/32.png)
+    ![32](../../static/img/banking/32.png)
 
 ### Bank Reconciliation
 
 1. Select GL menu - > Bank Reconciliation -> click “New”
 
-   ![33](/img/banking/33.png)
+   ![33](../../static/img/banking/33.png)
 
 2. Select Bank Statement Date and Display Period
 
 3. Click “Apply”
 
-   ![34](/img/banking/34.png)
+   ![34](../../static/img/banking/34.png)
 
 4. Click “Load Statement”, transaction history (T- 1 ) will be populated.
 
-   ![35](/img/banking/35.png)
+   ![35](../../static/img/banking/35.png)
 
 5. Click Match to perform reconciliation between SQL and RHB bank statement transaction.
 
@@ -411,15 +411,15 @@ or contact RHB Reflex customer service @ **+603-9206 8118**, then select languag
 
       2. to tag a new RHB Reflex user with different user access.
 
-1. Select '![39](/img/banking/39.png)' -> RHB Reflex
+1. Select '![39](../../static/img/banking/39.png)' -> RHB Reflex
 
-   ![36](/img/banking/36.png)
+   ![36](../../static/img/banking/36.png)
 
 2. Click “Unlink”
 
-   ![37](/img/banking/37.png)
+   ![37](../../static/img/banking/37.png)
 
-   ![38](/img/banking/38.png)
+   ![38](../../static/img/banking/38.png)
 
 ### Support Channel
 

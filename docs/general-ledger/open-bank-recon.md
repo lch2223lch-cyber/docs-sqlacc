@@ -15,8 +15,8 @@ tags: ["SQL Account", "Bank Reconciliation", "General Ledger","Opening"]
 
 ### 3. Right Click on empty space, **refer picture**
 
-![1](/img/general-ledger/open-bank-recon/1.png)
+![1](../../static/img/general-ledger/open-bank-recon/1.png)
 
 ### 4. Key in the information
 
-![2](/img/general-ledger/open-bank-recon/2.png)
+![2](../../static/img/general-ledger/open-bank-recon/2.png)

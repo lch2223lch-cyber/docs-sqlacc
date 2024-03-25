@@ -11,7 +11,7 @@ tags: ["SQL Account", "Getting Started", "User Guide"]
 
 SQL Account is a centralize system to assist the business (or departments) to record and process daily documents from sales, purchase, stock, and bank. It also a tool for SST reporting.
 
-![1](/img/getting-started/user-guide/1.png)
+![1](../../static/img/getting-started/user-guide/1.png)
 
 1. **General Ledger**, a general ledger accounting where records all transactions posted from various journal (eg. general, sales, purchase, bank), an entry for general journal and expenses payment (eg. sales person claims, water and electricity expenses). Bank reconciliation, cash flow statement and financial reports are available in this module.
 
@@ -41,7 +41,7 @@ Watch tutorial video here : [Setting Financial Period](https://www.youtube.com/w
 
 1. **Tools** | **Options**
 
-   ![2](/img/getting-started/user-guide/2.png)
+   ![2](../../static/img/getting-started/user-guide/2.png)
 
    :::note
 
@@ -53,7 +53,7 @@ Watch tutorial video here : [Setting Financial Period](https://www.youtube.com/w
 
 3. Select **Financial Start Period & System Conversion Date**
 
-   ![3](/img/getting-started/user-guide/3.png)
+   ![3](../../static/img/getting-started/user-guide/3.png)
 
    :::note Situation 1
 
@@ -83,31 +83,31 @@ Watch tutorial video here : [Setting Financial Period](https://www.youtube.com/w
 
    1. go to **SST** | **Start SST Now**
 
-      ![4](/img/getting-started/user-guide/4.png)
+      ![4](../../static/img/getting-started/user-guide/4.png)
 
    2. Choose country Malaysia & click **next**.
 
-      ![5](/img/getting-started/user-guide/5.png)
+      ![5](../../static/img/getting-started/user-guide/5.png)
 
    3. Set your SST Effective Date & click **next**.
 
-      ![6](/img/getting-started/user-guide/6.png)
+      ![6](../../static/img/getting-started/user-guide/6.png)
 
    4. Enter your Sales Tax Number / Service Tax Number and click on **Next**.
 
-      ![7](/img/getting-started/user-guide/7.png)
+      ![7](../../static/img/getting-started/user-guide/7.png)
 
    5. SQL will auto create the following account, click on **Next**.
 
-      ![8](/img/getting-started/user-guide/8.png)
+      ![8](../../static/img/getting-started/user-guide/8.png)
 
    6. Choose your default Tax & click on Finish.
 
-      ![9](/img/getting-started/user-guide/9.png)
+      ![9](../../static/img/getting-started/user-guide/9.png)
 
    7. click on **OK**, to re-login the system.
 
-      ![10](/img/getting-started/user-guide/10.png)
+      ![10](../../static/img/getting-started/user-guide/10.png)
 
    8. After log-in, you will see a new drop down list for SST Functions, the SST setup is now completed.
 
@@ -119,7 +119,7 @@ Watch tutorial video here : [Setting Financial Period](https://www.youtube.com/w
 
       Insert your product tariff code here, you can also find out your product tariff code from [MySST Customs](http://mysstext.customs.gov.my/tariff/)
 
-      ![11](/img/getting-started/user-guide/11.png)
+      ![11](../../static/img/getting-started/user-guide/11.png)
 
 ### 2.3 Setting of Company Profile
 
@@ -127,11 +127,11 @@ Watch tutorial video here : [Setting Financial Period](https://www.youtube.com/w
 
    Fill in your company particulars and if this company is subject to both sales and service tax, fill in the Sales Tax number / Service Tax number.
 
-   ![12](/img/getting-started/user-guide/12.png)
+   ![12](../../static/img/getting-started/user-guide/12.png)
 
 2. Select **Report Header** & **Set Report Header**
 
-   ![13](/img/getting-started/user-guide/13.png)
+   ![13](../../static/img/getting-started/user-guide/13.png)
 
 ## 3 Master Data Creation
 
@@ -153,9 +153,9 @@ Watch tutorial video here: [GL Chart of Account](https://www.youtube.com/watch?v
 
    4. Click **OK**. Your new account is now created.
 
-      ![14](/img/getting-started/user-guide/14.png)
+      ![14](../../static/img/getting-started/user-guide/14.png)
 
-      ![15](/img/getting-started/user-guide/15.png)
+      ![15](../../static/img/getting-started/user-guide/15.png)
 
 2. Creating a Sub Account
 
@@ -163,7 +163,7 @@ Watch tutorial video here: [GL Chart of Account](https://www.youtube.com/watch?v
 
    2. Follow the same steps from **2.1.1 Create New Account**
 
-      ![16](/img/getting-started/user-guide/16.png)
+      ![16](../../static/img/getting-started/user-guide/16.png)
 
       You are allow to create an unlimited level of sub accounts. Just point to any account, and add a sub or sub-sub account to it.
 
@@ -188,7 +188,7 @@ There are 4 main tabs under Maintain Customer, let’s look at them
 3. You can categorize your customers into different groups, e.g. Category, agents, area
    How do you create your new agent/ area? Refer to the step below:
 
-   ![19](/img/getting-started/user-guide/19.png)
+   ![19](../../static/img/getting-started/user-guide/19.png)
 
 4. You can also insert more than one billing / delivery addresses (unlimited)
 
@@ -210,13 +210,13 @@ There are 4 main tabs under Maintain Customer, let’s look at them
 
    :::
 
-   ![17](/img/getting-started/user-guide/17.png)
+   ![17](../../static/img/getting-started/user-guide/17.png)
 
-   ![18](/img/getting-started/user-guide/18.png)
+   ![18](../../static/img/getting-started/user-guide/18.png)
 
 ### 3.2.2 Advance Credit Control (*Pro Package Inclusive)
 
-![20](/img/getting-started/user-guide/20.png)
+![20](../../static/img/getting-started/user-guide/20.png)
 
 You can set the credit limit and overdue limit amounts as well as blocking a certain transaction entry for specific customers. What does the document include and for the following documents: Quotation(QT), Sales Order(SO), Delivery Order(DO), Invoice (IV), Cash Sales (CS) and Debit Note(DN)
 
@@ -234,13 +234,13 @@ We can also set once exceed limit & overdue limit,
 
 If the customer provides you with certificate exemption number, you may fill in part A & B as below.
 
-![21](/img/getting-started/user-guide/21.png)
+![21](../../static/img/getting-started/user-guide/21.png)
 
-![22](/img/getting-started/user-guide/22.png)
+![22](../../static/img/getting-started/user-guide/22.png)
 
 ### 3.3 Maintain Supplier
 
-![23](/img/getting-started/user-guide/23.png)
+![23](../../static/img/getting-started/user-guide/23.png)
 
 **Maintain Supplier** it’s just a mirror of Maintain Customer, please refer to 2.2 Maintain Customer.
 
@@ -260,7 +260,7 @@ Watch tutorial video here: [Stock Maintain Stock Item](https://www.youtube.com/w
 
 1. **Stock** | **Maintain Stock Group** | **New**
 
-   ![24](/img/getting-started/user-guide/24.png)
+   ![24](../../static/img/getting-started/user-guide/24.png)
 
 2. You can enter your **code** and **description**; you can also assign your **costing method** e.g. FIFO, Weighted Average & Fixed Cost.
 
@@ -284,7 +284,7 @@ Watch tutorial video here: [Stock Maintain Stock Item](https://www.youtube.com/w
 
 1. **Stock** | **Maintain Stock Item** | **New**
 
-   ![25](/img/getting-started/user-guide/25.png)
+   ![25](../../static/img/getting-started/user-guide/25.png)
 
 2. You can enter your **code** and **description**.
 
@@ -317,7 +317,7 @@ Watch tutorial video here: [Stock Maintain Stock Item](https://www.youtube.com/w
 
    I am selling blue pens, blue pens haves different packaging, I can sell by pcs, by box or by carton. Now, I can pre-set them this way:
 
-      ![26](/img/getting-started/user-guide/26.png)
+      ![26](../../static/img/getting-started/user-guide/26.png)
 
    As you can see above, I have different Units of Measurement (UOM) and different rates,
 
@@ -337,7 +337,7 @@ Watch tutorial video here: [Stock Maintain Stock Item](https://www.youtube.com/w
 
 Example of sales process work flow aligned with SQL Account flow:
 
-![27](/img/getting-started/user-guide/27.png)
+![27](../../static/img/getting-started/user-guide/27.png)
 
 ### 4.2 Purchase Order
 
@@ -361,11 +361,11 @@ Example of sales process work flow aligned with SQL Account flow:
 
 4. After updating, click **Save**
 
-   ![28](/img/getting-started/user-guide/28.png)
+   ![28](../../static/img/getting-started/user-guide/28.png)
 
 5. To preview the report, you may click on the preview button and select the format you wish to print.
 
-   ![29](/img/getting-started/user-guide/29.png)
+   ![29](../../static/img/getting-started/user-guide/29.png)
 
 ### 4.3 Purchase Goods Received
 
@@ -377,7 +377,7 @@ Example of sales process work flow aligned with SQL Account flow:
 
 4. **Save** the Goods Received Note
 
-   ![30](/img/getting-started/user-guide/30.png)
+   ![30](../../static/img/getting-started/user-guide/30.png)
 
 ### 4.4 Purchase Invoice
 
@@ -389,13 +389,13 @@ Example of sales process work flow aligned with SQL Account flow:
 
 4. **Save** the Purchase Invoice
 
-   ![31](/img/getting-started/user-guide/31.png)
+   ![31](../../static/img/getting-started/user-guide/31.png)
 
 ### 4.5 Sales Work Flow
 
 Example of sales process work flow aligned with SQL Account flow:
 
-![32](/img/getting-started/user-guide/32.png)
+![32](../../static/img/getting-started/user-guide/32.png)
 
 ### 4.6 Sales Quotation
 
@@ -411,13 +411,13 @@ Watch tutorial video here:  [Sales Quotation](http://www.sql.com.my/video/sqlacc
 
 3. Insert the item that is requested by the customer, and you can estimate your profit & loss in this transaction by checking on **Profit Estimator**
 
-   ![33](/img/getting-started/user-guide/33.png)
+   ![33](../../static/img/getting-started/user-guide/33.png)
 
 4. After everything is keyed in correctly, save the **Sales Quotation**
 
 5. **Preview** the report and you can **print** or **export** it into PDF/ Email/ RTF(Microsoft Word)/Excel or others.
 
-   ![34](/img/getting-started/user-guide/34.png)
+   ![34](../../static/img/getting-started/user-guide/34.png)
 
 ### 4.7 Sales Order
 
@@ -433,7 +433,7 @@ Watch tutorial video here: [Sales Invoicing Sales Order](https://www.youtube.com
 
 3. **Right Click on Sales Order title**, select **Transfer from Quotation**. You can either transfer the whole quotation or only part of the quotation document (*Partial Delivery Module requested)
 
-   ![35](/img/getting-started/user-guide/35.png)
+   ![35](../../static/img/getting-started/user-guide/35.png)
 
 4. Save the **Sales Order**.
 
@@ -493,11 +493,11 @@ Watch tutorial video here: [Sales Invoicing Sales Invoice](https://www.youtube.c
 
 **First Method** - After you save then invoice then you can press on keyboard short cut key “ Ctrl + O” to get the show double entry result.
 
-   ![36](/img/getting-started/user-guide/36.png)
+   ![36](../../static/img/getting-started/user-guide/36.png)
 
 **Second Method** – After you save the invoice, you may right click on the wording of Invoice then select “Show Double Entry”.
 
-   ![37](/img/getting-started/user-guide/37.png)
+   ![37](../../static/img/getting-started/user-guide/37.png)
 
 ### 4.10 Sales Cash Sales
 
@@ -509,9 +509,9 @@ Watch tutorial video here: [Sales Invoicing Sales Invoice](https://www.youtube.c
 
 4. When saving, the system will prompt a **Payment/ Change** dialog box
 
-   ![38](/img/getting-started/user-guide/38.png)
+   ![38](../../static/img/getting-started/user-guide/38.png)
 
-   ![39](/img/getting-started/user-guide/39.png)
+   ![39](../../static/img/getting-started/user-guide/39.png)
 
 ### 4.11 Sales Credit Note
 
@@ -529,7 +529,7 @@ Watch tutorial video here: [Sales Invoicing Sales Credit Note](https://www.youtu
 
 4. **Save** the Credit Note.
 
-   ![40](/img/getting-started/user-guide/40.png)
+   ![40](../../static/img/getting-started/user-guide/40.png)
 
 ### 4.12 Sales Cancelled Note (required partial delivery module)
 
@@ -539,11 +539,11 @@ Sales Cancelled Note is used for the cancelling of any outstanding Sales Order.
 
 2. **Right Click on the Cancelled Note title**, select **Transfer from Sales Order**; (in Sales Cancelled Note, items can only be inserted by transferring from Sales Order)
 
-   ![41](/img/getting-started/user-guide/41.png)
+   ![41](../../static/img/getting-started/user-guide/41.png)
 
 3. You can choose to transfer the sales order either by the whole document or partially.
 
-   ![41b](/img/getting-started/user-guide/41b.png)
+   ![41b](../../static/img/getting-started/user-guide/41b.png)
 
 4. **Save** the Cancelled Note.
 
@@ -553,7 +553,7 @@ Sales Cancelled Note is used for the cancelling of any outstanding Sales Order.
 
 Example of **customer (AR)** process work flow aligned with SQL Account flow:
 
-![42](/img/getting-started/user-guide/42.png)
+![42](../../static/img/getting-started/user-guide/42.png)
 
 AR = Account Receivable
 
@@ -569,7 +569,7 @@ The difference between Customer Invoice and Sales Invoice:
 
 :::
 
-![43](/img/getting-started/user-guide/43.png)
+![43](../../static/img/getting-started/user-guide/43.png)
 
 1. Create a new **Customer Invoice?**
 
@@ -579,7 +579,7 @@ The difference between Customer Invoice and Sales Invoice:
 
    3. **Save**
 
-      ![44](/img/getting-started/user-guide/44.png)
+      ![44](../../static/img/getting-started/user-guide/44.png)
 
 ### 5.3 Customer Payment
 
@@ -601,27 +601,27 @@ The difference between Customer Invoice and Sales Invoice:
 
    5. **Tick the corresponding invoice/debit note to be knocked off**
 
-      ![45](/img/getting-started/user-guide/45.png)
+      ![45](../../static/img/getting-started/user-guide/45.png)
 
 2. Post Dated Cheque
 
    1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Set Posting Date**
 
-      ![46](/img/getting-started/user-guide/46.png)
+      ![46](../../static/img/getting-started/user-guide/46.png)
 
-      ![47](/img/getting-started/user-guide/47.png)
+      ![47](../../static/img/getting-started/user-guide/47.png)
 
 3. Bounced Cheque
 
    1. Search for the payment that you want to edit, click on **Edit**, right click on Customer Payment, you will see **Bounced Status**
 
-      ![48](/img/getting-started/user-guide/48.png)
+      ![48](../../static/img/getting-started/user-guide/48.png)
 
-      ![49](/img/getting-started/user-guide/49.png)
+      ![49](../../static/img/getting-started/user-guide/49.png)
 
       After bounced, system will auto revert the payment out, you can view your ledger.
 
-      ![50](/img/getting-started/user-guide/50.png)
+      ![50](../../static/img/getting-started/user-guide/50.png)
 
 ### 5.4 Customer Credit Note
 
@@ -635,7 +635,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
 3. **Knocked off accordingly**.
 
-   ![51](/img/getting-started/user-guide/51.png)
+   ![51](../../static/img/getting-started/user-guide/51.png)
 
    If it does not involve with returned stock, e.g. discount given with
 
@@ -645,7 +645,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
    3. **Knocked off accordingly**.
 
-   ![52](/img/getting-started/user-guide/52.png)
+   ![52](../../static/img/getting-started/user-guide/52.png)
 
 ---
 
@@ -661,7 +661,7 @@ If the situation involves return stock from customer, please do Sales Credit Not
 
    2. **New** | Select **Customer** | Select **GL Account** | **Amount**.
 
-      ![53](/img/getting-started/user-guide/53.png)
+      ![53](../../static/img/getting-started/user-guide/53.png)
 
    3. **Knocked off accordingly**.
 
@@ -675,7 +675,7 @@ You can use this document to refund a customer. You can knock off with Customer 
 
 3. **Knock off the payment or credit note and save**.
 
-  ![54](/img/getting-started/user-guide/54.png)
+  ![54](../../static/img/getting-started/user-guide/54.png)
 
 ### 5.6 Customer Contra
 
@@ -687,11 +687,11 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
 1. **Tools** | **Options**.
 
-   ![55](/img/getting-started/user-guide/2.png)
+   ![55](../../static/img/getting-started/user-guide/2.png)
 
 2. **General Ledger** | **Make sure you have assigned a contra account**.
 
-   ![56](/img/getting-started/user-guide/55.png)
+   ![56](../../static/img/getting-started/user-guide/55.png)
 
 3. **Customer** | **Customer Contra** | Click **New**.
 
@@ -699,25 +699,25 @@ If you have a customer who is also a supplier, you may want to offset the outsta
 
 5. **Knock off the corresponding invoice and Save**.
 
-   ![57](/img/getting-started/user-guide/56.png)
+   ![57](../../static/img/getting-started/user-guide/56.png)
 
 6. Go to **Supplier** | **Supplier Contra**.
 
 7. You will realize that the **SAME transaction will appear at Supplier Contra Screen**, you just have to **EDIT** the supplier contra.
 
-   ![58](/img/getting-started/user-guide/57.png)
+   ![58](../../static/img/getting-started/user-guide/57.png)
 
 8. **After Editing** you need to **update the supplier contra info accordingly and knock off the outstanding invoices** of supplier.
 
 9. **Save** the Supplier Contra.
 
-   ![59](/img/getting-started/user-guide/58.png)
+   ![59](../../static/img/getting-started/user-guide/58.png)
 
 ### 5.7 Supplier Work Flow (AP*)
 
 Example of **supplier (AP)** process work flow aligned with SQL Account flow:
 
-![60](/img/getting-started/user-guide/59.png)
+![60](../../static/img/getting-started/user-guide/59.png)
 
 AP = Account Payable
 
@@ -747,7 +747,7 @@ Watch tutorial video here: [SQL Account General Ledger - GL Opening Balance](htt
 
    4. **Make sure the Dr and Cr figures tally**
 
-      ![61](/img/getting-started/user-guide/60.png)
+      ![61](../../static/img/getting-started/user-guide/60.png)
 
 2. Customer and Supplier
 
@@ -761,7 +761,7 @@ Watch tutorial video here: [SQL Account General Ledger - GL Opening Balance](htt
 
    5. Click **Save**.
 
-      ![62](/img/getting-started/user-guide/61.png)
+      ![62](../../static/img/getting-started/user-guide/61.png)
 
 3. Stock Value
 
@@ -771,9 +771,9 @@ Watch tutorial video here: [SQL Account General Ledger - GL Opening Balance](htt
 
    3. **Insert the Opening Balance**
 
-      ![63](/img/getting-started/user-guide/62.png)
+      ![63](../../static/img/getting-started/user-guide/62.png)
 
-      ![63b](/img/getting-started/user-guide/62b.png)
+      ![63b](../../static/img/getting-started/user-guide/62b.png)
 
 4. Bank Reconciliation
 
@@ -783,7 +783,7 @@ Watch tutorial video here: [SQL Account General Ledger - GL Opening Balance](htt
 
    3. **Set the Date** (before System Conversion Date)
 
-      ![64](/img/getting-started/user-guide/63.png)
+      ![64](../../static/img/getting-started/user-guide/63.png)
 
 ### 6.2 Journal Entry
 
@@ -799,7 +799,7 @@ Watch tutorial video here: [GL Journal Entry](https://www.youtube.com/watch?v=WH
 
 3. Click on **Save** (System will blocked in Dr and Cr are not tally)
 
-   ![65](/img/getting-started/user-guide/64.png)
+   ![65](../../static/img/getting-started/user-guide/64.png)
 
 ### 6.3 Cash Book Entry
 
@@ -813,11 +813,11 @@ Cash book entry is normally used for a non-customer/ supplier payment or receipt
 
 1. **GL** | **Cash Book Entry** | **New** (choose between Payment Voucher or Official Receipt)
 
-   ![66](/img/getting-started/user-guide/65.png)
+   ![66](../../static/img/getting-started/user-guide/65.png)
 
 2. **Insert Payable Name** | Select **GL Code | Tax |Amount**
 
-   ![67](/img/getting-started/user-guide/66.png)
+   ![67](../../static/img/getting-started/user-guide/66.png)
 
 ## 7 Inventory
 
@@ -827,7 +827,7 @@ Allows user to increase stock quantity without purchasing. It is normally used w
 
 1. **Stock** | **Stock Received** | **New**.
 
-   ![68](/img/getting-started/user-guide/67.png)
+   ![68](../../static/img/getting-started/user-guide/67.png)
 
 ### 7.2 Stock Issue
 
@@ -835,7 +835,7 @@ Allows user to **decrease stock quantity without selling**. It is normally used 
 
 1. **Stock** | **Stock Issue** | **New**.
 
-   ![69](/img/getting-started/user-guide/68.png)
+   ![69](../../static/img/getting-started/user-guide/68.png)
 
 ### 7.3 Stock Adjustment / Stock Take
 
@@ -855,29 +855,29 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
 3. **Filter** by date, stock group or others **information** that you want to do for the stock take, please **make sure that you choose the correct location and batch if you have these two modules**.
 
-   ![70](/img/getting-started/user-guide/69.png)
+   ![70](../../static/img/getting-started/user-guide/69.png)
 
 4. lick on Preview & choose your report format.
 
-   ![71](/img/getting-started/user-guide/70.png)
+   ![71](../../static/img/getting-started/user-guide/70.png)
 
 5. **Print out the “Stock Take Sheet”** for stock keeper.
 
    The stock keeper should manually **fill in the actual quantity into the “physical qty” column**.
 
-   ![72](/img/getting-started/user-guide/71.png)
+   ![72](../../static/img/getting-started/user-guide/71.png)
 
 6. After complete updating the stock take report by your stock-keeper, do your stock adjustment in system from **Stock** | **Stock Adjustment** | **and drag out Book Qty and Physical Qty**.
 
-   ![73](/img/getting-started/user-guide/72.png)
+   ![73](../../static/img/getting-started/user-guide/72.png)
 
-   ![74](/img/getting-started/user-guide/73.png)
+   ![74](../../static/img/getting-started/user-guide/73.png)
 
 7. Click on the first item in **Stock Physical Worksheet**, press on **Ctrl + A** on the keyboard to select all items.
 
    **Then Drag & Drop into Stock Adjustment**.
 
-   ![75](/img/getting-started/user-guide/74.png)
+   ![75](../../static/img/getting-started/user-guide/74.png)
 
 8. Based on the stock keeper’s Stock Take Report, **fill in the actual physical quantity** in your warehouse into the Stock Adjustment **Physical Qty column**, the system will calculate the variance based on the Book Qty and apply a correction to the Qty column.
 
@@ -921,7 +921,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    6. **Apply**
 
-   ![76](/img/getting-started/user-guide/75.png)
+   ![76](../../static/img/getting-started/user-guide/75.png)
 
 2. Profit & Loss Statement
 
@@ -947,7 +947,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    5.**Apply**
 
-      ![77](/img/getting-started/user-guide/76.png)
+      ![77](../../static/img/getting-started/user-guide/76.png)
 
 3. Trial Balance
 
@@ -965,7 +965,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    5. **Apply**
 
-      ![78](/img/getting-started/user-guide/77.png)
+      ![78](../../static/img/getting-started/user-guide/77.png)
 
 4. Ledger Report
 
@@ -993,7 +993,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
       7. **Apply**.
 
-      ![79](/img/getting-started/user-guide/78.png)
+      ![79](../../static/img/getting-started/user-guide/78.png)
 
 ### 8.2 Customer Report
 
@@ -1007,7 +1007,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    4. Click on **Apply**
 
-   ![80](/img/getting-started/user-guide/79.png)
+   ![80](../../static/img/getting-started/user-guide/79.png)
 
 2. Customer Statement
 
@@ -1025,7 +1025,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    4. Click on **Apply**
 
-      ![81](/img/getting-started/user-guide/80.png)
+      ![81](../../static/img/getting-started/user-guide/80.png)
 
 3. Customer Due Document Listing
 
@@ -1039,17 +1039,17 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    4. **Apply**.
 
-      ![82](/img/getting-started/user-guide/81.png)
+      ![82](../../static/img/getting-started/user-guide/81.png)
 
    5. If you want to **print a reminder letter, make sure you tick the customer code under “group / sort by”** and **Apply**.
 
-      ![83](/img/getting-started/user-guide/82.png)
+      ![83](../../static/img/getting-started/user-guide/82.png)
 
    6. Preview the report and you will see **Cust Overdue Letter**, choose your preferred format.
 
-      ![84](/img/getting-started/user-guide/83.png)
+      ![84](../../static/img/getting-started/user-guide/83.png)
 
-      ![85](/img/getting-started/user-guide/84.png)
+      ![85](../../static/img/getting-started/user-guide/84.png)
 
 4. Customer Analysis By Document
 
@@ -1061,7 +1061,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    3. **Apply**
 
-      ![86](/img/getting-started/user-guide/85.png)
+      ![86](../../static/img/getting-started/user-guide/85.png)
 
 ### 8.3 Sales Report
 
@@ -1077,7 +1077,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    5. Click **Apply** to generate, whenever you change any setting under Step 3 or 4, please redo by clicking Apply
 
-      ![87](/img/getting-started/user-guide/86.png)
+      ![87](../../static/img/getting-started/user-guide/86.png)
 
    :::note
 
@@ -1087,7 +1087,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
       2. **Click on Grid Export | Export to Excel**.
 
-         ![88](/img/getting-started/user-guide/87.png)
+         ![88](../../static/img/getting-started/user-guide/87.png)
 
    2. **Batch Printing Invoices**
 
@@ -1105,7 +1105,7 @@ Watch tutorial video here: [Stock Stock Adjustment StockPhysicalWorksheet](https
 
    :::
 
-   ![89](/img/getting-started/user-guide/88.png)
+   ![89](../../static/img/getting-started/user-guide/88.png)
 
 ### 8.3.2 Outstanding Sales Document Listing (Require Partial Delivery Module)
 
@@ -1129,11 +1129,11 @@ This report can help you check the transfer document’s info, such as the amoun
 
 4. **Apply**
 
-   ![90](/img/getting-started/user-guide/89.png)
+   ![90](../../static/img/getting-started/user-guide/89.png)
 
 5. If you want to know where this **document has already been transferred** to, you just **Preview** the report.
 
-   ![91](/img/getting-started/user-guide/90.png)
+   ![91](../../static/img/getting-started/user-guide/90.png)
 
 ### 8.4 Inventory Report
 
@@ -1143,7 +1143,7 @@ A subsidiary report where each individual movement of stock is recorded, includi
 
    Step: **Stock** | **Print Stock Card** | **Apply**
 
-   ![92](/img/getting-started/user-guide/91.png)
+   ![92](../../static/img/getting-started/user-guide/91.png)
 
 2. Stock Card Qty
 
@@ -1151,7 +1151,7 @@ A subsidiary report where each individual movement of stock is recorded, includi
 
    1. **Stock** | **Print Stock Card Qty** | **Apply**.
 
-      ![93](/img/getting-started/user-guide/92.png)
+      ![93](../../static/img/getting-started/user-guide/92.png)
 
 3. Stock Month End Balance:
 
@@ -1159,7 +1159,7 @@ A subsidiary report where each individual movement of stock is recorded, includi
 
    1. **Stock** | **Print Stock Card Qty** | **Apply**.
 
-      ![94](/img/getting-started/user-guide/93.png)
+      ![94](../../static/img/getting-started/user-guide/93.png)
 
 4. Stock Reorder Advice
 
@@ -1167,33 +1167,33 @@ A subsidiary report where each individual movement of stock is recorded, includi
 
    1. **Stock** | **Print Stock Reorder Advice** | **Apply**.
 
-      ![95](/img/getting-started/user-guide/94.png)
+      ![95](../../static/img/getting-started/user-guide/94.png)
 
-      ![96](/img/getting-started/user-guide/95.png)
+      ![96](../../static/img/getting-started/user-guide/95.png)
 
 ## 9 Historical of GST
 
 Historical of changes in GST Accounting Guideline.
 
-![97](/img/getting-started/user-guide/96.png)
+![97](../../static/img/getting-started/user-guide/96.png)
 
 ### 9.1 GST Audit File (GAF)
 
 1. GAF is constructed from 5 records elements.
 
-   ![98](/img/getting-started/user-guide/97.png)
+   ![98](../../static/img/getting-started/user-guide/97.png)
 
 2. GAF – Record Elements (P, S).
 
-   ![99](/img/getting-started/user-guide/98.png)
+   ![99](../../static/img/getting-started/user-guide/98.png)
 
 3. GAF – Record Elements (L).
 
-   ![100](/img/getting-started/user-guide/99.png)
+   ![100](../../static/img/getting-started/user-guide/99.png)
 
 4. GAF – Record Elements (F).
 
-   ![101](/img/getting-started/user-guide/100.png)
+   ![101](../../static/img/getting-started/user-guide/100.png)
 
 ### 9.2 Generate GAF
 
@@ -1209,33 +1209,33 @@ The purpose of a GAF is for Customs to audit the accuracy of your GST Return but
 
 1. Click on **GST** | **Open GST Return**.
 
-   ![102](/img/getting-started/user-guide/101.png)
+   ![102](../../static/img/getting-started/user-guide/101.png)
 
 2. Select the cycle for the GAF that you want to generate. Then click on the **arrow down button** and select **Generate GST Audit File(GAF)**.
 
-   ![103](/img/getting-started/user-guide/102.png)
+   ![103](../../static/img/getting-started/user-guide/102.png)
 
 3. The result is generated based on **General, Sales & Purchase Ledger** for you to check your transactions before submitting to Customs for auditing purposes.
 
-   ![104](/img/getting-started/user-guide/103.png)
+   ![104](../../static/img/getting-started/user-guide/103.png)
 
 4. You may check the report.
 
 5. Click on **Save as Text**.
 
-   ![105](/img/getting-started/user-guide/104.png)
+   ![105](../../static/img/getting-started/user-guide/104.png)
 
 6. Save your GAF text file to desktop.
 
-   ![106](/img/getting-started/user-guide/105.png)
+   ![106](../../static/img/getting-started/user-guide/105.png)
 
 7. After saving, the message “File generated successfully” will automatically pop-up, just click **OK**.
 
-   ![107](/img/getting-started/user-guide/106.png)
+   ![107](../../static/img/getting-started/user-guide/106.png)
 
 8. Go to desktop to select the GAF.txt file. The output will be similar to the image below:
 
-   ![108](/img/getting-started/user-guide/107.png)
+   ![108](../../static/img/getting-started/user-guide/107.png)
 
 The above is the exported file that has fulfilled all requirements by Customs, you may submit to [Customs Department](https://gst.customs.gov.my/TAP)
 
@@ -1263,9 +1263,9 @@ This report is to analyse the detail of GST transactions grouped by tax type. It
 
 3. Click **Apply**.
 
-   ![109](/img/getting-started/user-guide/108.png)
+   ![109](../../static/img/getting-started/user-guide/108.png)
 
-   ![110](/img/getting-started/user-guide/109.png)
+   ![110](../../static/img/getting-started/user-guide/109.png)
 
 ## 10 Tools
 
@@ -1277,7 +1277,7 @@ This report is to analyse the detail of GST transactions grouped by tax type. It
 
 3. Click on **More** Options and look for **Change Password**
 
-   ![111](/img/getting-started/user-guide/110.png)
+   ![111](../../static/img/getting-started/user-guide/110.png)
 
 4. Click Save. Your new user account is now created.
 
@@ -1299,7 +1299,7 @@ Not every user is going to have the same access rights as ADMIN, and ADMIN user 
 
 3. You need to check the transactions / functions (row), compare with the user (column) and **tick = Allowed** or **untick = Disallowed**, the action for a particular user for particular transactions. For example, base on the setting in the following images, the user is not allowed to delete Customers or to view Customer Payments.
 
-   ![112](/img/getting-started/user-guide/111.png)
+   ![112](../../static/img/getting-started/user-guide/111.png)
 
 ### 10.2 Maintain Document Number
 
@@ -1317,13 +1317,13 @@ Step 2: Insert **description** for the particular set of document and select a *
 
 Step 3: The system’s defaults is the **Format** %.5d, where “%” is the formula which allows the function to auto-run for the document number while 5d stands for 5 digits.
 
-   ![112a](/img/getting-started/user-guide/111a.png)
+   ![112a](../../static/img/getting-started/user-guide/111a.png)
 
 Step 4: You can select the **Frequency** option as Never Reset or others.
 
 Step 5: Set the **Next Number** for this document.
 
-   ![113](/img/getting-started/user-guide/112.png)
+   ![113](../../static/img/getting-started/user-guide/112.png)
 
 ### 10.3 Maintain Acceptable Transaction Date
 
@@ -1339,7 +1339,7 @@ Brief – Any document which date falls within the allowed transaction dates. CA
 
 4. **Save**.
 
-  ![114](/img/getting-started/user-guide/113.png)
+  ![114](../../static/img/getting-started/user-guide/113.png)
 
    Example: Date From **(01/02/2016) & Date To (29/02/2016)** allows an Invoice with date (08/02/2016) to be edited/created.
 
@@ -1363,17 +1363,17 @@ Brief – Any document which date falls within the allowed transaction dates. CA
 
    4. **Save** the access right.
 
-      ![115](/img/getting-started/user-guide/114.png)
+      ![115](../../static/img/getting-started/user-guide/114.png)
 
       If the user Is not permitted to override, the system will prompt with an option and you can choose either
 
       - **OK = cancel saving**
 
-      ![115b](/img/getting-started/user-guide/115.png)
+      ![115b](../../static/img/getting-started/user-guide/115.png)
 
       - **Override = Enter user the ID and password of a user who can override then save the transaction.**
 
-      ![116](/img/getting-started/user-guide/116.png)
+      ![116](../../static/img/getting-started/user-guide/116.png)
 
 ### 10.4 Maintain Form Mode
 
@@ -1389,29 +1389,29 @@ Watch tutorial video here: [Setting FormMode byAgent](https://www.youtube.com/wa
 
 2. **Enter Code & Select the document** form that you want to filter, e.g. Invoice
 
-   ![117](/img/getting-started/user-guide/117.png)
+   ![117](../../static/img/getting-started/user-guide/117.png)
 
 3. Click on the **Customize Filter** and then click on the **press the button to add a new condition**.
 
-   ![118](/img/getting-started/user-guide/118.png)
+   ![118](../../static/img/getting-started/user-guide/118.png)
 
 4. Change the **“SL_IV.DOCKEY” to “SL_IV.Agent”** because right now I need to filter based on sales invoice agent field, then change **the “= equals” to “like”** after that **enter the agent code** that you want to filter and click on **OK**.
 
-   ![119](/img/getting-started/user-guide/119.png)
+   ![119](../../static/img/getting-started/user-guide/119.png)
 
 5. Make sure the info is updated correctly then you can **Save**.
 
-   ![120](/img/getting-started/user-guide/120.png)
+   ![120](../../static/img/getting-started/user-guide/120.png)
 
 6. Other optional setting:
 
-   ![121](/img/getting-started/user-guide/121.png)
+   ![121](../../static/img/getting-started/user-guide/121.png)
 
-   ![122](/img/getting-started/user-guide/122.png)
+   ![122](../../static/img/getting-started/user-guide/122.png)
 
 7. If you have set **more than 1 form mode**, once you click **Sales** | **Invoice** | you will get the prompt browse mode to choose which form mode that you want to apply.
 
-   ![123](/img/getting-started/user-guide/123.png)
+   ![123](../../static/img/getting-started/user-guide/123.png)
 
 ---
 
@@ -1427,7 +1427,7 @@ Watch tutorial video here: [Setting FormMode byAgent](https://www.youtube.com/wa
 
    4. Tick to apply the **form mode**, e.g. tick **form mode: IV-LF** and click Save
 
-      ![124](/img/getting-started/user-guide/124.png)
+      ![124](../../static/img/getting-started/user-guide/124.png)
 
 ### 10.5 Maintain Terms
 
@@ -1436,15 +1436,15 @@ Maintain Terms allows the user to maintain their Customer and Supplier terms. In
 1. **Tools** | **Maintain Terms** | **New**
 
 2. **Insert Code, Description and allocated Term Type.**
-   ![125](/img/getting-started/user-guide/125.png)
+   ![125](../../static/img/getting-started/user-guide/125.png)
 
    - **Due in number of days** – Means how many days until document is due, e.g. if you set 30 days then the document will be due on the 30th day from the document date.
 
-   ![126](/img/getting-started/user-guide/126.png)
+   ![126](../../static/img/getting-started/user-guide/126.png)
 
    - **Due on specific day of the month** – Means how many months and which day the document is due, e.g. if you set it as 1 Month 6 Days the document will be due on the 6th of the next month.
 
-   ![127](/img/getting-started/user-guide/127.png)
+   ![127](../../static/img/getting-started/user-guide/127.png)
 
    - **Due in the month end** – Means how many months until the document is due at the end of the final month, e.g. if you set it as 2 months, the document will be due at the end of 2nd month.
 
@@ -1460,11 +1460,11 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
 1. **Tools** | **Maintain Currency** | **New**
 
-   ![128](/img/getting-started/user-guide/128.png)
+   ![128](../../static/img/getting-started/user-guide/128.png)
 
 2. **Maintain Customer / Supplier to assign the currency**
 
-   ![129](/img/getting-started/user-guide/129.png)
+   ![129](../../static/img/getting-started/user-guide/129.png)
 
 3. Sales document, select the customer, sample as below:
 
@@ -1474,7 +1474,7 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
    3. system will auto converted into default currency RM on right bottom Local Net Total column.
 
-      ![130](/img/getting-started/user-guide/130.png)
+      ![130](../../static/img/getting-started/user-guide/130.png)
 
 ---
 
@@ -1496,7 +1496,7 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
    4. knock off the invoice and the rate will be update automatically by system. Foreign gain loss will be auto calculated and post to account accordingly. (you can call out Rate & Gain Loss column from the hidden field).
 
-      ![131](/img/getting-started/user-guide/131.png)
+      ![131](../../static/img/getting-started/user-guide/131.png)
 
 2. Customer Invoice **billing in USD, Payment paid in your Foreign USD Bank** (Advance Currency modules required)
 
@@ -1510,11 +1510,11 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
    5. **Bank Info**: able to set Giro info & make payment thru Giro (refer Interbank Giro Topic for more detail)
 
-      ![132](/img/getting-started/user-guide/132.png)
+      ![132](../../static/img/getting-started/user-guide/132.png)
 
       Select your payment received in your **Foreign USD Bank**, enter your **paid Amount in USD, Enter your USD Rate** & Knock off the invoice, foreign gain loss will be auto calculated by system.
 
-      ![133](/img/getting-started/user-guide/133.png)
+      ![133](../../static/img/getting-started/user-guide/133.png)
 
 3. Customer Invoice **billing in USD**, but **payment in others currency** eg SGD / RMB / EURO
 
@@ -1524,7 +1524,7 @@ You can bill overseas customers & suppliers in foreign currencies e.g. USD, SGD,
 
    3. USD rate will be auto calculated & foreign gain loss will auto calculated and posting to account accordingly
 
-      ![134](/img/getting-started/user-guide/134.png)
+      ![134](../../static/img/getting-started/user-guide/134.png)
 
 ### 10.7 Maintain Project (Required Project Module)
 
@@ -1532,33 +1532,33 @@ This module allows the user to maintain the project accounting on a branch or de
 
 1. Click on **Tools** | **Maintain Project**.
 
-   ![135](/img/getting-started/user-guide/135.png)
+   ![135](../../static/img/getting-started/user-guide/135.png)
 
 2. Insert **Project Code & Description**. Project Value and Project Cost is not compulsory fields to fill in, if you have filled in then it is for remark purpose.
 
-   ![136](/img/getting-started/user-guide/136.png)
+   ![136](../../static/img/getting-started/user-guide/136.png)
 
 3. Click on **Tools** | **Options**.
 
-   ![137](/img/getting-started/user-guide/137.png)
+   ![137](../../static/img/getting-started/user-guide/137.png)
 
 4. Then look for **Miscellaneous** | Make sure the option **“Show Document Project”** is ticked.
 
-   ![138](/img/getting-started/user-guide/138.png)
+   ![138](../../static/img/getting-started/user-guide/138.png)
 
 5. During **sales and purchase** transactions, make sure you can **the project column**, then **update** accordingly.
 
-   ![139](/img/getting-started/user-guide/139.png)
+   ![139](../../static/img/getting-started/user-guide/139.png)
 
    When keying-in a transaction, some users will ask why is there a project at item detail and another beside the Customer. Duplicate tab?
 
    **What is the difference between More | Project |(Document Project) and Item Detail | Project (Item Project )?**
 
-   ![140](/img/getting-started/user-guide/140.png)
+   ![140](../../static/img/getting-started/user-guide/140.png)
 
-   ![141](/img/getting-started/user-guide/141.png)
+   ![141](../../static/img/getting-started/user-guide/141.png)
 
-   ![142](/img/getting-started/user-guide/142.png)
+   ![142](../../static/img/getting-started/user-guide/142.png)
 
    **The project feature is also available for GL | Cash Book Entry.**
 
@@ -1566,7 +1566,7 @@ This module allows the user to maintain the project accounting on a branch or de
 
 6. Filter by the date that you want to view for the P&L report, then if you want to perform a project-to-project comparison then choose **“Comparison – Project (6 columns)”**
 
-   ![143](/img/getting-started/user-guide/143.png)
+   ![143](../../static/img/getting-started/user-guide/143.png)
 
    :::note
 
@@ -1586,15 +1586,15 @@ This module allows the user to maintain the project accounting on a branch or de
 
       If you want to view the whole year figures, then you have to **change to “Current Year”**.
 
-      ![144](/img/getting-started/user-guide/144.png)
+      ![144](../../static/img/getting-started/user-guide/144.png)
 
 8. After changing the column options, you have to **tick the “Print Project Comparison”**, then the project tab will appear on the **right hand site**, you can select which project that you want to view then click on **Add**.
 
-   ![145](/img/getting-started/user-guide/145.png)
+   ![145](../../static/img/getting-started/user-guide/145.png)
 
 9. Click on **Apply** and you will see the result. The P&L report will compare each project that you select.
 
-   ![146](/img/getting-started/user-guide/146.png)
+   ![146](../../static/img/getting-started/user-guide/146.png)
 
 ### 10.8 5 Cents Rounding
 
@@ -1610,9 +1610,9 @@ Watch tutorial video here: [Activate 5 Cents Rounding](https://www.youtube.com/w
 
 2. **Tick 5 Cents Rounding** for Sales Invoice/ Cash Sales
 
-   ![147](/img/getting-started/user-guide/147.png)
+   ![147](../../static/img/getting-started/user-guide/147.png)
 
-   ![148](/img/getting-started/user-guide/148.png)
+   ![148](../../static/img/getting-started/user-guide/148.png)
 
 ## 11 Interbank GIRO (IBG)
 
@@ -1620,49 +1620,49 @@ Watch tutorial video here: [Activate 5 Cents Rounding](https://www.youtube.com/w
 
 The following shows list of banks file format that are currently supported.
 
-![149](/img/getting-started/user-guide/149.png)
+![149](../../static/img/getting-started/user-guide/149.png)
 
 1. **Tools** | **Maintain Payment Method** | **Edit** | **Click on the Bank Info.**
 
-   ![150](/img/getting-started/user-guide/150.png)
+   ![150](../../static/img/getting-started/user-guide/150.png)
 
 2. Choose a **Bank**.
 
-   ![151](/img/getting-started/user-guide/151.png)
+   ![151](../../static/img/getting-started/user-guide/151.png)
 
 3. Click **Ok**.
 
-   ![152](/img/getting-started/user-guide/152.png)
+   ![152](../../static/img/getting-started/user-guide/152.png)
 
 4. Enter bank information | Click **OK** button | Save.
 
-   ![153](/img/getting-started/user-guide/153.png)
+   ![153](../../static/img/getting-started/user-guide/153.png)
 
 ### 11.2 Supplier Bank Account
 
 1. Add Bank Account and Save.
 
-  ![154](/img/getting-started/user-guide/154.png)
+  ![154](../../static/img/getting-started/user-guide/154.png)
 
 ### 11.3 Supplier Payment Method
 
 1. Select Supplier Bank from drop down list.
 
-   ![155](/img/getting-started/user-guide/155.png)
+   ![155](../../static/img/getting-started/user-guide/155.png)
 
 2. Choose the payment method that contains bank information then Save.
 
-   ![156](/img/getting-started/user-guide/156.png)
+   ![156](../../static/img/getting-started/user-guide/156.png)
 
 ### 11.4 Print Supplier Document (Interbank GIRO) Listing
 
 1. Click on the Giro button.
 
-   ![157](/img/getting-started/user-guide/157.png)
+   ![157](../../static/img/getting-started/user-guide/157.png)
 
 2. Enter additional information and click on Save.
 
-   ![158](/img/getting-started/user-guide/158.png)
+   ![158](../../static/img/getting-started/user-guide/158.png)
 
 3. You can now upload bank instruction file to bank host.
 
@@ -1682,17 +1682,17 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
    2. Create finished good, raw material, WIP’s closing stock account in your balance sheet current asset account as below.
 
-      ![159](/img/getting-started/user-guide/159.png)
+      ![159](../../static/img/getting-started/user-guide/159.png)
 
    3. Create Manufacturing Account under Cost of Goods Sold (Profit & Loss)
 
       1. Highlight on Cost of Goods Sold and click on NEW Button, Insert GL Code, Description and make sure tick on special Account type Manufacturing Control Account.
 
-         ![160](/img/getting-started/user-guide/160.png)
+         ![160](../../static/img/getting-started/user-guide/160.png)
 
       2. Create all your raw materials opening stock, closing stock, production overhead charges group into Manufacturing cost account under Cost of Goods Sold.
 
-         ![161](/img/getting-started/user-guide/161.png)
+         ![161](../../static/img/getting-started/user-guide/161.png)
 
 2. Setup Stock Group
 
@@ -1708,7 +1708,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
       \- Costing Method : FIFO
 
-      ![162](/img/getting-started/user-guide/162.png)
+      ![162](../../static/img/getting-started/user-guide/162.png)
 
    2. Water
 
@@ -1716,7 +1716,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
       \- Costing Method : Fixed Costing
 
-      ![163](/img/getting-started/user-guide/163.png)
+      ![163](../../static/img/getting-started/user-guide/163.png)
 
    3. Finished Goods
 
@@ -1724,7 +1724,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
       \- Costing Method : FIFO
 
-      ![164](/img/getting-started/user-guide/164.png)
+      ![164](../../static/img/getting-started/user-guide/164.png)
 
 3. Setup Stock Item
 
@@ -1734,7 +1734,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
    1. Create all your raw materials items and assigned stock group respectively.
 
-      ![165](/img/getting-started/user-guide/165.png)
+      ![165](../../static/img/getting-started/user-guide/165.png)
 
    2. Create your finished goods item and assign raw materials.
 
@@ -1748,7 +1748,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
          **Assembly Cost** is a fixed cost incurred to the entire process for final products.
 
-            ![166](/img/getting-started/user-guide/166.png)
+            ![166](../../static/img/getting-started/user-guide/166.png)
 
 4. Location (Warehouse)
 
@@ -1764,7 +1764,7 @@ Watch tutorial video here: [Production Job Order, Bill of Material (BOM), Sales 
 
    4. Work in progress stock kept in **WIP Warehouse**.
 
-      ![167](/img/getting-started/user-guide/167.png)
+      ![167](../../static/img/getting-started/user-guide/167.png)
 
 ### 12.2 Overview of Manufacturing Business Flow
 
@@ -1775,9 +1775,9 @@ required to meet the products ordered by customer? This question raised by the M
 
 When products produce out, you have to transfer the Job Order to Stock Assembly to commit on the stock on hand.
 
-![168](/img/getting-started/user-guide/168.png)
+![168](../../static/img/getting-started/user-guide/168.png)
 
-![169](/img/getting-started/user-guide/169.png)
+![169](../../static/img/getting-started/user-guide/169.png)
 
 1. Sales Order
 
@@ -1785,11 +1785,11 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    1. Sales | Sales Order | New | choose your customer | enter the items orders from your customer | save.
 
-      ![170](/img/getting-started/user-guide/170.png)
+      ![170](../../static/img/getting-started/user-guide/170.png)
 
    2. : You can also press on **CTRL + F11** to check Available Stock Balance, if there is sufficient stock on hand you may directly proceed to delivery, but there is short of stock you may need to proceed to Job Order on the planning to manufacturer the items.
 
-      ![171](/img/getting-started/user-guide/171.png)
+      ![171](../../static/img/getting-started/user-guide/171.png)
 
 2. Production Job Order
 
@@ -1803,13 +1803,13 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    4. enter the **X/F Qty** for the quantity you want to produce.
 
-      ![172](/img/getting-started/user-guide/172.png)
+      ![172](../../static/img/getting-started/user-guide/172.png)
 
    5. Save the Job Order.
 
    6. you can also click **CTRL + F11** to check all your raw material stock available balance.
 
-      ![173](/img/getting-started/user-guide/173.png)
+      ![173](../../static/img/getting-started/user-guide/173.png)
 
 3. Stock Item Assembly
 
@@ -1823,11 +1823,11 @@ When products produce out, you have to transfer the Job Order to Stock Assembly 
 
    3. enter the **X/F Qty** for the quantity produced.
 
-      ![174](/img/getting-started/user-guide/174.png)
+      ![174](../../static/img/getting-started/user-guide/174.png)
 
    4. Save the Stock Item Assembly.
 
-      ![175](/img/getting-started/user-guide/175.png)
+      ![175](../../static/img/getting-started/user-guide/175.png)
 
 ## 12.3 Stock Batch
 
@@ -1843,31 +1843,31 @@ This module commonly used in food manufacturing, pharmaceutical, cosmetic/skin c
 
    Insert the code, description, Expiry date, Manufacturing date & items that will expire on this expiry date.
 
-   ![176](/img/getting-started/user-guide/176.png)
+   ![176](../../static/img/getting-started/user-guide/176.png)
 
 2. **Purchase** | **Purchase Invoice** | **New**
 
    You can enable Batch column from the hidden bar and assign your stock batch during purchase for every individual item.
 
-   ![177](/img/getting-started/user-guide/177.png)
+   ![177](../../static/img/getting-started/user-guide/177.png)
 
 3. **Sales** | **Sales Invoice** | **New**
 
    In Sales Invoice, you can select the item issue out from which batch (expiry date), system will also show the expiry day & quantity available.
 
-   ![178](/img/getting-started/user-guide/178.png)
+   ![178](../../static/img/getting-started/user-guide/178.png)
 
 4. **Stock** | **Print Stock Batch Expiry**
 
    You can also check the listing of your product that will be expire soon as well as you can trace the product manufacture date.
 
-   ![179](/img/getting-started/user-guide/179.png)
+   ![179](../../static/img/getting-started/user-guide/179.png)
 
 ## 13 Sales and Service Tax 2018 Model and Scope
 
 Sales and Service Tax model are structured as below:
 
-![180](/img/getting-started/user-guide/180.png)
+![180](../../static/img/getting-started/user-guide/180.png)
 
 ## 14 Sales Tax
 
@@ -1937,7 +1937,7 @@ Malaysia excludes designated area (DA) and special area (SA).
 
 Overview of Sales Tax flow chart:-
 
-![181](/img/getting-started/user-guide/181.png)
+![181](../../static/img/getting-started/user-guide/181.png)
 
 ### 14.4 Meaning of Manufacture
 
@@ -1973,15 +1973,15 @@ For goods other than petroleum
 
 1. By conversion
 
-   ![182](/img/getting-started/user-guide/182.png)
+   ![182](../../static/img/getting-started/user-guide/182.png)
 
 2. The assembly
 
-   ![183](/img/getting-started/user-guide/183.png)
+   ![183](../../static/img/getting-started/user-guide/183.png)
 
 3. For petroleum
 
-   ![184](/img/getting-started/user-guide/184.png)
+   ![184](../../static/img/getting-started/user-guide/184.png)
 
 ### 14.5 Meaning of Taxable Person
 
@@ -2081,7 +2081,7 @@ Taxable person is a person who manufacturing taxable goods and is:
 
    Example of taxable goods are:
 
-   ![185](/img/getting-started/user-guide/185.png)
+   ![185](../../static/img/getting-started/user-guide/185.png)
 
    It is chargeable with a tax rate of
 
@@ -2097,7 +2097,7 @@ Taxable person is a person who manufacturing taxable goods and is:
 
    How to determine the rate of sales tax for goods?
 
-   ![186](/img/getting-started/user-guide/186.png)
+   ![186](../../static/img/getting-started/user-guide/186.png)
 
 2. Exempted Goods
 
@@ -2105,7 +2105,7 @@ Taxable person is a person who manufacturing taxable goods and is:
 
    Example of exempted goods are:
 
-   ![187](/img/getting-started/user-guide/187.png)
+   ![187](../../static/img/getting-started/user-guide/187.png)
 
 ## 14.8 Value of Taxable Goods
 
@@ -2133,7 +2133,7 @@ Transaction value of the goods,
 
 ### 14.9 Responsibility of Registered Manufacturer
 
-   ![188](/img/getting-started/user-guide/188.png)
+   ![188](../../static/img/getting-started/user-guide/188.png)
 
 ### 14.10 Exemption and Facilities
 
@@ -2171,7 +2171,7 @@ Transaction value of the goods,
 
 1. Treatment in Designated Area (DA)
 
-   ![189](/img/getting-started/user-guide/189.png)
+   ![189](../../static/img/getting-started/user-guide/189.png)
 
    :::note
 
@@ -2183,7 +2183,7 @@ Transaction value of the goods,
 
 2. Treatment in Special Area (SA)
 
-   ![190](/img/getting-started/user-guide/190.png)
+   ![190](../../static/img/getting-started/user-guide/190.png)
 
 ### 14.12 Accounting of Tax
 
@@ -2271,7 +2271,7 @@ Transaction value of the goods,
 
    In summary,
 
-   ![191](/img/getting-started/user-guide/191.png)
+   ![191](../../static/img/getting-started/user-guide/191.png)
 
 ### 14.14 Furnishing Sales Tax (SST-02) Return & Payment of Tax
 
@@ -2323,13 +2323,13 @@ Payment for tax due and payable declared in SST-02. Failure to submit return is 
 
    Illustration:
 
-   ![192](/img/getting-started/user-guide/192.png)
+   ![192](../../static/img/getting-started/user-guide/192.png)
 
 4. Penalty for late payment of tax
 
    Late payment penalty on the amount of sales tax not paid as shown in the table below.
 
-    ![193](/img/getting-started/user-guide/193.png)
+    ![193](../../static/img/getting-started/user-guide/193.png)
 
 5. Other penalty for offences
 
@@ -2403,7 +2403,7 @@ Service tax is not chargeable on:
 
 Overview of Service Tax flow chart:-
 
-![194](/img/getting-started/user-guide/194.png)
+![194](../../static/img/getting-started/user-guide/194.png)
 
 ### 15.4 Meaning of Taxable Person
 
@@ -2417,13 +2417,13 @@ Value of taxable service provided by a service provider for a period of 12 month
 
 - Credit card / charge card (no threshold)
 
-![195](/img/getting-started/user-guide/195.png)
+![195](../../static/img/getting-started/user-guide/195.png)
 
-![196](/img/getting-started/user-guide/196.png)
+![196](../../static/img/getting-started/user-guide/196.png)
 
-![197](/img/getting-started/user-guide/197.png)
+![197](../../static/img/getting-started/user-guide/197.png)
 
-![198](/img/getting-started/user-guide/198.png)
+![198](../../static/img/getting-started/user-guide/198.png)
 
 ### 15.6 Rate of Services
 
@@ -2433,7 +2433,7 @@ All taxable services are fixed charged at a rate of 6%, except the provision of 
 
 1. Types of Registration list:
 
-   ![199](/img/getting-started/user-guide/199.png)
+   ![199](../../static/img/getting-started/user-guide/199.png)
 
 2. Determination of Taxable Turnover
 
@@ -2467,7 +2467,7 @@ Registered person is allowed to deduct service tax in his return for any cancell
 
 1. Treatment in Designated Area (DA)
 
-   ![200](/img/getting-started/user-guide/200.png)
+   ![200](../../static/img/getting-started/user-guide/200.png)
 
    :::note
 
@@ -2479,7 +2479,7 @@ Registered person is allowed to deduct service tax in his return for any cancell
 
 2. Treatment in Special Area (SA)
 
-   ![201](/img/getting-started/user-guide/201.png)
+   ![201](../../static/img/getting-started/user-guide/201.png)
 
 ### 15.10 Accounting
 
@@ -2531,7 +2531,7 @@ Registered person is allowed to deduct service tax in his return for any cancell
 
    In summary,
 
-   ![202](/img/getting-started/user-guide/202.png)
+   ![202](../../static/img/getting-started/user-guide/202.png)
 
 ### 15.12 Furnishing Service Tax (SST-02) Return & Payment of Tax
 
@@ -2573,7 +2573,7 @@ Payment deemed to be irrecoverable whole or parts of the payment has been provid
 
    4. May claim according to the formula below.
 
-      ![203](/img/getting-started/user-guide/203.png)
+      ![203](../../static/img/getting-started/user-guide/203.png)
 
 2. Bad Debts Recovery
 
@@ -2587,7 +2587,7 @@ Payment deemed to be irrecoverable whole or parts of the payment has been provid
 
    4. Repay according to the formula below.
 
-      ![204](/img/getting-started/user-guide/204.png)
+      ![204](../../static/img/getting-started/user-guide/204.png)
 
 ## 17 Record Keeping
 
@@ -2649,11 +2649,11 @@ Records relating to electronic form
 
 Tax code lists in SQL Financial Accounting:
 
-![205](/img/getting-started/user-guide/205.png)
+![205](../../static/img/getting-started/user-guide/205.png)
 
 Default SST Account generated automatically:
 
-![206](/img/getting-started/user-guide/206.png)
+![206](../../static/img/getting-started/user-guide/206.png)
 
 ## 19 Sales and Service Tax Returns (SST-02)
 
@@ -2661,7 +2661,7 @@ Default SST Account generated automatically:
 
 SST tax code structures and mapping to SST-02:
 
-![207](/img/getting-started/user-guide/207.png)
+![207](../../static/img/getting-started/user-guide/207.png)
 
 ### 19.2 Example of SST-02
 
@@ -2673,7 +2673,7 @@ SQL Account process SST02 step : [SST02 Form - guide on sales & service tax, SST
 
 1. Process SST Return from SST | New SST Return
 
-   ![208](/img/getting-started/user-guide/208.png)
+   ![208](../../static/img/getting-started/user-guide/208.png)
 
 2. Enter your taxable period
 
@@ -2681,15 +2681,15 @@ SQL Account process SST02 step : [SST02 Form - guide on sales & service tax, SST
 
 4. click on Process
 
-   ![209](/img/getting-started/user-guide/209.png)
+   ![209](../../static/img/getting-started/user-guide/209.png)
 
 5. click on SST-02
 
-   ![210](/img/getting-started/user-guide/210.png)
+   ![210](../../static/img/getting-started/user-guide/210.png)
 
-   ![211](/img/getting-started/user-guide/211.png)
+   ![211](../../static/img/getting-started/user-guide/211.png)
 
-   ![212](/img/getting-started/user-guide/212.png)
+   ![212](../../static/img/getting-started/user-guide/212.png)
 
 :::info
 
@@ -2701,68 +2701,68 @@ Understand SST02 27 Column : [What is SST02 form](https://www.facebook.com/SQLEs
 
 1. Part A
 
-   ![213](/img/getting-started/user-guide/213.png)
+   ![213](../../static/img/getting-started/user-guide/213.png)
 
 2. Part B1
 
-   ![214](/img/getting-started/user-guide/214.png)
+   ![214](../../static/img/getting-started/user-guide/214.png)
 
 3. Part B2
 
-   ![215](/img/getting-started/user-guide/215.png)
+   ![215](../../static/img/getting-started/user-guide/215.png)
 
 4. Part C
 
-   ![216](/img/getting-started/user-guide/216.png)
+   ![216](../../static/img/getting-started/user-guide/216.png)
 
 5. Part D
 
-   ![217](/img/getting-started/user-guide/217.png)
+   ![217](../../static/img/getting-started/user-guide/217.png)
 
 6. Part E
 
-   ![218](/img/getting-started/user-guide/218.png)
+   ![218](../../static/img/getting-started/user-guide/218.png)
 
 7. Part F
 
-   ![219](/img/getting-started/user-guide/219.png)
+   ![219](../../static/img/getting-started/user-guide/219.png)
 
 8. Part G
 
-   ![220](/img/getting-started/user-guide/220.png)
+   ![220](../../static/img/getting-started/user-guide/220.png)
 
 ## 20 Double Entry Posting
 
 1. Sales Tax (Accrual Basis)
 
-   ![221](/img/getting-started/user-guide/221.png)
+   ![221](../../static/img/getting-started/user-guide/221.png)
 
 2. Service Tax (Payment Basis)
 
    In SST 2.0, the service tax is due and payable when payment is received for any taxable service.
 
-      ![222](/img/getting-started/user-guide/222.png)
+      ![222](../../static/img/getting-started/user-guide/222.png)
 
    1. Issue sales invoice with service tax 6%, date 31/10/2018, Amount RM 1,000.00 & Tax Amount RM 60.00.
 
-      ![223](/img/getting-started/user-guide/223.png)
+      ![223](../../static/img/getting-started/user-guide/223.png)
 
    2. Process SST Return from 01/09/2018 to 31/10/2018. Total Tax Payable is RM 0. Due to no payment is receive for the invoices issued.
 
-      ![224](/img/getting-started/user-guide/224.png)
+      ![224](../../static/img/getting-started/user-guide/224.png)
 
    3. Payment is received on 05/11/2018, knocked-off on IV-00111.
 
-      ![225](/img/getting-started/user-guide/225.png)
+      ![225](../../static/img/getting-started/user-guide/225.png)
 
    4. Process second cycle of taxable period, the tax payable will be capture as payment is received.
 
-      ![226](/img/getting-started/user-guide/226.png)
+      ![226](../../static/img/getting-started/user-guide/226.png)
 
    5. SQL Account will auto Credit to SST- Deferred Tax account during invoice issue but no payment. Once payment is received, a Debit will be auto reversed at SST-Deferred Tax Account.
 
-      ![227](/img/getting-started/user-guide/227.png)
+      ![227](../../static/img/getting-started/user-guide/227.png)
 
    6. the taxable amount of RM 1,000.00 and Tax Amount of RM 60.00 will also capture in SST-02 Part B2, number 11c.
 
-      ![228](/img/getting-started/user-guide/228.png)
+      ![228](../../static/img/getting-started/user-guide/228.png)

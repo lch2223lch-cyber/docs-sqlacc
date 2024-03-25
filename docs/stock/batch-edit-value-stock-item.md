@@ -21,40 +21,40 @@ Allow to update/edit the field value by batch.
 
 4. Tick out the Output Tax column.
 
-    ![1](/img/stock/batch-edit-value-stock-item/1.png)
+    ![1](../../static/img/stock/batch-edit-value-stock-item/1.png)
 
 5. You will see the Output Tax column as per the screenshot below.
 
-    ![2](/img/stock/batch-edit-value-stock-item/2.png)
+    ![2](../../static/img/stock/batch-edit-value-stock-item/2.png)
 
 6. Click on Output Tax filter.
 
 7. Tick ZRL. All ZRL items will be filtered.
 
-    ![3](/img/stock/batch-edit-value-stock-item/3.png)
+    ![3](../../static/img/stock/batch-edit-value-stock-item/3.png)
 
 8. **Press Ctrl + A** to select all ZRL items.
 
 9. Right click on the highlighted items. Click on **Batch Edit Value**.
 
-    ![4](/img/stock/batch-edit-value-stock-item/4.png)
+    ![4](../../static/img/stock/batch-edit-value-stock-item/4.png)
 
 10. Tick Output Tax and select the tax code (SR).
 
 11. Click Ok to proceed the changes.
 
-    ![5](/img/stock/batch-edit-value-stock-item/5.png)
+    ![5](../../static/img/stock/batch-edit-value-stock-item/5.png)
 
 12. Click **Yes** to confirm update.
 
-    ![6](/img/stock/batch-edit-value-stock-item/6.png)
+    ![6](../../static/img/stock/batch-edit-value-stock-item/6.png)
 
 13. Click **Ok**.
 
-![7](/img/stock/batch-edit-value-stock-item/7.png)
+![7](../../static/img/stock/batch-edit-value-stock-item/7.png)
 
 ## Result
 
 Items default output tax previously ZRL are **successfully changed to SR**.
 
-![8](/img/stock/batch-edit-value-stock-item/8.png)
+![8](../../static/img/stock/batch-edit-value-stock-item/8.png)

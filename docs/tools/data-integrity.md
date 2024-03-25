@@ -15,17 +15,17 @@ Recommended to run every day or at least once per week.
 
 ### 1. Go to Tools > Analyse data integrity
 
-![1](/img/tools/data-integrity/1.png)
+![1](../../static/img/tools/data-integrity/1.png)
 
 ### 2. Click Start Analyse
 
 - Proceed if user wanted to run for all option for Analyze Item checkbox
 
-![2](/img/tools/data-integrity/2.png)
+![2](../../static/img/tools/data-integrity/2.png)
 
 ### 3. Click on Ok and Close
 
-![3](/img/tools/data-integrity/3.png)
+![3](../../static/img/tools/data-integrity/3.png)
 
 Check on the item you want to run analyse. **(Recommend all)**
 

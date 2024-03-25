@@ -19,27 +19,27 @@ tags: ["SQL Account", "Bank Reconciliation", "General Ledger","Auto"]
 
 4. Click **Apply**
 
-   ![1](/img/general-ledger/auto-recon/1.png)
+   ![1](../../static/img/general-ledger/auto-recon/1.png)
 
 5. Click Load Statement
 
-   ![2](/img/general-ledger/auto-recon/2.png)
+   ![2](../../static/img/general-ledger/auto-recon/2.png)
 
 6. Select your Bank Statement (pdf / csv)
 
-   ![3](/img/general-ledger/auto-recon/3.png)
+   ![3](../../static/img/general-ledger/auto-recon/3.png)
 
 7. System loading
 
-   ![4](/img/general-ledger/auto-recon/4.png)
+   ![4](../../static/img/general-ledger/auto-recon/4.png)
 
 8. System will detect the Name of your Bank and prompt message below, Click **Yes** if it is **correct**.
 
-   ![5](/img/general-ledger/auto-recon/5.png)
+   ![5](../../static/img/general-ledger/auto-recon/5.png)
 
 9. Once you have loaded in your bank statement, bank closing amount will be automatically filled.
 
-   ![6](/img/general-ledger/auto-recon/6.png)
+   ![6](../../static/img/general-ledger/auto-recon/6.png)
 
    :::info
    Criteria to Match:
@@ -53,7 +53,7 @@ tags: ["SQL Account", "Bank Reconciliation", "General Ledger","Auto"]
 
    But some transactions may not be able to auto match **[red box]**
 
-   ![7](/img/general-ledger/auto-recon/7.png)
+   ![7](../../static/img/general-ledger/auto-recon/7.png)
 
 ### 2. Step to match on unmatched transactions with bank statement
 
@@ -61,10 +61,10 @@ tags: ["SQL Account", "Bank Reconciliation", "General Ledger","Auto"]
 
    At the bottom, search for **SAME DR/CR AMOUNT**, you will find that is a **“Match”** button or few “Match” button…(if there are few same amount, eg. 50.00)
 
-   ![8](/img/general-ledger/auto-recon/8.png)
+   ![8](../../static/img/general-ledger/auto-recon/8.png)
 
 2. Click on “Match” when this is the correct bank transactions for **[Salary for Ali]**
 
-   ![9](/img/general-ledger/auto-recon/9.png)
+   ![9](../../static/img/general-ledger/auto-recon/9.png)
 
    After click “Match”, system will auto tick the transactions and show the date and bank description at Bank Statement (Match) Column

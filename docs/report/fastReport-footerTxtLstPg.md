@@ -11,14 +11,14 @@ tags: ["Fast Report", "Footer"]
 
 1. Click on the object you want to show only in Last Page
 
-   ![1](/img/report/fastReport-footerTxtLstPg/1.png)
+   ![1](../../static/img/report/fastReport-footerTxtLstPg/1.png)
 
    1. Click on your Object
    2. Click on Events Tab
    3. Click on OnbeforePrint | Double Click it
    4. Place this query inside the Code page.
 
-      ![2](/img/report/fastReport-footerTxtLstPg/2.png)
+      ![2](../../static/img/report/fastReport-footerTxtLstPg/2.png)
 
    Coding :
 

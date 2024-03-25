@@ -11,7 +11,7 @@ tags: ["SQL Account", "Additional Module"]
 
 1. Please go to **Stock** | **Maintain Stock Item** | **Edit** | Checked **Serial No.** | **Save**
 
-   ![1](/img/additional-module/serial-no/1.png)
+   ![1](../../static/img/additional-module/serial-no/1.png)
 
 2. **Purchase** | **Goods Received Note** | **New** |
 
@@ -31,31 +31,31 @@ tags: ["SQL Account", "Additional Module"]
 
    4. Manually Enter at Empty Box
 
-   ![2](/img/additional-module/serial-no/2.png)
+   ![2](../../static/img/additional-module/serial-no/2.png)
 
    > ### Method 2 : Import from Notepad / Word
 
    1. Enter the Serial No at the notepad.
 
-      ![3](/img/additional-module/serial-no/3.png)
+      ![3](../../static/img/additional-module/serial-no/3.png)
 
    2. Click Import
 
-      ![4](/img/additional-module/serial-no/4.png)
+      ![4](../../static/img/additional-module/serial-no/4.png)
 
    3. Select Notepad where you have saved to .
 
-      ![5](/img/additional-module/serial-no/5.png)
+      ![5](../../static/img/additional-module/serial-no/5.png)
 
    4. Click Ok
 
-      ![6](/img/additional-module/serial-no/6.png)
+      ![6](../../static/img/additional-module/serial-no/6.png)
 
    > ### Method 3 : Generator
 
    1. Click on Generator
 
-      ![7](/img/additional-module/serial-no/7.png)
+      ![7](../../static/img/additional-module/serial-no/7.png)
 
    2. Format = Serial No Format
 
@@ -63,17 +63,17 @@ tags: ["SQL Account", "Additional Module"]
 
       Count = How many units to generate
 
-      ![8](/img/additional-module/serial-no/8.png)
+      ![8](../../static/img/additional-module/serial-no/8.png)
 
    3. Here the output
 
-      ![9](/img/additional-module/serial-no/9.png)
+      ![9](../../static/img/additional-module/serial-no/9.png)
 
 3. In Delivery Order
 
    1. Sales | Delivery Order | Click Add
 
-      ![10](/img/additional-module/serial-no/10.png)
+      ![10](../../static/img/additional-module/serial-no/10.png)
 
       \+ (Green Color) Same method as Method 1
 
@@ -81,7 +81,7 @@ tags: ["SQL Account", "Additional Module"]
 
    2. Tick Serial No | Press Ok
 
-      ![11](/img/additional-module/serial-no/11.png)
+      ![11](../../static/img/additional-module/serial-no/11.png)
 
    :::info
 

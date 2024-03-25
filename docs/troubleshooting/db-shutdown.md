@@ -21,8 +21,8 @@ tags: ["SQL Account", "Troubleshooting"]
 
 2. Launch SQL DiagnosisV2
 
-   ![1](/img/troubleshooting/db-error/1.png)
+   ![1](../../static/img/troubleshooting/db-error/1.png)
 
 3. Select the shutdown DB
 
-   ![2](/img/troubleshooting/db-error/2.png)
+   ![2](../../static/img/troubleshooting/db-error/2.png)

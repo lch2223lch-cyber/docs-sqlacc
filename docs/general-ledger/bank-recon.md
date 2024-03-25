@@ -18,9 +18,9 @@ are also correct.
 ### 1. Reconciliation Bank Transaction
 
    GL | Bank Reconciliation
-   ![1](/img/general-ledger/bank-recon/1.png)
+   ![1](../../static/img/general-ledger/bank-recon/1.png)
 
-   ![2](/img/general-ledger/bank-recon/2.png)
+   ![2](../../static/img/general-ledger/bank-recon/2.png)
 
 ### 2. Bank Reconciliation
 
@@ -33,9 +33,9 @@ are also correct.
 - Click Apply
 - You may tick the bank transaction reconcile with the transaction show in Bank Statement and save
 
-   ![3](/img/general-ledger/bank-recon/3.png)
+   ![3](../../static/img/general-ledger/bank-recon/3.png)
 
-   ![4](/img/general-ledger/bank-recon/4.png)
+   ![4](../../static/img/general-ledger/bank-recon/4.png)
 
    As attached bank statement is the sample, compare with the transaction, if exist then you may check as sample picture above.
 
@@ -43,7 +43,7 @@ are also correct.
 
 After reconciliation done, you can save and preview reconciliation report
 
-![5](/img/general-ledger/bank-recon/5.png)
+![5](../../static/img/general-ledger/bank-recon/5.png)
 
 :::note
 You can press F6 button for preview report.

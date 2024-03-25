@@ -11,29 +11,29 @@ tags: ["SQL Account", "SST"]
 
 1. In SQL Account, click on the menu **SST/GST** -> **Start SST now...**
 
-   ![1](/img/start-sst/1.png)
+   ![1](../../static/img/start-sst/1.png)
 
 2. For the country, select **Malaysia**, and click Next
 
-   ![2](/img/start-sst/2.png)
+   ![2](../../static/img/start-sst/2.png)
 
 3. Fill in **SST Effective Date**
 
 4. Tick **I have SST registered number** if you have a valid SST registration number from the government (skip to *Step 6* if you don't have one)
 
-   ![3](/img/start-sst/3.png)
+   ![3](../../static/img/start-sst/3.png)
 
 5. Fill in your **Sales Tax No** and **Service Tax No** (These details will be auto updated in your company profile)
 
-   ![4](/img/start-sst/4.png)
+   ![4](../../static/img/start-sst/4.png)
 
 6. In the next step, click Next to auto generate **SST GL Account**
 
-   ![5](/img/start-sst/5.png)
+   ![5](../../static/img/start-sst/5.png)
 
 7. In the following screen, you can preset your tax code for billing (Sales Tax, Service Tax, Sales Tax Exempted, etc.)
 
-   ![6](/img/start-sst/6.png)
+   ![6](../../static/img/start-sst/6.png)
 
 8. System will prompt to re-login, and you are good to go
 

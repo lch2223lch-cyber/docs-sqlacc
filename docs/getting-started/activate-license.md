@@ -11,15 +11,15 @@ tags: ["SQL Account", "License"]
 
 1. In SQL Account, go to **File** -> **Company Profile...**
 
-   ![1](/img/activate-license/1.png)
+   ![1](../../static/img/activate-license/1.png)
 
 2. Key in your company details (company name, address, etc), and click on the **Diskette icon** to save
 
-   ![2](/img/activate-license/2.png)
+   ![2](../../static/img/activate-license/2.png)
 
 3. Close the previous window, go to **File** -> **Product Activation...**
 
-   ![1](/img/activate-license/1b.png)
+   ![1](../../static/img/activate-license/1b.png)
 
 4. For inactivated product, **Product ID** and **Activation Code** will be *blank* here. Check your **Company Name** and **Address** are input correctly
 
@@ -31,20 +31,20 @@ tags: ["SQL Account", "License"]
 
 5. Click on **Print Activation Request** to generate a request file
 
-   ![3](/img/activate-license/3.png)
+   ![3](../../static/img/activate-license/3.png)
 
 6. Next, export it to a PDF file. To export, click on the  *pointing down arrow* available at the right side of second icon from the left, select **Export to PDF File**
 
-   ![4](/img/activate-license/4.png)
+   ![4](../../static/img/activate-license/4.png)
 
 7. Save it to your local PC. You can then write an email with this PDF file attached and send it to local sales agent (The issue of activation code takes up to `3 working days`)
 
 8. When you have receive your **Product ID** and **Activation Code**, go to **File** -> **Product Activation...**
 
-   ![1](/img/activate-license/1.png)
+   ![1](../../static/img/activate-license/1.png)
 
 9. Key the values in, make sure **Digit A** and **Digit B** are the same as received
 
-   ![3](/img/activate-license/3.png)
+   ![3](../../static/img/activate-license/3.png)
 
 10. Click **Register** and you are now officially registered 🥳

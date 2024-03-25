@@ -11,14 +11,14 @@ tags: ["Fast Report", "DateTime"]
 
 1. Click on Text Object
 
-    ![A](/img/report/fastReport-prtDTime/A.png)
+    ![A](../../static/img/report/fastReport-prtDTime/A.png)
 
 2. Enter **[Date] [Time]**
 
 3. File | Save as Enter New Report Name
 
-    ![1](/img/report/fastReport-prtDTime/1.png)
+    ![1](../../static/img/report/fastReport-prtDTime/1.png)
 
 4. Preview
 
-    ![2](/img/report/fastReport-prtDTime/2.png)
+    ![2](../../static/img/report/fastReport-prtDTime/2.png)

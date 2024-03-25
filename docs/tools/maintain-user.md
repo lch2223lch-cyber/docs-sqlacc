@@ -10,29 +10,29 @@ tags: ["SQL Account", "Tools", "Maintain","User"]
 
 Step 1 : Tools | Maintain User
 
-![1](/img/tools/maintain-user/1.png)
+![1](../../static/img/tools/maintain-user/1.png)
 
 ## Create a new user and assign password
 
 1. Click New
 
-    ![2](/img/tools/maintain-user/2.png)
+    ![2](../../static/img/tools/maintain-user/2.png)
 
 2. Assign the Code and Name and click SAVE
 
-    ![3](/img/tools/maintain-user/3.png)
+    ![3](../../static/img/tools/maintain-user/3.png)
 
 3. Assign password (Edit | More > Change Password)
 
-    ![4](/img/tools/maintain-user/4.png)
+    ![4](../../static/img/tools/maintain-user/4.png)
 
-    ![5](/img/tools/maintain-user/5.png)
+    ![5](../../static/img/tools/maintain-user/5.png)
 
 ## Assign the access rights for user
 
 1. Highlight User, and Edit | More > Access Control
 
-    ![6](/img/tools/maintain-user/6.png)
+    ![6](../../static/img/tools/maintain-user/6.png)
 
 2. You will found the full list of access control and please find below explanation for the setting of access control
 
@@ -58,11 +58,11 @@ Step 1 : Tools | Maintain User
     Read the description check and uncheck accordingly what user can do or cannot do
     :::
 
-    ![7](/img/tools/maintain-user/7.png)
+    ![7](../../static/img/tools/maintain-user/7.png)
 
 3. For reports, you can assign the access rights user to view certain report / hide reports.
 
-    ![8](/img/tools/maintain-user/8.png)
+    ![8](../../static/img/tools/maintain-user/8.png)
 
 ## Copy paste full access rights for others user
 
@@ -74,18 +74,18 @@ You are allow to set 1 user access rights and assign to another user with same a
 
 2. Go to the user ID you wish to export access rights and Save
 
-    ![9](/img/tools/maintain-user/9.png)
+    ![9](../../static/img/tools/maintain-user/9.png)
 
-    ![10](/img/tools/maintain-user/10.png)
+    ![10](../../static/img/tools/maintain-user/10.png)
 
 3. Back to the new create user, edit | More > Import Access Rights
 
-    ![11](/img/tools/maintain-user/11.png)
+    ![11](../../static/img/tools/maintain-user/11.png)
 
 4. Select the access rights save
 
-    ![12](/img/tools/maintain-user/12.png)
+    ![12](../../static/img/tools/maintain-user/12.png)
 
 5. Click Yes
 
-    ![13](/img/tools/maintain-user/13.png)
+    ![13](../../static/img/tools/maintain-user/13.png)

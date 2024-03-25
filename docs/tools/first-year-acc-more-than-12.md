@@ -23,23 +23,23 @@ You are advise to set your financial start period and system conversion date as 
 
 - Setting your financial start period and system conversion date as 1/1/2014, so in the following year, you do not need to run year end to set again your financial start period & System conversion date.
 
-![1](/img/tools/first-year-acc-more-than-12/1.png)
+![1](../../static/img/tools/first-year-acc-more-than-12/1.png)
 
 ### 2. Setting profit & loss statement print in 18 months
 
-![2](/img/tools/first-year-acc-more-than-12/2.png)
+![2](../../static/img/tools/first-year-acc-more-than-12/2.png)
 
 1. Right click as pointed
 
 2. Select 640 x 480 to smaller your SQL Screen
 
 3. Highlight report name “this year-2column” click and drag it to desktop
-    ![3](/img/tools/first-year-acc-more-than-12/3.png)
+    ![3](../../static/img/tools/first-year-acc-more-than-12/3.png)
 
 4. From desktop click the report “This Year-2Column” drag it back to SQL report section.
 
 5. Click ok
-    ![4](/img/tools/first-year-acc-more-than-12/4.png)
+    ![4](../../static/img/tools/first-year-acc-more-than-12/4.png)
 
 6. Double click on the new report name “ This year 2 column” in blue color.
 

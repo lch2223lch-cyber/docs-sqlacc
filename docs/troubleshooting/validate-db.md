@@ -16,15 +16,15 @@ User & password to access to above link = sqlutility
 
 1. Find below icon on your desktop after installing SQL Accounting Diagnosis
 
-   ![1](/img/troubleshooting/validate-db/1.png)
+   ![1](../../static/img/troubleshooting/validate-db/1.png)
 
 2. Choose Firebird 2.5 and click on **Database Validate**
 
-   ![2](/img/troubleshooting/validate-db/2.png)
+   ![2](../../static/img/troubleshooting/validate-db/2.png)
 
 3. Click on the yellow color folder to select your database
 
-   ![3](/img/troubleshooting/validate-db/3.png)
+   ![3](../../static/img/troubleshooting/validate-db/3.png)
 
 4. Select your database
 
@@ -34,17 +34,17 @@ User & password to access to above link = sqlutility
 
    3. Click on Open
 
-   ![4](/img/troubleshooting/validate-db/4.png)
+   ![4](../../static/img/troubleshooting/validate-db/4.png)
 
 5. Go to SQL Financial Accounting
 
    1. Click on the ⚙️ button in the logo screen
 
-      ![5](/img/getting-started/backup-restore/7.png)
+      ![5](../../static/img/getting-started/backup-restore/7.png)
 
    2. Check your ACC-XXXX.FDB
 
-      ![6](/img/troubleshooting/validate-db/6.png)
+      ![6](../../static/img/troubleshooting/validate-db/6.png)
 
    3. Click on back to the database group
 
@@ -52,15 +52,15 @@ User & password to access to above link = sqlutility
 
    5. Go to properties
 
-      ![7](/img/troubleshooting/validate-db/7.png)
+      ![7](../../static/img/troubleshooting/validate-db/7.png)
 
    6. Check on the DB Folder
 
-      ![8](/img/troubleshooting/validate-db/8.png)
+      ![8](../../static/img/troubleshooting/validate-db/8.png)
 
 6. After selecting your correct ACC-XXXX.FDB, click on **Validate** and make sure you get the message “**Database Validation Complete**” as shown on the right screen. Then, click **ok**.
 
-   ![9](/img/troubleshooting/validate-db/9.png)
+   ![9](../../static/img/troubleshooting/validate-db/9.png)
 
    :::info
    If you don’t get “Database validation complete” and get an error “bad parameter,” please contact the helpdesk to fix this database.
@@ -68,31 +68,31 @@ User & password to access to above link = sqlutility
 
 7. Click on Backup if you get “database validation complete” > select **Desktop** > Click on **OK** > Click **ok** for Backup Successful.
 
-   ![10](/img/troubleshooting/validate-db/10.png)
+   ![10](../../static/img/troubleshooting/validate-db/10.png)
 
 8. Restore database
 
    1. Restore your database as usual > Click on the ⚙️ button
 
-      ![11](/img/getting-started/backup-restore/7.png)
+      ![11](../../static/img/getting-started/backup-restore/7.png)
 
    2. Click on Restore
 
-      ![12](/img/troubleshooting/validate-db/12.png)
+      ![12](../../static/img/troubleshooting/validate-db/12.png)
 
    3. Click on the 3 dot button
 
-      ![13](/img/troubleshooting/validate-db/13.png)
+      ![13](../../static/img/troubleshooting/validate-db/13.png)
 
    4. Select the backup file on the desktop > Open > Click on **OK** > Click on **OK**
 
-      ![14](/img/troubleshooting/validate-db/14.png)
+      ![14](../../static/img/troubleshooting/validate-db/14.png)
 
-      ![15](/img/troubleshooting/validate-db/15.png)
+      ![15](../../static/img/troubleshooting/validate-db/15.png)
 
    5. Click on **OK**
 
-      ![16](/img/troubleshooting/validate-db/16.png)
+      ![16](../../static/img/troubleshooting/validate-db/16.png)
 
 9. After the restore, you will see two databases with the same name. On the left side, ACC-0160.FDB is the old (refer to step **5 ii**). And on the right side, ACC-0161.FDB is the new file you restored (refer to step **8 iv**).
 
@@ -102,4 +102,4 @@ User & password to access to above link = sqlutility
 
    - **Delete Database**: Permanently delete, no way to call it back.
 
-   ![17](/img/troubleshooting/validate-db/17.png)
+   ![17](../../static/img/troubleshooting/validate-db/17.png)

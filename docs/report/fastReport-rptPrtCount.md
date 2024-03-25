@@ -11,7 +11,7 @@ tags: ["Fast Report", "Print Count"]
 
 **Report Before Set Report Count :**
 
-![1](/img/report/fastReport-rptPrtCount/1.png)
+![1](../../static/img/report/fastReport-rptPrtCount/1.png)
 
 **Step to do :**
 
@@ -23,7 +23,7 @@ tags: ["Fast Report", "Print Count"]
 
 4. Double Click on OnBeforePrint.
 
-      ![2](/img/report/fastReport-rptPrtCount/2.png)
+      ![2](../../static/img/report/fastReport-rptPrtCount/2.png)
 
 5. System will auto bring you to the code page. Insert the Query as Below :
 
@@ -39,4 +39,4 @@ tags: ["Fast Report", "Print Count"]
 
 7. Preview with New Report Name.
 
-      ![3](/img/report/fastReport-rptPrtCount/3.png)
+      ![3](../../static/img/report/fastReport-rptPrtCount/3.png)

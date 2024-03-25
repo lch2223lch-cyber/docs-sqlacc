@@ -13,7 +13,7 @@ Stop Position is set to stop printing the detail record. This way will be better
 
 **Example of setting the Stop Position with 912 Pixel :**
 
-![1](/img/report/fastReport-stpPos/1.png)
+![1](../../static/img/report/fastReport-stpPos/1.png)
 
 1. Go into Report Design
 
@@ -23,7 +23,7 @@ Stop Position is set to stop printing the detail record. This way will be better
 
 4. Double Click **onAfterCalcHeight**.
 
-   ![2](/img/report/fastReport-stpPos/2.png)
+   ![2](../../static/img/report/fastReport-stpPos/2.png)
 
 5. The system will redirect to Code Page
 
@@ -33,7 +33,7 @@ Stop Position is set to stop printing the detail record. This way will be better
    1 Inch = 96 Pixel, So if you want stop on 9 Inch, then use 9 *96 = 864 Pixel.
    :::
 
-   ![3](/img/report/fastReport-stpPos/3.png)
+   ![3](../../static/img/report/fastReport-stpPos/3.png)
 
    Coding :
 
@@ -45,4 +45,4 @@ Stop Position is set to stop printing the detail record. This way will be better
 
 **Example Result after set to 864 Pixel :**
 
-![4](/img/report/fastReport-stpPos/4.png)
+![4](../../static/img/report/fastReport-stpPos/4.png)

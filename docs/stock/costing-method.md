@@ -11,7 +11,7 @@ tags: ["SQL Account", "Stock", "Costing Method"]
 
 ### 1. You can go to Stock | Maintain Stock Group
 
-![1](/img/stock/costing-method/1.png)
+![1](../../static/img/stock/costing-method/1.png)
 
 ### 2. There have 3 method let you to assign
 
@@ -23,7 +23,7 @@ tags: ["SQL Account", "Stock", "Costing Method"]
 
 1. Please remember must run **analyse data integrity** (tools | analyse data integrity) before you check the costing report again.
 
-![2](/img/stock/costing-method/2.png)
+![2](../../static/img/stock/costing-method/2.png)
 
 :::tip
 System will auto update from first date until current date transaction with new costing

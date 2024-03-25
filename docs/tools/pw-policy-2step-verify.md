@@ -11,7 +11,7 @@ tags: ["SQL Account", "Tools", "Password Policy","2 Steps Verifications"]
 
 1. Go to menu : **Tools | Options…** click on **Password Policy**.
 
-    ![1](/img/tools/pw-policy-2step-verify/1.png)
+    ![1](../../static/img/tools/pw-policy-2step-verify/1.png)
 
 2. You can choose the following password requirement:
 
@@ -30,11 +30,11 @@ tags: ["SQL Account", "Tools", "Password Policy","2 Steps Verifications"]
 
 2. Click on More (arrow key down), click **Reset Password**.
 
-    ![2](/img/tools/pw-policy-2step-verify/2.png)
+    ![2](../../static/img/tools/pw-policy-2step-verify/2.png)
 
 3. New password auto generated.
 
-    ![3](/img/tools/pw-policy-2step-verify/3.png)
+    ![3](../../static/img/tools/pw-policy-2step-verify/3.png)
 
 4. Press **Yes** (Copy password to clipboard = Tick).
 
@@ -44,16 +44,16 @@ tags: ["SQL Account", "Tools", "Password Policy","2 Steps Verifications"]
 
 1. Go to menu : **File | 2-Steps Verification**.
 
-    ![4](/img/tools/pw-policy-2step-verify/4.png)
+    ![4](../../static/img/tools/pw-policy-2step-verify/4.png)
 
 2. Enter your current password, press **Ok** to proceed.
 
 3. Choose an Authenticator device.
 
-    ![5](/img/tools/pw-policy-2step-verify/5.png)
+    ![5](../../static/img/tools/pw-policy-2step-verify/5.png)
 
 4. Follow the instructions to install and setup the Authenticator in your hand-phone.
 
 5. Each time login, you will require to enter the verification code generated from the Authenticator in your mobile phone.
 
-    ![6](/img/tools/pw-policy-2step-verify/6.png)
+    ![6](../../static/img/tools/pw-policy-2step-verify/6.png)

@@ -9,7 +9,7 @@ tags: ["SQL Account", "Profit", "General Ledger","Loss","P&L","Calculate"]
 
 ## Steps and Instructions
 
-![1](/img/general-ledger/cal-p&l-percent/1.png)
+![1](../../static/img/general-ledger/cal-p&l-percent/1.png)
 
 :::note
 Formula :

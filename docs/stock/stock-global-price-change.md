@@ -9,4 +9,4 @@ tags: ["SQL Account", "Stock", "Price","Global Price Change"]
 
 ## Steps and Instructions
 
-![1](/img/stock/stock-global-price-change/1.png)
+![1](../../static/img/stock/stock-global-price-change/1.png)

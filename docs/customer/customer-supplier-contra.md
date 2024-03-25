@@ -20,25 +20,25 @@ is RM150.
 
 ### Setting step
 
-![1](/img/customer/contra/1.png)
+![1](../../static/img/customer/contra/1.png)
 
 1. Tools | Options
 
-   ![2](/img/customer/contra/2.png)
+   ![2](../../static/img/customer/contra/2.png)
 
 2. General Ledger | make sure you had chosen a valid Contra Account
 
    **Step :**
 
-   ![3](/img/customer/contra/3.png)
+   ![3](../../static/img/customer/contra/3.png)
 
    1. Go Customer | Customer Contra
 
-      ![4](/img/customer/contra/4.png)
+      ![4](../../static/img/customer/contra/4.png)
 
    2. Press on NEW
 
-      ![5](/img/customer/contra/5.png)
+      ![5](../../static/img/customer/contra/5.png)
 
       1. Select your Customer Code
 
@@ -50,15 +50,15 @@ is RM150.
 
       5. System will auto generated a Contra Number, jot down the number and go **Supplier contra** to edit it.
 
-      ![6](/img/customer/contra/6.png)
+      ![6](../../static/img/customer/contra/6.png)
 
    3. Go Supplier | Supplier Contra
 
-      ![7](/img/customer/contra/7.png)
+      ![7](../../static/img/customer/contra/7.png)
 
    4. Look for the Same Contra Number (refer step 3e), EDIT it.
 
-      ![8](/img/customer/contra/8.png)
+      ![8](../../static/img/customer/contra/8.png)
       1. Select your Supplier
 
       2. Enter Contra Amount (Must be same as Customer Contra Amount)

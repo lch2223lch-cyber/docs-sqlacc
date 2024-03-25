@@ -17,13 +17,13 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
 
 1. Click on your report name to enter into report designer page.
 
-   ![1](/img/report/RTM-6to0/1.png)
+   ![1](../../static/img/report/RTM-6to0/1.png)
 
 2. Follow the steps below:
 
    1. Go to **Calc**, click on **View** > select **Module**
 
-      ![2](/img/report/RTM-6to0/2.png)
+      ![2](../../static/img/report/RTM-6to0/2.png)
 
    2. Go **Event Handlers**
 
@@ -51,17 +51,17 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
       >
       >end;
 
-   ![3](/img/report/RTM-6to0/3.png)
+   ![3](../../static/img/report/RTM-6to0/3.png)
 
 ### Display Tax as 0.00 Instead of Blank
 
 1. Click on your report name to enter into report designer page.
 
-   ![4](/img/report/RTM-6to0/4.png)
+   ![4](../../static/img/report/RTM-6to0/4.png)
 
 2. Go to **Calc**, click on **View** and select **Events**
 
-   ![5](/img/report/RTM-6to0/5.png)
+   ![5](../../static/img/report/RTM-6to0/5.png)
 
 3. Find **DBTxtTax**and select **OnGetText**, then paste the script as below:
 
@@ -73,6 +73,6 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
    >
    >end;
 
-   ![6](/img/report/RTM-6to0/6.png)
+   ![6](../../static/img/report/RTM-6to0/6.png)
 
 Once you completed, save the report and exit, then you may preview again your format outcome.

@@ -15,11 +15,11 @@ Version 748 & above added feature which allow system auto post the stock value f
 
 ### Step 1 : Stock | Maintain Stock Group
 
-![1](/img/general-ledger/auto-post-stock-month-end-value/1.png)
+![1](../../static/img/general-ledger/auto-post-stock-month-end-value/1.png)
 
 ### Step 2 : Stock | Stock Month End Balance Report
 
-![2](/img/general-ledger/auto-post-stock-month-end-value/2.png)
+![2](../../static/img/general-ledger/auto-post-stock-month-end-value/2.png)
 
 :::info Note :
 Required to fill in Balance Sheet Account in Stock Group in order able to show the update GL Stock Value.
@@ -27,4 +27,4 @@ Required to fill in Balance Sheet Account in Stock Group in order able to show t
 
 ### Step 3 : GL | Maintain Stock Value
 
-![3](/img/general-ledger/auto-post-stock-month-end-value/3.png)
+![3](../../static/img/general-ledger/auto-post-stock-month-end-value/3.png)

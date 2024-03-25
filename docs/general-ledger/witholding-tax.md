@@ -39,7 +39,7 @@ Menu : Tools | Maintain Withholding Tax...
     |Tax Account(DR) |Expenses Account                          |**&lt;&lt;Follow document accounts>>** if leave blank here                                  |
     |Tax Account(CR) |Set to **Withholding Tax Payable** account|At GL\Maintain Account, create the Withholding Tax Payable account under Current Liabilities|
 
-    ![1](/img/general-ledger/witholding-tax/1.png)
+    ![1](../../static/img/general-ledger/witholding-tax/1.png)
 
     :::note
     Tax Account (DR) leave blank
@@ -65,11 +65,11 @@ Menu : [Purchase | Purchase Returned ...] or [Supplier | Supplier Credit Note...
     - WH Tax
     - WH Tax Rate
 
-    ![2](/img/general-ledger/witholding-tax/2.png)
+    ![2](../../static/img/general-ledger/witholding-tax/2.png)
 
 2. Select the Withholding Tax Code in **WH Tax** column.
 
-    ![3](/img/general-ledger/witholding-tax/3.png)
+    ![3](../../static/img/general-ledger/witholding-tax/3.png)
 
 3. System will auto post the withholding tax double entry. Press **CTRL + O** to check the double entry.
 
@@ -78,7 +78,7 @@ Menu : [Purchase | Purchase Returned ...] or [Supplier | Supplier Credit Note...
     |Expenses Account (follow the document detail GL Account)|XXX        |            |
     |Withholding Tax Payable                                 |           |  XXX       |
 
-    ![4](/img/general-ledger/witholding-tax/4.png)
+    ![4](../../static/img/general-ledger/witholding-tax/4.png)
 
 :::note
 Withholding tax amount will not add into the purchase invoice amount.
@@ -98,6 +98,6 @@ Withholding tax amount will not add into the purchase invoice amount.
 
 5. Enter the withholding tax amount to be paid. Save it.
 
-    ![5](/img/general-ledger/witholding-tax/5.png)
+    ![5](../../static/img/general-ledger/witholding-tax/5.png)
 
 6. You can check the ledger report for Withholding Tax Payable outstanding balance

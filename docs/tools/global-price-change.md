@@ -11,11 +11,11 @@ tags: ["SQL Account", "Tools", "Global Price Change"]
 SQL Global Price change will help you mark down price for all items with few clicks
 :::
 
-![1](/img/tools/global-price-change/1.png)
+![1](../../static/img/tools/global-price-change/1.png)
 
 [Link](https://www.thestar.com.my/news/nation/2018/05/28/businesses-warned-to-lower-prices-from-june-1/) to the soruce
 
-![2](/img/tools/global-price-change/2.png)
+![2](../../static/img/tools/global-price-change/2.png)
 [Link](http://www.sinchew.com.my/node/1759833) to the soruce
 
 **Q: My company have more than 1000 items, how to calculate 1 by 1 item to adjust manually on 31 May?**
@@ -28,7 +28,7 @@ xx
 Contact your dealer to get this application
 :::
 
-![3](/img/tools/global-price-change/3.png)
+![3](../../static/img/tools/global-price-change/3.png)
 
 ### 1. Select your group of item
 
@@ -36,11 +36,11 @@ Contact your dealer to get this application
 2. You can also choose only active item
 3. Once your group of item selected, click on Get Stock Items List
 
-![4](/img/tools/global-price-change/4.png)
+![4](../../static/img/tools/global-price-change/4.png)
 
 ### 2. Setting on value to be adjust
 
-![5](/img/tools/global-price-change/5.png)
+![5](../../static/img/tools/global-price-change/5.png)
 
 - Rounding Method (Assuming Round Decimal is 2)
   - Normal : Example : 0.1234 => 0.12
@@ -58,7 +58,7 @@ Contact your dealer to get this application
 
 ### 3. Select fields to be update
 
-![6](/img/tools/global-price-change/6.png)
+![6](../../static/img/tools/global-price-change/6.png)
 
 - Tick on which option you want to adjust / update eg : Reference Price
 - You can also tick Record change history then system will update this changes history in your note
@@ -66,6 +66,6 @@ Contact your dealer to get this application
 
 ### 4. Check & Post
 
-![7](/img/tools/global-price-change/7.png)
+![7](../../static/img/tools/global-price-change/7.png)
 
-![8](/img/tools/global-price-change/8.png)
+![8](../../static/img/tools/global-price-change/8.png)

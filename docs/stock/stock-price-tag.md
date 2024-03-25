@@ -15,23 +15,23 @@ This module mainly to set different pricing groups from different customer and s
 
 ### 1. Click on **Stock | Maintain Stock Price Tag.**
 
-![1](/img/stock/stock-price-tag/1.png)
+![1](../../static/img/stock/stock-price-tag/1.png)
 
 ### 2. **Create category** of the customer that you want
 
-![2](/img/stock/stock-price-tag/2.png)
+![2](../../static/img/stock/stock-price-tag/2.png)
 
 ### 3. Edit Customer Price Tag
 
 - After create the category of the customer at maintain stock price tag then click on **Customer | Maintain Customer | Edit the Price Tag and assign accordingly.**
 
-![3](/img/stock/stock-price-tag/3.png)
+![3](../../static/img/stock/stock-price-tag/3.png)
 
 ### 4 : Assign Customer Price Tag
 
 - Click into **Stock | Maintain Stock Item | Edit and click in the Cust Price Tag then assign accordingly.**
 
-![4](/img/stock/stock-price-tag/4.png)
+![4](../../static/img/stock/stock-price-tag/4.png)
 
 :::info
 

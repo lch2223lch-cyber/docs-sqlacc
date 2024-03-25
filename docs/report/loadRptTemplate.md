@@ -11,11 +11,11 @@ tags: ["Report","Template"]
 
 1. **Tools** > **Report Designer**
 
-   ![1](/img/report/loadRptTemplate/1.png)
+   ![1](../../static/img/report/loadRptTemplate/1.png)
 
 2. Press on **IMPORT**
 
-   ![2](/img/report/loadRptTemplate/2.png)
+   ![2](../../static/img/report/loadRptTemplate/2.png)
 
 3. Follow the steps below :
 
@@ -25,4 +25,4 @@ tags: ["Report","Template"]
 
    3. Press **OPEN**
 
-   ![3](/img/report/loadRptTemplate/3.png)
+   ![3](../../static/img/report/loadRptTemplate/3.png)

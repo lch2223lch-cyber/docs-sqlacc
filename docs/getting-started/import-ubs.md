@@ -27,13 +27,13 @@ tags: ["SQL Account", "Getting Started"]
 
    :::
 
-   ![1](/img/getting-started/import-ubs/1.png)
+   ![1](../../static/img/getting-started/import-ubs/1.png)
 
 3. Create New Database | Logon to New Company
 
 4. Go to **File** | **Data Import** | Select **UBS Account** |
 
-   ![2](/img/getting-started/import-ubs/2.png)
+   ![2](../../static/img/getting-started/import-ubs/2.png)
 
    :::info
 
@@ -43,21 +43,21 @@ tags: ["SQL Account", "Getting Started"]
 
    :::
 
-   ![3](/img/getting-started/import-ubs/3.png)
+   ![3](../../static/img/getting-started/import-ubs/3.png)
 
-   ![4](/img/getting-started/import-ubs/4.png)
+   ![4](../../static/img/getting-started/import-ubs/4.png)
 
 5. Close the Data Import | Go to **Tools** | **Options** | **Customer** | Fill in the Customer Control Account code(Same to Supplier Control Account Code).
 
-   ![5](/img/getting-started/import-ubs/5.png)
+   ![5](../../static/img/getting-started/import-ubs/5.png)
 
 6. Repeat step 4, continue import to system.
 
-   ![6](/img/getting-started/import-ubs/6.png)
+   ![6](../../static/img/getting-started/import-ubs/6.png)
 
 7. Import Customer
 
-   ![7](/img/getting-started/import-ubs/7.png)
+   ![7](../../static/img/getting-started/import-ubs/7.png)
 
    :::note
 
@@ -85,7 +85,7 @@ tags: ["SQL Account", "Getting Started"]
 
    3. Import Opening Balance(Outstanding Invoice by Invoice)
 
-   ![8](/img/getting-started/import-ubs/8.png)
+   ![8](../../static/img/getting-started/import-ubs/8.png)
 
    \* You may tick all the opening at the same time. (Customer Payment takes longer time to import in).
 
@@ -93,19 +93,19 @@ tags: ["SQL Account", "Getting Started"]
 
    1. Go to **File** | **Data Import** | Select **UBS Stock** |
 
-      ![9](/img/getting-started/import-ubs/9.png)
+      ![9](../../static/img/getting-started/import-ubs/9.png)
 
    2. Maintain Stock
 
-      ![10](/img/getting-started/import-ubs/10.png)
+      ![10](../../static/img/getting-started/import-ubs/10.png)
 
    3. Maintain Stock Item
 
-      ![11](/img/getting-started/import-ubs/11.png)
+      ![11](../../static/img/getting-started/import-ubs/11.png)
 
    4. Sales DO / IV and Purchase Price History
 
-      ![12](/img/getting-started/import-ubs/12.png)
+      ![12](../../static/img/getting-started/import-ubs/12.png)
 
    :::note
 

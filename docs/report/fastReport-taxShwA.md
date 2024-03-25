@@ -11,37 +11,37 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
 ### Report Builder
 
-![1](/img/report/fastReport-taxShwA/1.png)
+![1](../../static/img/report/fastReport-taxShwA/1.png)
 
 1. Preview the Report format, Click on blue color link and enter into Report Design. (Refer **Pic1**)
 
    **Pic1:**
 
-   ![2](/img/report/fastReport-taxShwA/2.png)
+   ![2](../../static/img/report/fastReport-taxShwA/2.png)
 
 2. Check GST Summary using which Pipeline | This Report using plSQL_7. (Refer **Pic2**)
 
    **Pic2:**
 
-   ![3](/img/report/fastReport-taxShwA/3.png)
+   ![3](../../static/img/report/fastReport-taxShwA/3.png)
 
 3. Click on Calc Tab. (Refer **Pic3**)
 
    **Pic3:**
 
-   ![4](/img/report/fastReport-taxShwA/4.png)
+   ![4](../../static/img/report/fastReport-taxShwA/4.png)
 
 4. Click on Menu View | Select Module (Refer **Pic4**)
 
    **Pic4:**
 
-   ![5](/img/report/fastReport-taxShwA/5.png)
+   ![5](../../static/img/report/fastReport-taxShwA/5.png)
 
 5. Click on Events | Click on Main:plSQL_0 | Look for SQL_7(Refer Step 2 to see which pipeline) | Insert TaxRate (Refer **Pic5**)
 
    **Pic5:**
 
-   ![6](/img/report/fastReport-taxShwA/6.png)
+   ![6](../../static/img/report/fastReport-taxShwA/6.png)
 
    **Full Query :**
 
@@ -57,7 +57,7 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
    **Pic6:**
 
-   ![7](/img/report/fastReport-taxShwA/7.png)
+   ![7](../../static/img/report/fastReport-taxShwA/7.png)
 
    **Full Query :**
 
@@ -67,23 +67,23 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
    **Pic7:**
 
-   ![8](/img/report/fastReport-taxShwA/8.png)
+   ![8](../../static/img/report/fastReport-taxShwA/8.png)
 
 8. Click on VarTax | Right Click | Select Calculation (Refer **Pic8**)
 
    **Pic8:**
 
-   ![9](/img/report/fastReport-taxShwA/9.png)
+   ![9](../../static/img/report/fastReport-taxShwA/9.png)
 
 9. Amend the Query | Press OK (Refer **Pic10**)
 
    - Before Amend **(Pic9)**:
 
-      ![10](/img/report/fastReport-taxShwA/10.png)
+      ![10](../../static/img/report/fastReport-taxShwA/10.png)
 
    - After Amend **(Pic10)**:
 
-      ![11](/img/report/fastReport-taxShwA/11.png)
+      ![11](../../static/img/report/fastReport-taxShwA/11.png)
 
    **Full Query :**
 
@@ -93,7 +93,7 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
       **Pic11:**
 
-      ![12](/img/report/fastReport-taxShwA/12.png)
+      ![12](../../static/img/report/fastReport-taxShwA/12.png)
 
 11. Close the report builder
 
@@ -101,7 +101,7 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
    **Pic12:**
 
-   ![13](/img/report/fastReport-taxShwA/13.png)
+   ![13](../../static/img/report/fastReport-taxShwA/13.png)
 
 ### Fast Report
 
@@ -109,19 +109,19 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
    **Pic1:**
 
-   ![14](/img/report/fastReport-taxShwA/14.png)
+   ![14](../../static/img/report/fastReport-taxShwA/14.png)
 
 2. Click on Code Tab(Refer **Pic2**)
 
    **Pic2:**
 
-   ![15](/img/report/fastReport-taxShwA/15.png)
+   ![15](../../static/img/report/fastReport-taxShwA/15.png)
 
 3. In Code page insert TaxRate (Refer **Pic3**)
 
    **Pic3:**
 
-   ![16](/img/report/fastReport-taxShwA/16.png)
+   ![16](../../static/img/report/fastReport-taxShwA/16.png)
 
    **Full Query :**
    >SQL := 'SELECT Code, TaxRate FROM Tax ' +
@@ -144,13 +144,13 @@ tags: ["Report Builder", "Fast Report", "Tax"]
 
    **Pic4:**
 
-   ![17](/img/report/fastReport-taxShwA/17.png)
+   ![17](../../static/img/report/fastReport-taxShwA/17.png)
 
 5. Change the Query as below | Press OK (**Pic5**)
 
    **Pic5:**
 
-   ![18](/img/report/fastReport-taxShwA/18.png)
+   ![18](../../static/img/report/fastReport-taxShwA/18.png)
 
 6. File | Save
 

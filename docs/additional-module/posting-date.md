@@ -19,23 +19,23 @@ SQL has a double date module that you can use to set a separate posting date for
 
 3) “Document Date, Posting Date” should be ticked
 
-   ![1](/img/additional-module/posting-date/1.png)
+   ![1](../../static/img/additional-module/posting-date/1.png)
 
 ### How to set posting date?
 
 1) For example, we can go to **Sales invoice**
 
-   ![2](/img/additional-module/posting-date/2.png)
+   ![2](../../static/img/additional-module/posting-date/2.png)
 
 2) Right click on the word Invoice and select “**Set Posting Date**”
 
 3) Key in your desired posting date. For example, we set the posting date as 30/09/2021 for this invoice
 
-   ![3](/img/additional-module/posting-date/3.png)
+   ![3](../../static/img/additional-module/posting-date/3.png)
 
 4) Press **OK** and then Save once you have keyed in the date. You will be able to see the posting date on the top left of your invoice
 
-   ![4](/img/additional-module/posting-date/4.png)
+   ![4](../../static/img/additional-module/posting-date/4.png)
 
 ### Effects of Post Date in Customer Aging Report
 
@@ -43,8 +43,8 @@ The customer’s invoice aging will be based on the posting date. For example. I
 
 1) Invoice IV-00136 is **not displayed** in **August 2021 Customer Aging**
 
-   ![5](/img/additional-module/posting-date/5.png)
+   ![5](../../static/img/additional-module/posting-date/5.png)
 
 2) Invoice IV-00136 is only **displayed** in **September 2021 Customer Aging**
 
-   ![6](/img/additional-module/posting-date/6.png)
+   ![6](../../static/img/additional-module/posting-date/6.png)

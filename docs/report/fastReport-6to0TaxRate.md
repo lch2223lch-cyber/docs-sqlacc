@@ -17,7 +17,7 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
 
 1. Click on your report name to enter into report designer page.
 
-    ![1](/img/report/fastReport-6to0TaxRate/1.png)
+    ![1](../../static/img/report/fastReport-6to0TaxRate/1.png)
 
 2. Refer to the image below for the follow instructions,
 
@@ -27,12 +27,12 @@ SQL Account system build in report format will automatic detect your Tax Rate ba
 
    3. double click the empty area beside **OnBeforePrint**, system will bring you to step iv as below
 
-        ![2](/img/report/fastReport-6to0TaxRate/2.png)
+        ![2](../../static/img/report/fastReport-6to0TaxRate/2.png)
 
    4. **replace to this script**
 
-        ![3](/img/report/fastReport-6to0TaxRate/3.png)
+        ![3](../../static/img/report/fastReport-6to0TaxRate/3.png)
 
-        ![4](/img/report/fastReport-6to0TaxRate/4.png)
+        ![4](../../static/img/report/fastReport-6to0TaxRate/4.png)
 
 3. Once you complete the steps above, Click file > **save as**, enter a new report name and exit, then you may preview again your format outcome.

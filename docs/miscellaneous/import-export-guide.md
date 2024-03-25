@@ -25,7 +25,7 @@ tags: ["SQL Account", "Export", "Import"]
 
    2. Launch SQL Export Module.
 
-      ![1](/img/miscellaneous/import-export-guide/1.png)
+      ![1](../../static/img/miscellaneous/import-export-guide/1.png)
 
       1. Click on Fast Export
 
@@ -39,7 +39,7 @@ tags: ["SQL Account", "Export", "Import"]
 
       6.
 
-         ![2](/img/miscellaneous/import-export-guide/2.png)
+         ![2](../../static/img/miscellaneous/import-export-guide/2.png)
 
          Done
 
@@ -49,7 +49,7 @@ tags: ["SQL Account", "Export", "Import"]
 
    2.
 
-   ![3](/img/miscellaneous/import-export-guide/3.png)
+   ![3](../../static/img/miscellaneous/import-export-guide/3.png)
 
       1. Click on the Folder | Select the Export File you have export just now(Refer Step 1.2.5)
 
@@ -100,7 +100,7 @@ tags: ["SQL Account", "Export", "Import"]
 
 1. If duplicate transaction, you may choose to replace, below is the step to replace the transaction:
 
-   ![4](/img/miscellaneous/import-export-guide/4.png)
+   ![4](../../static/img/miscellaneous/import-export-guide/4.png)
 
    1. Press Verify Button
 

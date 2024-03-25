@@ -31,7 +31,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Create and save the customer PO into Sales Order.
 
-   ![1](/img/additional-module/jo-po/1.png)
+   ![1](../../static/img/additional-module/jo-po/1.png)
 
 2. SO Check the Available Stock Balance
 
@@ -39,7 +39,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **CAR** stock available balance,
 
-   ![2](/img/additional-module/jo-po/2.png)
+   ![2](../../static/img/additional-module/jo-po/2.png)
 
    :::note
 
@@ -59,7 +59,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **WHEEL** stock available balance,
 
-   ![2b](/img/additional-module/jo-po/2b.png)
+   ![2b](../../static/img/additional-module/jo-po/2b.png)
 
 ## 3 PURCHASE ORDER (TRANSFER FROM SO)
 
@@ -71,7 +71,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    2. Select the Supplier.
 
-   ![3](/img/additional-module/jo-po/3.png)
+   ![3](../../static/img/additional-module/jo-po/3.png)
 
 2. PO Transfer From SO
 
@@ -79,7 +79,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    2. Click on Transfer From Sales Order in the menu.
 
-   ![4](/img/additional-module/jo-po/4.png)
+   ![4](../../static/img/additional-module/jo-po/4.png)
 
 3. Document Transfer (SO → PO)
 
@@ -89,13 +89,13 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    3. Click OK to proceed.
 
-      ![5](/img/additional-module/jo-po/5.png)
+      ![5](../../static/img/additional-module/jo-po/5.png)
 
    4. Save the PO Document
 
       Click on SAVE button.
 
-      ![6](/img/additional-module/jo-po/6.png)
+      ![6](../../static/img/additional-module/jo-po/6.png)
 
    5. PO Check the Available Stock Balance
 
@@ -103,7 +103,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
       Below is **WHEEL** stock available balance,
 
-      ![7](/img/additional-module/jo-po/7.png)
+      ![7](../../static/img/additional-module/jo-po/7.png)
 
       :::note
 
@@ -131,7 +131,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    2. Select the Customer.
 
-   ![8](/img/additional-module/jo-po/8.png)
+   ![8](../../static/img/additional-module/jo-po/8.png)
 
    :::info
 
@@ -155,7 +155,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    2. Click on Transfer From Sales Order in the menu.
 
-   ![9](/img/additional-module/jo-po/9.png)
+   ![9](../../static/img/additional-module/jo-po/9.png)
 
 3. Document Transfer (SO → JO)
 
@@ -165,7 +165,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    3. Click OK to proceed.
 
-   ![10](/img/additional-module/jo-po/10.png)
+   ![10](../../static/img/additional-module/jo-po/10.png)
 
 4. Show Multilevel BOM in Flat Mode
 
@@ -187,13 +187,13 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Before FLAT MODE, BOM components show at **LEVEL 1**.
 
-   ![11](/img/additional-module/jo-po/11.png)
+   ![11](../../static/img/additional-module/jo-po/11.png)
 
    Click on Show Multilevel BOM in Flat Mode button.
 
    It will prompted the below message.
 
-   ![12](/img/additional-module/jo-po/12.png)
+   ![12](../../static/img/additional-module/jo-po/12.png)
 
    Press NO to keep the BOM components at **LEVEL 1**.
 
@@ -201,13 +201,13 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    After FLAT MODE, BOM components show at **LEVEL 3**.
 
-   ![13](/img/additional-module/jo-po/13.png)
+   ![13](../../static/img/additional-module/jo-po/13.png)
 
 5. Save the JO Document
 
    Click on SAVE button.
 
-   ![14](/img/additional-module/jo-po/14.png)
+   ![14](../../static/img/additional-module/jo-po/14.png)
 
 6. JO Check the Available Stock Balance
 
@@ -215,7 +215,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “FRAME”** stock available balance,
 
-   ![15](/img/additional-module/jo-po/15.png)
+   ![15](../../static/img/additional-module/jo-po/15.png)
 
    :::note
 
@@ -235,7 +235,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “WHEEL”** stock available balance,
 
-   ![16](/img/additional-module/jo-po/16.png)
+   ![16](../../static/img/additional-module/jo-po/16.png)
 
    :::note
 
@@ -255,7 +255,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “ENGINE”** stock available balance,
 
-   ![17](/img/additional-module/jo-po/17.png)
+   ![17](../../static/img/additional-module/jo-po/17.png)
 
    :::note
 
@@ -281,7 +281,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Click on NEW button to start with new AS.
 
-   ![18](/img/additional-module/jo-po/18.png)
+   ![18](../../static/img/additional-module/jo-po/18.png)
 
 2. AS Transfer From JO
 
@@ -289,7 +289,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    2. Click on Transfer From Job Order in the menu.
 
-      ![19](/img/additional-module/jo-po/19.png)
+      ![19](../../static/img/additional-module/jo-po/19.png)
 
 3. Document Transfer (JO → AS)
 
@@ -299,13 +299,13 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    3. Click OK to proceed.
 
-   ![20](/img/additional-module/jo-po/20.png)
+   ![20](../../static/img/additional-module/jo-po/20.png)
 
 4. Save the AS Document
 
    Click on SAVE button.
 
-   ![21](/img/additional-module/jo-po/21.png)
+   ![21](../../static/img/additional-module/jo-po/21.png)
 
 5. AS Check the Available Stock Balance
 
@@ -313,7 +313,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “FRAME”** stock available balance,
 
-   ![22](/img/additional-module/jo-po/22.png)
+   ![22](../../static/img/additional-module/jo-po/22.png)
 
    :::note
 
@@ -333,7 +333,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “WHEEL”** stock available balance,
 
-   ![23](/img/additional-module/jo-po/23.png)
+   ![23](../../static/img/additional-module/jo-po/23.png)
 
    :::note
 
@@ -353,7 +353,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
    Below is **component “ENGINE”** stock available balance,
 
-   ![24](/img/additional-module/jo-po/24.png)
+   ![24](../../static/img/additional-module/jo-po/24.png)
 
    :::note
 
@@ -377,7 +377,7 @@ It is required the SO → PO and Job Order module. For more information about pr
 
 What is purpose of the OFFSET Qty in Sales Order? You will see a new column name “OffSet Qty”. It allowed you to input a value to increase/reduce the original QTY be transfer to Purchase Order and Job Order.
 
-   ![25](/img/additional-module/jo-po/25.png)
+   ![25](../../static/img/additional-module/jo-po/25.png)
 
    1. Positive Offset Qty
 

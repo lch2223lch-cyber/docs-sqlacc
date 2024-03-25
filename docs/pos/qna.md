@@ -12,13 +12,13 @@ tags: ["SQL Account", "POS", "Q&A"]
 
 ### 1.1 Error When install SQL POS : Must specify additional Parameter
 
-![1](/img/pos/qna/1.png)
+![1](../../static/img/pos/qna/1.png)
 
 **Solution:**
 
     - **If New Installation:**
 
-![2](/img/pos/qna/2.png)
+![2](../../static/img/pos/qna/2.png)
 
     ```
     1. Delete all the Item from C:\itUnicode
@@ -27,7 +27,7 @@ tags: ["SQL Account", "POS", "Q&A"]
 
 - **If already have transactions:**
 
-    ![3](/img/pos/qna/3.png)
+    ![3](../../static/img/pos/qna/3.png)
 
     1. Backup SQL POS first
 
@@ -49,7 +49,7 @@ tags: ["SQL Account", "POS", "Q&A"]
 - In Setting - > SQL Account -> Need to ticked Run This POS When call from
     SQLAcc
 
-    ![4](/img/pos/qna/4.png)
+    ![4](../../static/img/pos/qna/4.png)
 
 ### 1.5 Why keep prompt me Network failed?
 
@@ -70,7 +70,7 @@ tags: ["SQL Account", "POS", "Q&A"]
 
 2. In SQLPOS-> Setting -> System Tab -> Tools -> Select UniPos Migration ->
 
-    ![5](/img/pos/qna/5.png)
+    ![5](../../static/img/pos/qna/5.png)
 
     1. Import From : C:\user\public\itposdata or C:\user\public\unipos
 
@@ -91,31 +91,31 @@ Solution :
 
 - Control Panel -> Regional -> Language for Non Unicode -> Set to English (United States)
 
-    ![6](/img/pos/qna/6.png)
+    ![6](../../static/img/pos/qna/6.png)
 
 - Font change to Arial
 
 1. Click on Design report
 
-    ![7](/img/pos/qna/7.png)
+    ![7](../../static/img/pos/qna/7.png)
 
 2. Click on Modify
 
-    ![8](/img/pos/qna/8.png)
+    ![8](../../static/img/pos/qna/8.png)
 
 3. Click on Description Text Object -> Menu select Format -> Font
 
-    ![9](/img/pos/qna/9.png)
+    ![9](../../static/img/pos/qna/9.png)
 
 4. Change to Arial
 
-    ![10](/img/pos/qna/10.png)
+    ![10](../../static/img/pos/qna/10.png)
 
 5. Save the report
 
 ### 1.9 Error Message : Warning : Assigned Printer does not exist : Print to PDF (Mac Desktop)
 
-    ![11](/img/pos/qna/11.png)
+    ![11](../../static/img/pos/qna/11.png)
 
 Solution:
 
@@ -131,11 +131,11 @@ Solution :
 
 Setting -> SQL Account -> Ticked Unlink SQL Accounting when available
 
-![12](/img/pos/qna/12.png)
+![12](../../static/img/pos/qna/12.png)
 
 ### 1.11 Error Message : Failed to Set
 
-![13](/img/pos/qna/13.png)
+![13](../../static/img/pos/qna/13.png)
 
 **Solution :**
 
@@ -150,11 +150,11 @@ Setting -> SQL Account -> Ticked Unlink SQL Accounting when available
   - Price 2 : RM 15.
   - Price 3 : RM 20.
 
-    ![14](/img/pos/qna/14.png)
+    ![14](../../static/img/pos/qna/14.png)
 
 - When select itemcode RED BEAN 500G, auto prompt the price for user to select
 
-    ![15](/img/pos/qna/15.png)
+    ![15](../../static/img/pos/qna/15.png)
 
 ### 1.13 What to do if I want to print Barcode Label with Chinese Company Name?
 
@@ -162,7 +162,7 @@ Setting -> SQL Account -> Ticked Unlink SQL Accounting when available
 
 ### 1.14 Error Message : File in use when design barcode report
 
-![16](/img/pos/qna/16.png)
+![16](../../static/img/pos/qna/16.png)
 
 - Try Exit the program and logon
 - Delete this report and design again
@@ -173,7 +173,7 @@ Setting -> SQL Account -> Ticked Unlink SQL Accounting when available
 
 ### 1.16 Close Counter Collect Payment Type is not match with Payment Method select in Bills
 
-![17](/img/pos/qna/17.png)
+![17](../../static/img/pos/qna/17.png)
 
 - Collect Payment Summary Payment Type is group by Account Code, may check
     whether the payment method is using same account code ~
@@ -187,13 +187,13 @@ Step to check Payment Method post to what Account
 
 ### 1.17 Why in Setting Receipt & License Retrieve From SQL button is missing
 
-![18](/img/pos/qna/18.png)
+![18](../../static/img/pos/qna/18.png)
 
 - Once License Registered, the button will disable ~
 
 ### 1.18 Same receipt will auto cut to few pages
 
-![19](/img/pos/qna/19.png)
+![19](../../static/img/pos/qna/19.png)
 
 **Solution :**
 
@@ -203,11 +203,11 @@ Step to check Payment Method post to what Account
 
 - In Print Receipt -> Follow below step
 
-![20](/img/pos/qna/20.png)
+![20](../../static/img/pos/qna/20.png)
 
 ### 1.19 Unable to key In Daily Cash Sales No with message : The Control is Read Only
 
-![21](/img/pos/qna/21.png)
+![21](../../static/img/pos/qna/21.png)
 
 **Answer :**
 
@@ -223,7 +223,7 @@ Step to check Payment Method post to what Account
 
 4. Double click on the object to show in Chinese
 
-    ![22](/img/pos/qna/22.png)
+    ![22](../../static/img/pos/qna/22.png)
 
 :::caution
 After Fill in \<UTF-8\> , remember save the report.
@@ -237,7 +237,7 @@ After Fill in \<UTF-8\> , remember save the report.
 
 3. In SQL POS :
 
-![23](/img/pos/qna/23.png)
+![23](../../static/img/pos/qna/23.png)
 
 - Put in DNS Number
 - Ping result lost 0 = 0%
@@ -245,7 +245,7 @@ After Fill in \<UTF-8\> , remember save the report.
 
 ### 1.22 Fail to assign Printer
 
-![24](/img/pos/qna/24.png)
+![24](../../static/img/pos/qna/24.png)
 
 **Solution :**
 
@@ -259,7 +259,7 @@ After Fill in \<UTF-8\> , remember save the report.
 
 ### 1.23 How to disable preview receipt when payment done
 
-![25](/img/pos/qna/25.png)
+![25](../../static/img/pos/qna/25.png)
 
 Solution :
 
@@ -269,7 +269,7 @@ Solution :
 
 Maintain User -> Refund Item ->
 
-![26](/img/pos/qna/26.png)
+![26](../../static/img/pos/qna/26.png)
 
 :::note
 Set to Yes, user allow to return stock with enter - 1
@@ -287,7 +287,7 @@ Set to No, user disallow to save negative stock
 *(Menu -> Export Cash Sales -> Email Button -> Setting Email Server Button)*
 :::
 
-![27](/img/pos/qna/27.png)
+![27](../../static/img/pos/qna/27.png)
 
 **Solution :**
 
@@ -295,15 +295,15 @@ Set to No, user disallow to save negative stock
 
 2. Click on **Less Secure App Access**
 
-    ![28](/img/pos/qna/28.png)
+    ![28](../../static/img/pos/qna/28.png)
 
 3. Press the scrolling bar to Turn on
 
-    ![29](/img/pos/qna/29.png)
+    ![29](../../static/img/pos/qna/29.png)
 
 ### 1.27 Post to SQL Account raise Error: Failed to Psot Payment of 02/6/2020 OLED IDispatch exception code 0 from : knockoff amount (0.00) must not exceed outstanding amount (321.6)
 
-![30](/img/pos/qna/30.png)
+![30](../../static/img/pos/qna/30.png)
 
 **Solution :**
 
@@ -315,6 +315,6 @@ Set to No, user disallow to save negative stock
 
 ### 2.1 Error Message : Counter is closed, wait for Main Counter to open
 
-![31](/img/pos/qna/31.png)
+![31](../../static/img/pos/qna/31.png)
 
 - This error message mean when there have multiple POS link together, make sure Main Counter have to Open Counter first.

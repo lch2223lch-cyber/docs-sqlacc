@@ -13,7 +13,7 @@ tags: ["SQL Account", "Trial Balance", "General Ledger", "Tally"]
 
    1. GL | Maintain Chart of Account |
 
-   ![1](/img/general-ledger/trial-balance-not-tally/1.png)
+   ![1](../../static/img/general-ledger/trial-balance-not-tally/1.png)
 
    :::note
    If your Retained Earning is empty, you may create under Reserve, then only drag into Retained Earning.
@@ -27,7 +27,7 @@ tags: ["SQL Account", "Trial Balance", "General Ledger", "Tally"]
 
 3. Make sure Local DR and Local CR is tally. (Refer Pic2)
 
-   ![2](/img/general-ledger/trial-balance-not-tally/2.png)
+   ![2](../../static/img/general-ledger/trial-balance-not-tally/2.png)
 
 ### 3. Not tally due to current transaction
 

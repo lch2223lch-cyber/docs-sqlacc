@@ -15,7 +15,7 @@ tags: ["Fast Report"]
 
    2. Tick Allow Expressions
 
-      ![1](/img/report/fastReport-hideZero/1.png)
+      ![1](../../static/img/report/fastReport-hideZero/1.png)
 
    3. Try save the report and preview the result.
 
@@ -31,13 +31,13 @@ Only if Method 1 can’t work.
 
 3. Press Add
 
-   ![2](/img/report/fastReport-hideZero/2.png)
+   ![2](../../static/img/report/fastReport-hideZero/2.png)
 
 4. Press ok
 
 5. Untick Visible
 
-   ![3](/img/report/fastReport-hideZero/3.png)
+   ![3](../../static/img/report/fastReport-hideZero/3.png)
 
 6. File | Save as | Enter Report name
 7. Preview and see the result

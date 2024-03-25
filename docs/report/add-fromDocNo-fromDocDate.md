@@ -9,19 +9,19 @@ tags: ["Report", "ReportBuilder"]
 
 ## Steps & Instructions
 
-1. Go in Report Design | Click on ![1](/img/report/add-fromDocNo-fromDocDate/1.png) then place at the grid – refer below Pic
+1. Go in Report Design | Click on ![1](../../static/img/report/add-fromDocNo-fromDocDate/1.png) then place at the grid – refer below Pic
 
-   ![2](/img/report/add-fromDocNo-fromDocDate/2.png)
+   ![2](../../static/img/report/add-fromDocNo-fromDocDate/2.png)
 
    1. Right Click on Variable2 | Select Calculation |
 
-      ![3](/img/report/add-fromDocNo-fromDocDate/3.png)
+      ![3](../../static/img/report/add-fromDocNo-fromDocDate/3.png)
 
       After Done press OK
 
 2. If the date is not appearing in report preview
 
-   ![4](/img/report/add-fromDocNo-fromDocDate/4.png)
+   ![4](../../static/img/report/add-fromDocNo-fromDocDate/4.png)
 
    1. Click on **Calc Tab**
 

@@ -12,7 +12,7 @@ tags: ["SQL Account", "Stock", "Serial Number"]
 
 - Please go to Stock | Maintain Stock Item | Edit | Checked Serial No if this item you would like to control serial number
 
-![1](/img/stock/stock-serial-no/1.png)
+![1](../../static/img/stock/stock-serial-no/1.png)
 
 ## 2. Purchase | Goods Received Note | New |
 
@@ -22,31 +22,31 @@ tags: ["SQL Account", "Stock", "Serial Number"]
 
 1. Click on + (Green Icon) | Manually Enter at Empty Box
 
-    ![2](/img/stock/stock-serial-no/2.png)
+    ![2](../../static/img/stock/stock-serial-no/2.png)
 
 ### Method 2 : Import from Notepad / Word
 
 1. Enter the Serial No at the notepad.
 
-    ![3](/img/stock/stock-serial-no/3.png)
+    ![3](../../static/img/stock/stock-serial-no/3.png)
 
 2. Click Import |
 
-    ![4](/img/stock/stock-serial-no/4.png)
+    ![4](../../static/img/stock/stock-serial-no/4.png)
 
 3. Select Notepad where you have saved to.
 
-    ![5](/img/stock/stock-serial-no/5.png)
+    ![5](../../static/img/stock/stock-serial-no/5.png)
 
 4. Click Ok
 
-    ![6](/img/stock/stock-serial-no/6.png)
+    ![6](../../static/img/stock/stock-serial-no/6.png)
 
 ### Method 3 : Generator
 
 1. Click on Generator |
 
-    ![7](/img/stock/stock-serial-no/7.png)
+    ![7](../../static/img/stock/stock-serial-no/7.png)
 
 2. Format = Serial No Format
 
@@ -54,22 +54,22 @@ tags: ["SQL Account", "Stock", "Serial Number"]
 
     Count = How many units to generate
 
-    ![8](/img/stock/stock-serial-no/8.png)
+    ![8](../../static/img/stock/stock-serial-no/8.png)
 
 3. Here the output
 
-    ![9](/img/stock/stock-serial-no/9.png)
+    ![9](../../static/img/stock/stock-serial-no/9.png)
 
 4. **Sales** | Delivery Order | Click Add
 
-    ![10](/img/stock/stock-serial-no/10.png)
+    ![10](../../static/img/stock/stock-serial-no/10.png)
 
     **+ (Green Color) Same method as Method 1**
     **Import same method as Method 2**
 
 5. Tick Serial No | Press Ok
 
-    ![10](/img/stock/stock-serial-no/10.png)
+    ![10](../../static/img/stock/stock-serial-no/10.png)
 
 :::info Noted
 Stock Adjustment does not support serial no. May using Stock Received and Stock Issue to replace .

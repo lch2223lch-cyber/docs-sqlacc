@@ -23,7 +23,7 @@ tags: ["SQL Account", "Asset", "General Ledger","Depreciation"]
 
 4. Save
 
-   ![1](/img/general-ledger/accumulated-deprec-fixed-asset/1.png)
+   ![1](../../static/img/general-ledger/accumulated-deprec-fixed-asset/1.png)
 
 ## The Next Year
 
@@ -31,15 +31,15 @@ tags: ["SQL Account", "Asset", "General Ledger","Depreciation"]
 
 2. Right click on empty space, refer picture , **Copy Journal Entry**
 
-   ![2](/img/general-ledger/accumulated-deprec-fixed-asset/2.png)
+   ![2](../../static/img/general-ledger/accumulated-deprec-fixed-asset/2.png)
 
 3. New
 
 4. Right click on empty space, refer picture, **Paste Journal Entry**
-   ![3](/img/general-ledger/accumulated-deprec-fixed-asset/3.png)
+   ![3](../../static/img/general-ledger/accumulated-deprec-fixed-asset/3.png)
 
 5. Edit the journal entry by changing the date, description and amount
 
-   ![4](/img/general-ledger/accumulated-deprec-fixed-asset/4.png)
+   ![4](../../static/img/general-ledger/accumulated-deprec-fixed-asset/4.png)
 
 6. Save!

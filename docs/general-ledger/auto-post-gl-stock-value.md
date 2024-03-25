@@ -19,13 +19,13 @@ tags: ["SQL Account", "Auto Post","General Ledger", "Stock Value"]
 
 2. Click on **Option**
 
-    ![1](/img/general-ledger/auto-post-gl-stock-value/1.png)
+    ![1](../../static/img/general-ledger/auto-post-gl-stock-value/1.png)
 
 3. Click on **Miscellaneous**
 
 4. Tick on **Auto Post GL Stock Value**
 
-    ![2](/img/general-ledger/auto-post-gl-stock-value/2.png)
+    ![2](../../static/img/general-ledger/auto-post-gl-stock-value/2.png)
 
 ### 2 : Map Balance Sheet Stock Account in Maintain Stock Group
 
@@ -33,7 +33,7 @@ tags: ["SQL Account", "Auto Post","General Ledger", "Stock Value"]
 
 2. Click on **Maintain Stock Group**
 
-    ![3](/img/general-ledger/auto-post-gl-stock-value/3.png)
+    ![3](../../static/img/general-ledger/auto-post-gl-stock-value/3.png)
 
 3. Click on **Edit**
 
@@ -41,13 +41,13 @@ tags: ["SQL Account", "Auto Post","General Ledger", "Stock Value"]
 
 5. Click on **Save**
 
-    ![4](/img/general-ledger/auto-post-gl-stock-value/4.png)
+    ![4](../../static/img/general-ledger/auto-post-gl-stock-value/4.png)
 
     :::note
     Ensure that all Stock Groups are mapped to the **Balance Sheet Account Code (A)**
     :::
 
-    ![5](/img/general-ledger/auto-post-gl-stock-value/5.png)
+    ![5](../../static/img/general-ledger/auto-post-gl-stock-value/5.png)
 
 ### 3 : Map Project Code in Maintain Location
 
@@ -55,7 +55,7 @@ tags: ["SQL Account", "Auto Post","General Ledger", "Stock Value"]
 
 2. Click on **Maintain Location**
 
-    ![6](/img/general-ledger/auto-post-gl-stock-value/6.png)
+    ![6](../../static/img/general-ledger/auto-post-gl-stock-value/6.png)
 
 3. Click on **Edit**
 
@@ -63,13 +63,13 @@ tags: ["SQL Account", "Auto Post","General Ledger", "Stock Value"]
 
 5. **Save**
 
-    ![7](/img/general-ledger/auto-post-gl-stock-value/7.png)
+    ![7](../../static/img/general-ledger/auto-post-gl-stock-value/7.png)
 
     :::info
     Ensure that all Location are mapped to the **Project Code (A)**
     :::
 
-    ![8](/img/general-ledger/auto-post-gl-stock-value/8.png)
+    ![8](../../static/img/general-ledger/auto-post-gl-stock-value/8.png)
 
     :::info
     Note : May ignore this step if you have **only 1** Project.
@@ -83,7 +83,7 @@ Project Code : ----
 Closing Stock : 308534.22
 :::
 
-![9](/img/general-ledger/auto-post-gl-stock-value/9.png)
+![9](../../static/img/general-ledger/auto-post-gl-stock-value/9.png)
 
 :::info Example B
 Project Code : P1
@@ -91,7 +91,7 @@ Project Code : P1
 Closing Stock : 3560.00
 :::
 
-![10](/img/general-ledger/auto-post-gl-stock-value/10.png)
+![10](../../static/img/general-ledger/auto-post-gl-stock-value/10.png)
 
 ### 5 : Apply Financial Report will auto update Stock value
 
@@ -104,7 +104,7 @@ closing Stock value to **Maintain Stock Value**.
 
 1. This is a sample of a Balance Sheet Statement report to show a **Closing Stock Value**.
 
-    ![11](/img/general-ledger/auto-post-gl-stock-value/11.png)
+    ![11](../../static/img/general-ledger/auto-post-gl-stock-value/11.png)
 
 :::info
 Note : When Fall Outside Maintain Acceptable Trans Date range, the system will no longer retrieve the Stock

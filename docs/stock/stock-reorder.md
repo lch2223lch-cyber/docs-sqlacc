@@ -9,7 +9,7 @@ tags: ["SQL Account", "Stock", "Reorder"]
 
 ## Maintain Stock Item
 
-![1](/img/stock/stock-reorder/1.png)
+![1](../../static/img/stock/stock-reorder/1.png)
 
 ### A: Reorder Level
 
@@ -19,7 +19,7 @@ Reorder level (or reorder point) is the inventory level at which a company would
 
 **Give an example how it work in SQL ?**
 
-![2](/img/stock/stock-reorder/2.png)
+![2](../../static/img/stock/stock-reorder/2.png)
 
 - For this item, Reorder Qty = 5, when Bal Qty less than 5 unit(Which is 9-5 = 4), saving document will prompt(Dialog : Stock Quatity Control) to remind you should place an order.
 
@@ -37,7 +37,7 @@ Reorder quantity is the point at which a business must buy more inventory as to 
 
 1. Stock | Print Stock Reorder Advise | Select any criteria if have | Apply
 
-![3](/img/stock/stock-reorder/3.png)
+![3](../../static/img/stock/stock-reorder/3.png)
 
 :::note
 Criteria A : There have option :
@@ -57,7 +57,7 @@ VS
 
 There have fast way to create PO with Reoder QTY. Please see below Screen :
 
-![4](/img/stock/stock-reorder/4.png)
+![4](../../static/img/stock/stock-reorder/4.png)
 
 Step :
 
