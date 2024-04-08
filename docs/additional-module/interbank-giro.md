@@ -1,8 +1,6 @@
 ---
-sidebar_position: 5
-id: interbank-giro
 title: Supplier Payment Interbank GIRO
-description: A guide about supplier interbank GIRO for SQL Account
+description: Interbank GIRO
 slug: /additional-module/interbank-giro
 tags: ["SQL Account", "Additional Module"]
 ---

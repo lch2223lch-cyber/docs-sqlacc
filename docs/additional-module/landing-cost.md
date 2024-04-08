@@ -1,6 +1,4 @@
 ---
-sidebar_position: 2
-id: landing-cost
 title: Landing Cost
 description: A guide about landing cost for SQL Account
 slug: /additional-module/landing-cost

@@ -7,15 +7,9 @@ slug: /miscellaneous/text-import-utility
 tags: ["SQL Account", "Text", "Import"]
 ---
 
-### Text Import Step
+## Text Import Step
 
-    1. Download the following application in your pc.
-
-        1. [Application](http://www.estream.com.my/utility/SQLAccTxtImp-setup.exe)
-
-        2. Username : `sqlutility`
-
-        3. Password : `sqlutility`
+    1. Download [SQLAccXLSnMDBImp-setup.exe](https://download.sql.com.my/customer/Fairy/SQLAccXLSnMDBImp-setup.exe) in your pc.
 
     2. Run and Install the setup file.
 

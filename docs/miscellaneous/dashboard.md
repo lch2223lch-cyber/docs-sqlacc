@@ -1,17 +1,20 @@
 ---
 sidebar_position: 16
-id: dashboard
+id: sql-internal-dashboard
 title: Dashboard
-description: A quick guide on Dashboard for SQL Account
-slug: /miscellaneous/dashboard
+description: Internal dashboard info
+slug: /miscellaneous/internal-dashboard
 tags: ["SQL Account", "Dashboard"]
 ---
 
-<!-- ![2](../../static/img/miscellaneous/dashboard/2.png) -->
+SQL Account has a dashboard built-in to visualize:
+    1. Cash Flow
+    2. Ratio Analysis
+    3. Outstanding Orders
+    4. Top Product
+    5. Profit & Lost (P&L)
 
-### How to access SQL Dashboard?
-
-### View -> Dashboard
+To access the dashboard, go to **View | Dashboard**
 
     ![1](../../static/img/miscellaneous/dashboard/1.png)
 

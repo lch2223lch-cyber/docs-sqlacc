@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 id: patch-file
 title: How to do Patch File using SQL Diagnosis Utility
 description: A guide to fix database shutdown error for SQL Account

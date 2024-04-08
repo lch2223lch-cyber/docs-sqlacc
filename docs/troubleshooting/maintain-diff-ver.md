@@ -1,5 +1,4 @@
 ---
-sidebar_position: 4
 id: maintain-diff-ver
 title: Maintain 2 different version in 1 PC
 description: A guide to maintain 2 different version in 1 PC for SQL Account

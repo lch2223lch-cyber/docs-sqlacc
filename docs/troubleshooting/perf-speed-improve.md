@@ -1,5 +1,4 @@
 ---
-sidebar_position: 5
 id: perf-speed-improve
 title: Performance Improvement for Domain Controller Service (Windows 2012 Server OS)
 description: A guide to performance improvement for Domain Controller Service (Windows Server OS) for SQL Account

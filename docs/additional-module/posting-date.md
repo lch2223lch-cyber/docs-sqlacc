@@ -1,6 +1,4 @@
 ---
-sidebar_position: 3
-id: posting-date
 title: Posting Date
 description: A guide about posting date for SQL Account
 slug: /additional-module/posting-date

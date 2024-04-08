@@ -1,6 +1,4 @@
 ---
-sidebar_position: 4
-id: serial-no
 title: Serial No Module
 description: A guide about serial no. module for SQL Account
 slug: /additional-module/serial-no

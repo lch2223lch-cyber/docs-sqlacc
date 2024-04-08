@@ -1,6 +1,4 @@
 ---
-sidebar_position: 1
-id: jo-po
 title: Job Order & Purchase Order
 description: A guide about job order and purchase order for SQL Account
 slug: /additional-module/job-order-purchase-order

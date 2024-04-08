@@ -1,5 +1,4 @@
 ---
-sidebar_position: 3
 id: validate-db
 title: How to validate database with SQL Diagnosis Utility
 description: A guide to validate database using SQL Diagnosis Utility for SQL Account
