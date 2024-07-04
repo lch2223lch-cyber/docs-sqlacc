@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: setup
 title: Setup
 description: A guide to setup SQL Mobile Connect
