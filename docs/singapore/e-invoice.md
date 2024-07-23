@@ -1,8 +1,8 @@
 ---
-title: E-Invoice
+title: InvoiceNow
 description: A guide for E-Invoicing for Singapore SQL User
-slug: /singapore/e-invoice
-tags: ["SQL Account", "Singapore", "E-Invoice"]
+slug: /singapore/invoicenow
+tags: ["SQL Account", "Singapore", "InvoiceNow"]
 ---
 
 ## 1. Register for Peppol
