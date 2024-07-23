@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
 title: Onboarding
-description: Malaysia E-Invoice initiative
+description: MyInvois onboarding process
 slug: /usage/myinvois/onboarding
-tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", Onboarding]
+tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Onboarding"]
 ---
 
 An e-Invoice is a digital representation of a transaction between a supplier and a buyer. e-Invoice replaces paper or electronic documents such as invoices, credit notes, and debit notes.
@@ -45,11 +45,13 @@ You will need to register an ERP to obtain the required Client ID & Client Secre
 3. Click on **Register ERP** to register a new System Representative.
 4. Input the following details:
     - **ERP Name**: SQL Account
-    - **Client Secret Expiration**: 3 Year
+    - **Client Secret Expiration**: 1 Year
+
     :::warning[client secret expiration]
     You will need to regenerate the secret after expiration.
     :::
-5. Copy the **Client ID** and **Client Secrets** displayed and input into **SQL Account Company Profile**, then check the box to confirm that you have copied, then click on **Done**.
+
+5. Copy the **Client ID** and **Client Secrets** displayed and input into [SQL Account Company Profile](#company-profile), then check the box to confirm that you have copied, then click on **Done**.
 
     ![myinvois-erp-register-done](../../../static/img/myinvois/onboarding/myinvois-erp-register-success.png)
 
@@ -69,3 +71,19 @@ You will need to add SQL Account as your intermediary to utilize our **Digital C
 5. Modify the **Representation From** and **Representation To** dates as per your requirement.
 6. Allow all permissions by toggle all radio button to **Yes**.
 7. Click on **Add Intermediary** and you are done.
+
+## SQL Account Setup
+
+### Company Profile
+
+1. Go to **File** > **Company Profile**.
+2. Fill in your new & old BRN OR utilize our auto BRN lookup by clicking on the 🔍 button.
+3. Make sure the **Country** has been set as **Malaysia** and fill in relevant info such as Address, Postcode, etc.
+4. Click on **MyInvois** tab.
+5. Fill in your TIN number.
+6. Fill in the Client ID, Client Secret 1 and Client Secret 2 obtained from [Register ERP](#register-erp).
+7. After that, click on **Test Intermediary**, you shall see 3 green ticks ✅ as shown below.
+
+    ![company-profile-myinvois](../../../static/img/myinvois/onboarding/company-profile-myinvois.png)
+
+8. Click **Save** and you are done with MyInvois onboarding.
