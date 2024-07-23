@@ -52,7 +52,7 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 
         ![7](../../static/img/getting-started/install-sql/7.png)
 
-## Setup Company
+## New Database
 
 1. Click **File**
 
@@ -112,11 +112,14 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 
    ![4](../../static/img/activate-license/4.png)
 
-7. Save it to your local PC. You can then write an email with this PDF file attached and send it to local sales agent (The issue of activation code takes up to `3 working days`)
+7. Save it to your local PC. You can then write an email with this PDF file attached and send it to local sales agent
+   :::info[note]
+   Issuance of activation code might takes up to `3 working days`
+   :::
 
-8. When you have receive your **Product ID** and **Activation Code**, go to **File** -> **Product Activation...**
+8. When you have receive your **Product ID** and **Activation Code**, go to **File** >  **Product Activation**
 
-   ![1](../../static/img/activate-license/1.png)
+   ![1](../../static/img/activate-license/1b.png)
 
 9. Key in your **Product ID** & **Activation Code**, make sure **Digit A** and **Digit B** are the same as received
 
@@ -125,7 +128,7 @@ tags: ["SQL Account", "Getting Started", "Setup"]
 10. Click **Register** and you are now officially registered 🥳
 
     :::warning
-    Activation code is considered sentive, do not share it to others!
+    Activation code is considered private & confidential, do not share it to others!
     :::
 
 ### Update Company Address
