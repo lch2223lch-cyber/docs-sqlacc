@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Onboarding
 description: MyInvois onboarding process
-slug: /usage/myinvois/onboarding2
+slug: /usage/myinvois/onboarding
 tags: ["SQL Account", "Usage", "MyInvois", "E-Invoice", "Onboarding"]
 ---
 
