@@ -48,7 +48,7 @@ To cancel a submitted e-invoice:
 
     ![sales-invoice-cancel-button](../../../static/img/myinvois/einvoice/sales-invoice-cancel-button.png)
 
-2. Enter the reason for cancellation then Click **OK**.
+2. Enter the reason for cancellation then Click **Initiate Cancellation**. To dismiss the dialog, Click **Keep Document**.
 
     ![sales-invoice-cancel-reason](../../../static/img/myinvois/einvoice/sales-invoice-cancel-reason.png)
 
