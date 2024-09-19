@@ -10,6 +10,8 @@ To streamline the e-invoice submission through SQL Account, you will need to go 
 
 ## Company Profile Setup
 
+### MyInvois Portal Linking
+
 1. Go to **File** > **Company Profile**.
    1. Make sure your company registration number (BRN) is correctly filled in. (click on the magnifying glass to utilize our auto BRN lookup feature)
    2. Make sure the TIN number has been filled in correctly.
@@ -70,3 +72,19 @@ To streamline the e-invoice submission through SQL Account, you will need to go 
 13. Click on the copy button in sequence as shown below and you shall see the client id & secrets are being automatically filled on the left. Click on **Register ERP** and you're done!
 
     ![myinvois-portal-5](../../../static/img/myinvois/onboarding/myinvois-portal-5.png)
+
+### E-Invoice Validation Setup
+
+:::info
+Skip this section if you already setup your Sandbox credentials before.
+:::
+
+After you went live, SQL Account now allows you to validate your E-Invoice through LHDN Sandbox API first. To enjoy this feature, setup your **Sandbox credential** after you had successfully connected to **MyInvois Production**.
+
+1. Go to **File** > **Company Profile** > **MyInvois** > **Connect MyInvois**.
+
+2. Click on **Sandbox** tab.
+
+    ![myinvois-sandbox-validation](../../../static/img/myinvois/onboarding/sandbox-validation-setup.png)
+
+3. Repeat the steps in [previous section](#myinvois-portal-linking) to add **Intermediary** & **ERP** in MyInvois Sandbox environment.
