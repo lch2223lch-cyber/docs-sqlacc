@@ -61,6 +61,24 @@ For non-Malaysian Individuals:
 
     ![maintain-customer-tax-tin](../../../static/img/myinvois/guide/maintain-customer-tax-tin.png)
 
+### Batch TIN Lookup
+
+:::info
+This feature enables users to **quickly look up missing New BRN/TIN information for customers** and is exclusively available to those with an active SQL Account license
+:::
+
+1. Navigate to **Customer** > **Maintain Customer**.
+
+    ![batch-tin-lookup-1](../../../static/img/myinvois/guide/batch-tin-lookup-1.png)
+
+2. Right click on the menu bar (located at the right side of the window), select **TIN Lookup**.
+
+    ![batch-tin-lookup-2](../../../static/img/myinvois/guide/batch-tin-lookup-2.png)
+
+3. In the **Tin Lookup** window, you will be able to view all of your customers details such as *Old BRN, New BRN, TIN* and etc. Click on the **🔍** to do a quick lookup on the missing fields, when you are done, click **Save** to apply.
+
+    ![batch-tin-lookup-3](../../../static/img/myinvois/guide/batch-tin-lookup-3.png)
+
 ## Update Stock Item
 
 IRBM (LHDN) has introduced [Classification Codes](https://sdk.myinvois.hasil.gov.my/codes/classification-codes/) to define the category of products or services being billed as a result of a commercial transaction.
