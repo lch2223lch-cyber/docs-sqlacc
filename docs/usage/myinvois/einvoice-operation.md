@@ -23,6 +23,8 @@ In the E-Invoice system, there are few types of documents that can be submitted.
 | [Purchase Debit Note](e-invoice#purchase-debit-note)          | Self-Billed Debit Note            |
 | [Receipt Voucher](e-invoice#receipt-voucher)                  | Self-Billed Refund Note / Invoice |
 
+### Single Submission
+
 1. Click on **MyInvois** > **Submit E-Invoice**
 
     ![sales-invoice-submit-eiv](../../../static/img/myinvois/einvoice/sales-invoice-submit-eiv.png)
@@ -34,6 +36,77 @@ In the E-Invoice system, there are few types of documents that can be submitted.
     :::
 
     ![sales-invoice-valid](../../../static/img/myinvois/einvoice/sales-invoice-valid.png)
+
+### Batch Submission
+
+In the scenario where you already issued a lot of invoices but yet to submit E-Invoice, you can utilize the `Batch Submission` feature to submit them in single operation.
+
+1. Click on **MyInvois** > **Batch Submit E-Invoice**
+
+    ![batch-submission-button](../../../static/img/myinvois/einvoice/batch-submission-button.png)
+
+2. Apply the desired date range and untick any invoices that you do not wish to submit yet, then proceed to **Submit**.
+
+    ![batch-submission-filter](../../../static/img/myinvois/einvoice/batch-submission-filter.png)
+
+3. Refer to **Status** column for each E-Invoice status. If there's any errors, go to the specific invoice and update the incorrect details then retry submission again.
+
+    ![batch-submission-status](../../../static/img/myinvois/einvoice/batch-submission-status.png)
+
+4. Go back to browse screen, click **Refresh** to see the updated status.
+
+    ![batch-submission-refresh](../../../static/img/myinvois/einvoice/batch-submission-refresh.png)
+
+## Test E-Invoice Validation
+
+:::important
+The validation process utilizes the MyInvois Sandbox environment, meaning the documents will appear in your MyInvois Portal (Sandbox/Pre-production).
+
+To use this feature, you must complete the [Sandbox Credential Setup](onboarding#e-invoice-validation-setup) beforehand.
+:::
+
+If you do not have the necessary permissions to submit an E-Invoice, you can now validate the E-Invoice during the issuance process.
+
+This ensures that the invoice can be successfully submitted at a later stage.
+
+1. After issuing an invoice, click **MyInvois** > **Test E-Invoice Validation**
+
+    ![test-einvoice-validation](../../../static/img/myinvois/einvoice/test-einvoice-validation-button.png)
+
+2. If there's some missing data, error list or dialog will be shown, you can update the incorrect data and try validate again.
+
+    Example error dialog:
+
+    ![test-einvoice-error](../../../static/img/myinvois/einvoice/test-einvoice-validation-error.png)
+
+3. If the validation is successful, you will see the following confirmation screen:
+
+    ![test-einvoice-result](../../../static/img/myinvois/einvoice/test-einvoice-validation-result.png)
+
+## Consolidate
+
+When the buyer does not require an e-Invoice, the supplier will issue a regular receipt, which does not need to be submitted for IRBM validation.
+
+However, you are required to aggregate these transactions monthly and submit a consolidated e-Invoice to IRBM within **seven calendar days after the month's end**.
+
+1. Click on **MyInvois** > **Consolidate E-Invoice**
+
+    ![consolidate-button](../../../static/img/myinvois/einvoice/consolidate-button.png)
+
+2. Select the documents to consolidate:
+   1. Choose the desired date range
+   2. Tick **Include unsubmitted E-Invoices** if you want to include invoices with **E-Invoice** submission type. Refer to [Step 4](e-invoice#sales-invoice--cash-sales)
+   3. Click **Apply**
+
+    ![consolidate-filter](../../../static/img/myinvois/einvoice/consolidate-filter.png)
+
+3. Review the aggregated invoice details and click **Submit**
+
+    ![consolidate-review](../../../static/img/myinvois/einvoice/consolidate-review.png)
+
+4. If the consolidated E-Invoice is submitted successfully, you will see the following confirmation screen:
+
+    ![consolidate-success](../../../static/img/myinvois/einvoice/consolidate-success.png)
 
 ## Cancellation
 
@@ -68,6 +141,8 @@ Preview the report and you can see the E-Invoice validation QR code is embedded 
 
 You can easily check the latest status of an invoice in SQL Account to ensure it has been submitted and processed correctly.
 
+### Check Status (Single Document)
+
 1. Click on **MyInvois** > **Check E-Invoice Status**
 
     ![sales-invoice-check-status-button](../../../static/img/myinvois/einvoice/sales-invoice-check-status-button.png)
@@ -81,6 +156,23 @@ You can easily check the latest status of an invoice in SQL Account to ensure it
     :::
 
     ![sales-invoice-check-status-invalid](../../../static/img/myinvois/einvoice/sales-invoice-check-status-invalid.png)
+
+### Batch Check Status
+
+In certain situations, the status of your E-Invoices may not reflect the latest updates due to various factors such as:
+
+- Slow or unstable internet connectivity
+- Manual cancellation of an E-Invoice within the MyInvois Portal
+- E-Invoice status showing as Submitted without further updates
+
+To ensure that you are viewing the most up-to-date status of your E-Invoices, follow these steps:
+
+   1. Click the **MyInvois** button.
+   2. Select **Batch Check E-Invoice Status**.
+
+This process will retrieve the latest status for all submitted documents, ensuring that your records are accurate and up to date.
+
+    ![batch-check-status](../../../static/img/myinvois/einvoice/batch-check-status.png)
 
 ## Submission Log
 
