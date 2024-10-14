@@ -18,7 +18,8 @@ Watch tutorial video here: [Youtube](https://youtu.be/q97_s92bmZQ)
 
    2. Create finished good, raw material, WIP’s closing stock account in your balance sheet current asset account as below.
 
-      ![159](../../static/img/getting-started/user-guide/159.png)
+      ![159a](../../static/img/getting-started/user-guide/159a.png)
+      ![159b](../../static/img/getting-started/user-guide/159b.png)
 
    3. Create Manufacturing Account under Cost of Goods Sold (Profit & Loss)
 
