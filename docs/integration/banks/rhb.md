@@ -5,7 +5,7 @@ slug: /integration/banks/rhb
 tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 ---
 
-## Linking Instruction
+## Linking Setup
 
 ### Create Database in SQL Account
 
@@ -20,6 +20,7 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 2. Click 'Create Sample Database' -> 'OK'.
 
    ![2](../../../static/img/banking/2.png)
+
 
 ### Maintain Bank Account in SQL
 
@@ -83,7 +84,26 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 
     ![16](../../../static/img/banking/16.png)
 
-### Bank Balance Inquiry
+## Unlink RHB Reflex Account
+
+User is required to unlink RHB Reflex account if:
+
+- to change user email address &
+- to tag a new RHB Reflex user with different user access.
+
+Steps to unlink:
+
+   1. Select '![39](../../../static/img/banking/39.png)' -> RHB Reflex
+
+      ![36](../../../static/img/banking/36.png)
+
+   2. Click "Unlink"
+
+      ![37](../../../static/img/banking/37.png)
+
+      ![38](../../../static/img/banking/38.png)
+
+## Bank Balance Inquiry
 
 1. Select Banking menu-> 'Bank Balance Inquiry'
 
@@ -95,7 +115,36 @@ tags: ["SQL Account", "Integration", "Bank", "RHB", "Bank Reconciliation"]
 
 3. Close the window and reopen for real-time updated balance.
 
-### Payment Initialization
+## Bank Reconciliation
+
+1. Select GL menu - > Bank Reconciliation -> click “New”
+
+   ![33](../../../static/img/banking/33.png)
+
+2. Select Bank Statement Date and Display Period
+
+3. Click “Apply”
+
+   ![34](../../../static/img/banking/34.png)
+
+4. Click “Load Statement”, transaction history (T- 1 ) will be populated.
+
+   ![35](../../../static/img/banking/35.png)
+
+5. Click Match to perform reconciliation between SQL and RHB bank statement transaction.
+
+   A. Amount must be same
+
+   B. The reference must be same
+
+   C. Click “Match” when both are matched
+
+   :::note
+   - Transaction initiated from SQL is will be matched automatically.
+   - RHB bank statement update at 8am daily.
+   :::
+
+## Payment
 
 ### Maintain Supplier Details
 
@@ -337,66 +386,15 @@ DuitNow transfer via proxy is supported includes IC Number, Business Registratio
 
 To perform payment status update, click on the green icon.
 
-Success – Payment has successfully processed by the bank
+1. Success – Payment has successfully processed by the bank
 
    ![31](../../../static/img/banking/31.png)
 
-Unsuccess – Payment has rejected by the bank, please login to RHB Reflex for further details
-
-or contact RHB Reflex customer service @ **+603-9206 8118**, then select language and press
-
-‘ 3 ’ to speak to Reflex agent.
+2. Unsuccess – Payment has rejected by the bank, please login to RHB Reflex for further details or contact RHB Reflex customer service @ **+603-9206 8118** to speak to Reflex agent.
 
     ![32](../../../static/img/banking/32.png)
 
-### Bank Reconciliation
-
-1. Select GL menu - > Bank Reconciliation -> click “New”
-
-   ![33](../../../static/img/banking/33.png)
-
-2. Select Bank Statement Date and Display Period
-
-3. Click “Apply”
-
-   ![34](../../../static/img/banking/34.png)
-
-4. Click “Load Statement”, transaction history (T- 1 ) will be populated.
-
-   ![35](../../../static/img/banking/35.png)
-
-5. Click Match to perform reconciliation between SQL and RHB bank statement transaction.
-
-   A. Amount must be same
-
-   B. The reference must be same
-
-   C. Click “Match” when both are matched
-
-   :::note
-   - Transaction initiated from SQL is will be matched automatically.
-   - RHB bank statement update at 8am daily.
-   :::
-
-### Unlink RHB Reflex Account
-
-   User is required to unlink RHB Reflex account if
-
-      1. to change user email address &
-
-      2. to tag a new RHB Reflex user with different user access.
-
-1. Select '![39](../../../static/img/banking/39.png)' -> RHB Reflex
-
-   ![36](../../../static/img/banking/36.png)
-
-2. Click “Unlink”
-
-   ![37](../../../static/img/banking/37.png)
-
-   ![38](../../../static/img/banking/38.png)
-
-### Support Channel
+## Support Channel
 
 ### RHB Reflex Online Banking Enquiries
 
@@ -416,4 +414,4 @@ Fax : +603 5886 9913
 
 ### RHB Reflex User Linking User Guide
 
-Please refer below URL [link](https://www.rhbgroup.com/files/myreflex/premium/topic/all/RHB_SME_e_Solution_User_Reference_Guide_for_CBO.pdf) for RHB User Linking user guide.
+Please refer the [RHB User Linking user guide](https://www.rhbgroup.com/files/myreflex/premium/topic/all/RHB_SME_e_Solution_User_Reference_Guide_for_CBO.pdf) for further process.
