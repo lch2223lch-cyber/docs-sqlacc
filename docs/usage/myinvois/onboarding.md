@@ -10,8 +10,6 @@ To streamline the e-invoice submission through SQL Account, you will need to go 
 
 ## Company Profile Setup
 
-### MyInvois Portal Linking
-
 1. Go to **File** > **Company Profile**.
    1. Make sure your company registration number (BRN) is correctly filled in. (click on the magnifying glass to utilize our auto BRN lookup feature)
    2. Make sure the TIN number has been filled in correctly.
@@ -23,68 +21,165 @@ To streamline the e-invoice submission through SQL Account, you will need to go 
 
     ![company-profile-myinvois-button](../../../static/img/myinvois/onboarding/company-profile-myinvois-2.png)
 
-3. Login to MyInvois Portal on the right side.
+## MyInvois Integration
 
-    :::warning[IMPORTANT]
-    To test E-Invoice, ensure the **I want to try on Sandbox Environment first** checkbox is checked. This lets you use the LHDN Preprod API for testing.
+1. The onboarding process consists of 3 steps:
+    1. [E-Invoice Start Date](#e-invoice-start-date)
+    2. [Production Credentials & Intermediary](#production-credentials--intermediary)
+    3. [Sandbox Credentials & Intermediary](#sandbox-credentials--intermediary)
 
-    When you're ready to switch to the production environment, return to this page, click **Go Live**, and follow the steps again.
-    :::
-
-    ![company-profile-myinvois-sandbox](../../../static/img/myinvois/onboarding/company-profile-myinvois-4.png)
-
-4. Go to **MyInvois**
-
-    ![company-profile-connect-2](../../../static/img/myinvois/onboarding/company-profile-connect-2.png)
-
-5. Click on top right, and go to Taxpayer Profile.
-
-    ![company-profile-connect-3](../../../static/img/myinvois/onboarding/company-profile-connect-3.png)
-
-6. Scroll to the bottom and click on **Add Intermediary**.
-
-    ![myinvois-portal-3](../../../static/img/myinvois/onboarding/myinvois-portal-3.png)
-
-7. Fill in the **TIN**, **BRN**, and **Name** using the provided info on the left.
-
-    ![myinvois-portal-6](../../../static/img/myinvois/onboarding/myinvois-portal-6.png)
-
-8. Scroll down and click **Continue**.
-
-    ![myinvois-portal-7](../../../static/img/myinvois/onboarding/myinvois-portal-7.png)
-
-9. Setup the **Representation From**, **Representantion To** (leave empty to avoid expiry), and make sure all permissions has been enabled.
-
-    ![myinvois-portal-8](../../../static/img/myinvois/onboarding/myinvois-portal-8.png)
-
-10. Click on **Test Intermediary** and you shall see all permissions can be retrieved successfully.
-
-    ![myinvois-portal-9](../../../static/img/myinvois/onboarding/myinvois-portal-9.png)
-
-11. Click on **Register ERP**.
-
-    ![myinvois-portal-2](../../../static/img/myinvois/onboarding/myinvois-portal-2.png)
-
-12. Fill in the **ERP Name** & **Client Secret expiration** as below:
-
-    ![myinvois-portal-4](../../../static/img/myinvois/onboarding/myinvois-portal-4.png)
-
-13. Click on the copy button in sequence as shown below and you shall see the client id & secrets are being automatically filled on the left. Click on **Register ERP** and you're done!
-
-    ![myinvois-portal-5](../../../static/img/myinvois/onboarding/myinvois-portal-5.png)
-
-### E-Invoice Validation Setup
-
-:::info
-Skip this section if you already setup your Sandbox credentials before.
+:::danger[Note]
+You can skip 1 & 2 entirely and setup **[Sandbox credentials & Intermediary](#sandbox-credentials--intermediary)** alone for **Testing/Training** purposes.
 :::
 
-After you went live, SQL Account now allows you to validate your E-Invoice through LHDN Sandbox API first. To enjoy this feature, setup your **Sandbox credential** after you had successfully connected to **MyInvois Production**.
+![company-profile-myinvois-sandbox](../../../static/img/myinvois/onboarding/company-profile-myinvois-connect.png)
 
-1. Go to **File** > **Company Profile** > **MyInvois** > **Connect MyInvois**.
+### MyInvois Environment (Production/Sandbox)
 
-2. Click on **Sandbox** tab.
+**Production**: All your submitted E-Invoices will be acknowledged by LHDN directly.
 
-    ![myinvois-sandbox-validation](../../../static/img/myinvois/onboarding/sandbox-validation-setup.png)
+**Sandbox**: Information sent to the Sandbox (testing environment) will be solely for testing purposes and no penalty will be imposed.
 
-3. Repeat the steps in [previous section](#myinvois-portal-linking) to add **Intermediary** & **ERP** in MyInvois Sandbox environment.
+Follow the table below to setup your desired Environment:
+
+|Start Date| Production Credentials | Sandbox Credentials| Your Environment|
+|-|-|-|-|
+|Current Date (e.g. Today)|❌|✅|Sandbox|
+|Future Date (e.g. 1/7/2025)|❌|✅|Sandbox|
+|Current Date (e.g. Today)|✅|❌|Production|
+|Future Date (e.g. 1/7/2025)|✅|❌|Production after 1/7/2025|
+|Current Date (e.g. Today)|✅|✅|Production with Test Validation enabled|
+|Future Date (e.g. 1/7/2025)|✅|✅|Sandbox first, Production after 1/7/2025|
+
+### E-Invoice Start Date
+
+Purpose of the **E-Invoice Start Date**:
+
+- Manage the ability to submit e-invoices in the **Production** environment. (You will only be able to start submitting e-invoices **after** the selected start date.)
+- If you begin with the **Sandbox (Testing)** environment and have completed setting up your **Production** credentials, you will be prompted to activate your Production environment 7 days before the chosen start date.
+
+    ![myinvois-start-date](../../../static/img/myinvois/onboarding/myinvois-start-date.png)
+
+:::info[Note]
+The E-Invoice Start Date is not limited to the three provided options. You can set it to any date, such as **1/6/2025**, as per your preference.
+:::
+
+### Production Credentials & Intermediary
+
+:::info[Note]
+You may skip this part if you only intend to try out e-invoice features using demo database.
+:::
+
+1. Login to MyInvois Portal on the right side.
+
+    ![myinvois-production-login](../../../static/img/myinvois/onboarding/myinvois-production-login.png)
+
+2. Click on **MyInvois**.
+
+    ![myinvois-production-mytax](../../../static/img/myinvois/onboarding/myinvois-production-mytax.png)
+
+3. Click on top right, and click on **View Taxpayer Profile**.
+
+    ![myinvois-production-view-taxpayer-profile](../../../static/img/myinvois/onboarding/myinvois-production-view-taxpayer-profile.png)
+
+4. Scroll to the bottom and click on **Add Intermediary**.
+
+    ![myinvois-production-add-intermediary-1](../../../static/img/myinvois/onboarding/myinvois-production-add-intermediary-1.png)
+
+5. Fill in the TIN, BRN, and Name using the provided info on the left. Enter the captcha and click on **Search** then **Continue**.
+
+    :::info[Help]
+    If you are unable to see the **Continue** button, try either one of these:
+
+    1. hold CTRL then hit "-" (minus) key multiple times to zoom out
+    2. hold CTRL then scroll down to zoom out
+    3. maximize the onboarding window
+
+    :::
+
+    ![myinvois-production-add-intermediary-2](../../../static/img/myinvois/onboarding/myinvois-production-add-intermediary-2.png)
+
+6. Setup the **Representation From**, **Representantion To** (leave empty to avoid expiry), and make sure all permissions has been enabled. Click on **Add Intermediary** to finish.
+
+    ![myinvois-production-add-intermediary-3](../../../static/img/myinvois/onboarding/myinvois-production-add-intermediary-3.png)
+
+7. Click on **Test Intermediary** and you shall see all permissions can be retrieved successfully.
+
+    ![myinvois-production-add-intermediary-4](../../../static/img/myinvois/onboarding/myinvois-production-add-intermediary-4.png)
+
+8. Click on **Register ERP**.
+
+    ![myinvois-production-add-erp-1](../../../static/img/myinvois/onboarding/myinvois-production-add-erp-1.png)
+
+9. Fill in the **ERP Name** & **Client Secret expiration** as below:
+
+    ![myinvois-production-add-erp-2](../../../static/img/myinvois/onboarding/myinvois-production-add-erp-2.png)
+
+10. Click on the copy button in sequence as shown below and you shall see the client id & secrets are being automatically filled on the left. Tick the **checkbox** & click on **Done**.
+
+    ![myinvois-production-add-erp-3](../../../static/img/myinvois/onboarding/myinvois-production-add-erp-3.png)
+
+11. If you do not wish to utilize the Test Validation using sandbox feature, click on **Register ERP** and you're done! You can now start submitting E-Invoice in **Production** mode.
+
+### Sandbox Credentials & Intermediary
+
+:::info[Note]
+You will need to setup Sandbox Credentials if you wished to:
+
+1. Utilize **Test E-Invoice Validation** Feature.
+2. Training / Testing.
+
+Follow this [guide](https://preprod-mytax.hasil.gov.my/assets/pdf/usermanualweb(en).pdf) to register for Preprod (Sandbox) MyInvois Portal.
+
+:::
+
+1. Click on the empty Client ID input and you will find see that the right panel now switched to **Sandbox MyInvois Portal**. Proceed to login.
+
+    ![myinvois-sandbox-login](../../../static/img/myinvois/onboarding/myinvois-sandbox-login.png)
+
+2. Click on **MyInvois9**.
+
+    ![myinvois-sandbox-mytax](../../../static/img/myinvois/onboarding/myinvois-sandbox-mytax.png)
+
+3. Click on top right, and click on **View Taxpayer Profile**.
+
+    ![myinvois-sandbox-view-taxpayer-profile](../../../static/img/myinvois/onboarding/myinvois-sandbox-view-taxpayer-profile.png)
+
+4. Scroll to the bottom and click on **Add Intermediary**.
+
+    ![myinvois-sandbox-add-intermediary-1](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-intermediary-1.png)
+
+5. Fill in the TIN, BRN, and Name using the provided info on the left. Enter the captcha and click on **Search** then **Continue**.
+
+    :::info[Help]
+    If you are unable to see the **Continue** button, try either one of these:
+
+    1. hold CTRL then hit "-" (minus) key multiple times to zoom out
+    2. hold CTRL then scroll down to zoom out
+    3. maximize the onboarding window
+
+    :::
+
+    ![myinvois-sandbox-add-intermediary-2](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-intermediary-2.png)
+
+6. Setup the **Representation From**, **Representantion To** (leave empty to avoid expiry), and make sure all permissions has been enabled. Click on **Add Intermediary** to finish.
+
+    ![myinvois-sandbox-add-intermediary-3](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-intermediary-3.png)
+
+7. Click on **Test Intermediary** and you shall see all permissions can be retrieved successfully and remained valid (**green**).
+
+    ![myinvois-sandbox-add-intermediary-4](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-intermediary-4.png)
+
+8. Click on **Register ERP**.
+
+    ![myinvois-sandbox-add-erp-1](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-erp-1.png)
+
+9. Fill in the **ERP Name** & **Client Secret expiration** as below:
+
+    ![myinvois-sandbox-add-erp-2](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-erp-2.png)
+
+10. Click on the copy button in sequence as shown below and you shall see the client id & secrets are being automatically filled on the left. Tick the **checkbox** & click on **Done**.
+
+    ![myinvois-sandbox-add-erp-3](../../../static/img/myinvois/onboarding/myinvois-sandbox-add-erp-3.png)
+
+11. Click on **Register ERP** and you're done.
