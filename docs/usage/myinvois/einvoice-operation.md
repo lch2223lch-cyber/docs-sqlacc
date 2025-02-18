@@ -62,7 +62,7 @@ In the scenario where you already issued a lot of invoices but yet to submit E-I
 :::important
 The validation process utilizes the MyInvois Sandbox environment, meaning the documents will appear in your MyInvois Portal (Sandbox/Pre-production).
 
-To use this feature, you must complete the [Sandbox Credential Setup](onboarding#e-invoice-validation-setup) beforehand.
+To use this feature, you must complete the [Sandbox Credential Setup](onboarding#sandbox-credentials--intermediary) beforehand.
 :::
 
 If you do not have the necessary permissions to submit an E-Invoice, you can now validate the E-Invoice during the issuance process.
