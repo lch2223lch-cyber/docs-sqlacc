@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-debit-note
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/flx0IAbfoh8?autoplay=1" 
-videoId="flx0IAbfoh8" 
+    url="https://www.youtube.com/embed/flx0IAbfoh8?autoplay=1"
+    videoId="flx0IAbfoh8"
     title="Purchase Debit Note"
 />
-      

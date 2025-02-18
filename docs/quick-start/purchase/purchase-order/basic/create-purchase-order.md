@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-order
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/VzQq83HLk9I?autoplay=1" 
-videoId="VzQq83HLk9I" 
+    url="https://www.youtube.com/embed/VzQq83HLk9I?autoplay=1"
+    videoId="VzQq83HLk9I"
     title="Purchase Order"
 />
-   

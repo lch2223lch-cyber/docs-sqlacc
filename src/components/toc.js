@@ -1,5 +1,5 @@
 import React from "react";
-import "@site/static/css/toc-card.css"
+import "@src/css/toc-card.css"
 
 // styling
 const containerStyle = {
@@ -23,7 +23,7 @@ const twoSectionStyle = {
   display: "flex",
   flexDirection: "column",
   gap: "1rem",
-}; 
+};
 
 const headerStyle = {
   fontWeight: "bold",

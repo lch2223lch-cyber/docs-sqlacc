@@ -5,11 +5,10 @@ hide_title: true
 slug: /quick-start/sales/sales-delivery-order 
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
-{"text": "Create Sales Delivery Order", "link": "./create-sales-delivery-order"}, 
+{"text": "Create Sales Delivery Order", "link": "./create-sales-delivery-order"},
 ]}
 />
-  

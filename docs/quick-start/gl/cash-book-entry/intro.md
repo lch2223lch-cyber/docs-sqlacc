@@ -5,7 +5,7 @@ hide_title: true
 slug: /quick-start/gl/cash-book-entry 
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
@@ -13,7 +13,3 @@ dataEntryList = {[
 {"text": "Create Official Receipt", "link": "./create-cash-book-entry-official-receipt"},  
 ]}
 />
-      
- 
- 
- 

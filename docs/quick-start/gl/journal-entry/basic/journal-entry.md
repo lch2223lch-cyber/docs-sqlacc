@@ -7,12 +7,10 @@ slug: /quick-start/gl/create-journal-entry
 tags: ["GL"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/I5TC0re1fxQ?autoplay=1" 
-videoId="I5TC0re1fxQ" 
+    url="https://www.youtube.com/embed/I5TC0re1fxQ?autoplay=1"
+    videoId="I5TC0re1fxQ"
     title="Journal Entry"
 />
-  
-  

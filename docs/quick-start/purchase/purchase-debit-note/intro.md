@@ -6,13 +6,10 @@ slug: /quick-start/purchase/purchase-debit-note
 # id : purchase/purchase-debit-note/intro
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Purchase Debit Note", "link": "./create-purchase-debit-note"},  
 ]}
 />
-    
-       
- 

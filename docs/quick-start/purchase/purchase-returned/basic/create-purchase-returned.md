@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-returned
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/nkUm4MALWUg?autoplay=1" 
-videoId="nkUm4MALWUg" 
+    url="https://www.youtube.com/embed/nkUm4MALWUg?autoplay=1"
+    videoId="nkUm4MALWUg"
     title="Purchase Returned"
 />
-     

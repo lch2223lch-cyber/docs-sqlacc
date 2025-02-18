@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 import { ImYoutube } from "react-icons/im";
-import "@site/static/css/yt-player.css"
+import "@src/css/yt-player.css"
 
 export const QRCodeGenerator = ({url}) => {
     const [showQR, setShowQR] = useState(false);
@@ -13,7 +13,7 @@ export const QRCodeGenerator = ({url}) => {
             <button
                 onClick={() => setShowQR(true)}
                 className='qr-button'
-            > 
+            >
                 <ImYoutube size={25}/>
                 <text style={{ paddingLeft: '5px' }}> View on Youtube</text>
             </button>
@@ -39,16 +39,15 @@ export const QRCodeGenerator = ({url}) => {
                     <p style={{ fontWeight: "bold", color: "white" }}>
                         Scan To Watch Video On Your Phone
                     </p>
-                    <QRCodeCanvas 
-                        value={url} 
-                        size={250} 
+                    <QRCodeCanvas
+                        value={url}
+                        size={250}
                         style={{
                             background: 'white',
                             padding: '10px',
                             borderRadius: '8px'
                         }}
                     />
-                    
                 </div>
             )}
         </div>

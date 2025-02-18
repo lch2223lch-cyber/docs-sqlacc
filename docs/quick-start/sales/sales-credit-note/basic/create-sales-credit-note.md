@@ -7,11 +7,10 @@ slug: /quick-start/sales/create-sales-credit-note
 tags: ["Sales"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/aB1g5pcspok?autoplay=1" 
-videoId="aB1g5pcspok" 
+    url="https://www.youtube.com/embed/aB1g5pcspok?autoplay=1"
+    videoId="aB1g5pcspok"
     title="Sales Credit Note"
 />
-       

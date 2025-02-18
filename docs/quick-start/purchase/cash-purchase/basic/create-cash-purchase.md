@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-cash-purchase
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/unz7TxUgZbY?autoplay=1" 
-videoId="unz7TxUgZbY" 
+    url="https://www.youtube.com/embed/unz7TxUgZbY?autoplay=1"
+    videoId="unz7TxUgZbY"
     title="Cash Purchase"
 />
-   

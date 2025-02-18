@@ -6,13 +6,10 @@ slug: /quick-start/purchase/purchase-invoice
 # id : purchase/purchase-invoice/intro
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Purchase Invoice", "link": "./create-purchase-invoice"},  
 ]}
 />
-    
-      
- 

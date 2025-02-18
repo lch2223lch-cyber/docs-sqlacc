@@ -7,12 +7,10 @@ slug: /quick-start/sales/create-sales-order
 tags: ["Sales"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/CXBhlbV6a0o?autoplay=1" 
-videoId="CXBhlbV6a0o" 
-  title="Sales Order" 
+  url="https://www.youtube.com/embed/CXBhlbV6a0o?autoplay=1"
+  videoId="CXBhlbV6a0o"
+  title="Sales Order"
 />
-       
-    

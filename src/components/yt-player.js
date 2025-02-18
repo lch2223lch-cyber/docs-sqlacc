@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import videojs from 'video.js';
 import 'video.js/dist/video-js.css';
-import 'videojs-youtube';  
-import "@site/static/css/yt-player.css" 
+import 'videojs-youtube';
+import "@src/css/yt-player.css";
 
 export const VideoPlayer = ({ videoId, title }) => {
     const videoNode = useRef(null);
@@ -24,10 +24,9 @@ export const VideoPlayer = ({ videoId, title }) => {
                 ],
                 youtube: {
                     rel: 0, // Disables related videos at the end
-                    iv_load_policy: 3, // Hides video annotations 
-                }, 
+                    iv_load_policy: 3, // Hides video annotations
+                },
             });
-            
             player.current.ready(() => {
                 const iframe = player.current.el().querySelector('iframe');
                 if (iframe) {

@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-request
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/Lwa3nr8hIIU?autoplay=1" 
-videoId="Lwa3nr8hIIU" 
+    url="https://www.youtube.com/embed/Lwa3nr8hIIU?autoplay=1"
+    videoId="Lwa3nr8hIIU"
     title="Purchase Request"
 />
-    

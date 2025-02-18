@@ -5,12 +5,10 @@ hide_title: true
 slug: /quick-start/purchase/purchase-returned 
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Purchase Returned", "link": "./create-purchase-returned"},  
 ]}
 />
-   
- 

@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-cancelled-note
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/985uk4QDaCw?autoplay=1" 
-videoId="985uk4QDaCw" 
+    url="https://www.youtube.com/embed/985uk4QDaCw?autoplay=1"
+    videoId="985uk4QDaCw"
     title="Purchase Cancelled Note"
 />
-     

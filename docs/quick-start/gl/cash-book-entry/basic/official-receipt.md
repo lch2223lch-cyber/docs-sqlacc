@@ -7,13 +7,10 @@ slug: /quick-start/gl/create-cash-book-entry-official-receipt
 tags: ["GL"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/VbY3sIesoFE?autoplay=1" 
-videoId="VbY3sIesoFE" 
+    url="https://www.youtube.com/embed/VbY3sIesoFE?autoplay=1"
+    videoId="VbY3sIesoFE"
     title="Cash Book Entry - Official Receipt"
 />
-  
- 
- 

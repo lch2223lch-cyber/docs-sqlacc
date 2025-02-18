@@ -5,7 +5,7 @@ hide_title: true
 slug: /quick-start/sales/sales-quotation
 --- 
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[

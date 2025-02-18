@@ -7,12 +7,10 @@ slug: /quick-start/sales/create-cash-sales
 tags: ["Sales"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/cosRwOQrFTo?autoplay=1" 
-videoId="cosRwOQrFTo" 
+    url="https://www.youtube.com/embed/cosRwOQrFTo?autoplay=1"
+    videoId="cosRwOQrFTo"
     title="Cash Sales"
 />
-     
- 

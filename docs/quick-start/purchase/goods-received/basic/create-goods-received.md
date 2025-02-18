@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-goods-received
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/0rgflaIzxIk?autoplay=1" 
-videoId="0rgflaIzxIk" 
+    url="https://www.youtube.com/embed/0rgflaIzxIk?autoplay=1"
+    videoId="0rgflaIzxIk"
     title="Goods Received"
 />
-    

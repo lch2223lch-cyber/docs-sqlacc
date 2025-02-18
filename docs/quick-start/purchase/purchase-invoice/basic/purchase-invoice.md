@@ -7,11 +7,10 @@ slug: /quick-start/purchase/create-purchase-invoice
 tags: ["Purchase"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/dBxJcgMINXI?autoplay=1" 
-videoId="dBxJcgMINXI" 
+    url="https://www.youtube.com/embed/dBxJcgMINXI?autoplay=1"
+    videoId="dBxJcgMINXI"
     title="Purchase Invoice"
 />
-     

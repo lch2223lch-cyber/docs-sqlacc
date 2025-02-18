@@ -7,12 +7,10 @@ slug: /quick-start/sales/create-sales-debit-note
 tags: ["Sales"]
 --- 
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/e-93xlPjLns?autoplay=1" 
-videoId="e-93xlPjLns" 
+    url="https://www.youtube.com/embed/e-93xlPjLns?autoplay=1"
+    videoId="e-93xlPjLns"
     title="Sales Debit Note"
 />
-       
- 

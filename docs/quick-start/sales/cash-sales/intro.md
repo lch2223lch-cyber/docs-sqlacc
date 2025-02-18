@@ -5,13 +5,10 @@ hide_title: true
 slug: /quick-start/sales/cash-sales 
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Cash Sales", "link": "./create-cash-sales"},  
 ]}
 />
-   
- 
- 

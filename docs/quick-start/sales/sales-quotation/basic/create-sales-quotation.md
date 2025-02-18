@@ -7,12 +7,10 @@ slug: /quick-start/sales/create-sales-quotation
 tags: ["Sales"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/lRYrv0OEwi4?autoplay=1" 
-videoId="lRYrv0OEwi4" 
-  title="Sales Quotation" 
+url="https://www.youtube.com/embed/lRYrv0OEwi4?autoplay=1"
+videoId="lRYrv0OEwi4"
+  title="Sales Quotation"
 />
-       
-     

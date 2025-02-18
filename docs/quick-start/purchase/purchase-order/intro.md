@@ -5,13 +5,10 @@ hide_title: true
 slug: /quick-start/purchase/purchase-order 
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Purchase Order", "link": "./create-purchase-order"},  
 ]}
 />
-    
-     
- 

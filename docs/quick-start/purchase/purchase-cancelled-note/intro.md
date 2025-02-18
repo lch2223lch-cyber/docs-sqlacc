@@ -6,13 +6,10 @@ slug: /quick-start/purchase/purchase-cancelled-note
 # id : purchase/purchase-cancelled-note/intro
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Purchase Cancelled Note", "link": "./create-purchase-cancelled-note"},  
 ]}
 />
-    
-        
- 

@@ -5,11 +5,10 @@ hide_title: true
 slug: /quick-start/purchase/goods-received  
 ---
 
-import {TOC} from '@site/src/toc.js';
+import {TOC} from '@src/components/toc.js';
 
 <TOC
 dataEntryList = {[
 {"text": "Create Goods Received", "link": "./create-goods-received"},  
 ]}
 />
-     

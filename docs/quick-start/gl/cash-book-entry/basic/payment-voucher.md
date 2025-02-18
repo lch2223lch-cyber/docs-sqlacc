@@ -7,12 +7,10 @@ slug: /quick-start/gl/create-cash-book-entry-payment-voucher
 tags: ["GL"]
 ---
 
-import { YtLayout } from '@site/src/yt-layout'; 
+import { YtLayout } from '@src/components/yt-layout';
 
 <YtLayout 
-url="https://www.youtube.com/embed/Hy-YVj7gvSY?autoplay=1" 
-videoId="Hy-YVj7gvSY" 
+    url="https://www.youtube.com/embed/Hy-YVj7gvSY?autoplay=1"
+    videoId="Hy-YVj7gvSY"
     title="Cash Book Entry - Payment Voucher"
 />
-  
- 
