@@ -12,4 +12,3 @@ dataEntryList = {[
 {"text": "Create Cash Sales", "link": "/quick-start/sales/create-cash-sales"},  
 ]}
 />
-\
