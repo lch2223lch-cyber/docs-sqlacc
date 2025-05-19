@@ -22,7 +22,7 @@ dataEntryList = {[
 },
 {
   "text": "How To Consolidate E-Invoice", 
-  "link": "/quick-start/e-invoice/how-to-consolicate-e-invoice",
+  "link": "/quick-start/e-invoice/how-to-consolidate-e-invoice",
   "videoId": "HbXue9dcpQs"
 },
 {
