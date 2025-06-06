@@ -1,0 +1,9 @@
+{
+    "label": "Stock Adjustment",
+    "position": 3,
+    "link": {
+        "type": "doc",
+        "id": "quick-start/stock/stock-adjustment/intro"
+    },
+    "collapsible": false
+}

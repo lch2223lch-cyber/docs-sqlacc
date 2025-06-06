@@ -1,6 +1,6 @@
 {
     "label": "Customer Refund",
-    "position": 2,
+    "position": 3,
     "link": {
         "type": "doc",
         "id": "quick-start/customer/customer-refund/intro"
