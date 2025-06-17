@@ -8,11 +8,13 @@ tags: ["SQL Account", "SQL Mobile Connect", "On-Premise Setup"]
 ---
 
 ## Prerequisite
-- `SQL Account` version [5.2025.1027.869](/changelog/5.2025.1027.869) or above
+
+- `SQL Account` **version 5.2025.1027.869** or above
 - [Public IP Address](#public-ip-address)
 - [Port Forwarding](#step-3---port-forwarding)
 
 ## Public IP Address
+
 Make sure public IP Address is enabled by your ISP (Internet Service Provider)
 
 :::info[Check Public IP Address]
@@ -21,10 +23,10 @@ You can using [SQL Connect Detector](https://connect.sql.com.my/document/private
 Make sure the last requirement **Port Forward?** is `Green`
 :::
 
-
-## SQL Mobile Connect Setup
+## SQL Mobile Connect (On Premise) Setup
 
 ### Step 1 - Install Service
+
 1. On `Logon Screen` > **Click** `⚙️`
 
     ![logon screen setting](../../../static/img/sql-mobile-connect/on-premise-setup/1.png)
@@ -33,8 +35,7 @@ Make sure the last requirement **Port Forward?** is `Green`
 
     ![configure mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/2.png)
 
-
-2. **Click** on `Install` to install mobile connect service
+3. **Click** on `Install` to install mobile connect service
 
     ![install mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/3.png)
 
@@ -58,7 +59,7 @@ You can **Click** on `Show Tips`, to show the information for port forwarding co
 ![show tips](../../../static/img/sql-mobile-connect/on-premise-setup/5.png)
 :::
 
-#### Sample of Step to Configure Port Forwarding
+#### Port Forward Configuration Example
 
 1. **Access Router Setting**: Login to the router's administration interface on web browser.
 
@@ -83,6 +84,7 @@ You can **Click** on `Show Tips`, to show the information for port forwarding co
     ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/7.png)
 
 ### Step 4 - Access SQL Mobile Connect
+
 1. Now, You can access `SQL Mobile Connect` by **Click** on `🌐`
 
     ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/8.png)
@@ -92,7 +94,6 @@ You can **Click** on `Show Tips`, to show the information for port forwarding co
     ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/9.png)
 
     ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/10.png)
-
 
 ## Reference
 

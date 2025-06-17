@@ -29,7 +29,7 @@ This `View Template` will filter document by `Agent`, where `Agent` is match to 
 
 - **Load All**: All the template will load.
 - **Custom**: Can select all or some template to load.
-    
+
     ![4](../../../static/img/sql-mobile-connect/set-user-view/4.png)
 
 Once completed, `Loaded` message will prompt and all `View Template` loaded will show.
