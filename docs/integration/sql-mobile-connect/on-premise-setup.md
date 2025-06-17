@@ -97,4 +97,4 @@ You can **Click** on `Show Tips`, to show the information for port forwarding co
 
 ## Reference
 
-Your can refer to [SQL Mobile Connect - User Setup](./user-setup) for user setup to login on SQL Mobile Connect
+Your can refer to [SQL Mobile Connect - User Setup](user-setup) for user setup to login on SQL Mobile Connect
