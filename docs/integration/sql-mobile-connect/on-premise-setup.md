@@ -7,94 +7,168 @@ slug: /sql-mobile-connect/on-premise-setup
 tags: ["SQL Account", "SQL Mobile Connect", "On-Premise Setup"]
 ---
 
-## Prerequisite
+## Prerequisites
 
 - `SQL Account` **version 5.2025.1027.869** or above
+- Fix server IP address (either DHCP Reservation or Static)
 - [Public IP Address](#public-ip-address)
 - [Port Forwarding](#step-3---port-forwarding)
 
 ## Public IP Address
 
-Make sure public IP Address is enabled by your ISP (Internet Service Provider)
+Make sure to have a **dedicated public IP Address**.
 
 :::info[Check Public IP Address]
 You can using [SQL Connect Detector](https://connect.sql.com.my/document/private-cloud/requirements/sql-connect-detector#download) to check whether public IP is enabled by your ISP.
 
-Make sure the last requirement **Port Forward?** is `Green`
+Make sure the last requirement **Port Forward?** is in <text style={{color: "#43a047"}}>**Green**</text>
 :::
 
-## SQL Mobile Connect (On Premise) Setup
+:::tip[Hints]
+If the result is <text style={{color:"#f44336"}}>**Red**</text>, kindly call your internet service provider and request for dedicated Public IP.
+
+If the provider requests a reason, you can explain that you intend to host a server and therefore need to set up port forwarding.
+:::
+
+## Setup
 
 ### Step 1 - Install Service
 
 1. On `Logon Screen` > **Click** `⚙️`
 
-    ![logon screen setting](../../../static/img/sql-mobile-connect/on-premise-setup/1.png)
+   ![logon screen setting](../../../static/img/sql-mobile-connect/on-premise-setup/1.png)
 
-2. **Right-Click** on company `database` > **Select** `Configure Mobile Connect...`
+2. **Right-Click** on company database > **Select** `Configure Mobile Connect...`
 
-    ![configure mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/2.png)
+   ![configure mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/2.png)
 
 3. **Click** on `Install` to install mobile connect service
 
-    ![install mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/3.png)
+   :::success[Host Name]
+   A default host name will be filled in. However, if you would like to use a custom host name, you may edit the default. Note that changing hostname is only available during the initial setup. (Host name should have **at least 8 characters**)
+   :::
 
-    :::success[Host Name]
-    A default company's `Host` name will suggested, but you can change to any host name you like for first time setup. (Min host name length is **at least 8 characters**)
-    :::
+   ![install mobile connect](../../../static/img/sql-mobile-connect/on-premise-setup/3.png)
 
 ### Step 2 - Start Service
 
-After **SQL Mobile Connect** service is installed and running. `Service is running` status will show on screen.
+After the installation, start the service. Once successful, `Service is running` status will show on screen.
 
 ![service running](../../../static/img/sql-mobile-connect/on-premise-setup/4.png)
 
 ### Step 3 - Port Forwarding
 
-Next, `Port Forwarding` required to configure on your router for public access.
+Next, we will need to do `Port Forwarding`.
 
 :::info[Port Forwarding Information]
-You can **Click** on `Show Tips`, to show the information for port forwarding configuration.
+You can **Click** on `Show Tips` to find all the information for port forwarding configuration.
 
 ![show tips](../../../static/img/sql-mobile-connect/on-premise-setup/5.png)
 :::
 
-#### Port Forward Configuration Example
-
 1. **Access Router Setting**: Login to the router's administration interface on web browser.
 
-    :::success[Router Login Page]
-    You can **Click** on `Show Tips` > `Gateway IP Address`, to access login page of the router
+   You can **Click** on `Show Tips` > `Gateway IP Address`, to access login page of the router.
 
-    ![router gateway](../../../static/img/sql-mobile-connect/on-premise-setup/6.png)
+    :::warning
+   If you are using a firewall or serving the router's web administration interface via a different IP address, this might not work.
     :::
 
-2. **Navigate to Port Forwarding Section**: Find `Port Forwarding`, `Virtual Service` or similar section within router's setting.
+   ![router gateway](../../../static/img/sql-mobile-connect/on-premise-setup/6.png)
+
+2. **Navigate to Port Forwarding Section**: Find `Port Forwarding`, `Virtual Service` or similar section in the router's setting.
 
 3. **Add New Rule**: Create a new port forwarding rule. (All information can get from [Port Forwarding Information](#step-3---port-forwarding))
-    - `Service Name`: Enter a description name (**SQL Account Mobile Connect**)
-    - `External/Public Port`: Specify the port number to use for external access (**443**)
-    - `Internal IP Address`: Enter the IP address of the device to forward to (**E.g. 192.168.0.238**)
-    - `Internal/Private Port`: Specify the port number the service is listening on within the internal network (**443**)
 
-4. **Save the Rule**: Save the new port forwarding rule. 
+   - `Service Name`: Enter a description name (**SQL Account Mobile Connect**)
+   - `External/Public Port`: Specify the port number to use for external access (**443**)
+   - `Internal IP Address`: Enter the IP address of the device to forward to (**E.g. 192.168.0.238**)
+   - `Internal/Private Port`: Specify the port number the service is listening on within the internal network (**443**)
 
-5. **Verify**: **Click** on `Test Connection` to test `SQL Mobile Connect` access status. When `✅ OK` status is shown, mean the service is setup successfully.
+4. **Save the Rule**: Save the new port forwarding rule.
 
-    ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/7.png)
+5. **Verify**: **Click** on `Test Connection` to test `SQL Mobile Connect` access status. When `✅ OK` status is shown, it means the service is setup successfully.
+
+   ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/7.png)
+
+#### Examples of Port Forward
+
+#### AX3000
+
+1. Navigate to `Advanced` > `NAT Forwarding` > `Port Forwarding`, click `Add` to create a new entry.
+
+   ![ax3000-1](../../../static/img/sql-mobile-connect/on-premise-setup/AX3000-1.png)
+
+2. Fill in the details following the [Port Forwarding Information](#step-3---port-forwarding):
+
+    |Router Fields|Port Forward Information|
+    |--|--|
+    |Service Name|Name|
+    |Device IP Address|Local IP|
+    |External Port (Individual Port)|External Port|
+    |Internal Port|Internal Port|
+    |Protocol|Protocol|
+
+   ![ax3000-2](../../../static/img/sql-mobile-connect/on-premise-setup/AX3000-2.png)
+
+3. Click `Save`.
+
+#### HG8145X6
+
+1. Navigate to `⚙️` > `Forward Rules` > `IPv4 Port Mapping`, click `New` to create a new entry.
+
+   ![HG8145X6-1](../../../static/img/sql-mobile-connect/on-premise-setup/HG8145X6-1.png)
+
+2. Fill in the details following the [Port Forwarding Information](#step-3---port-forwarding):
+
+    |Router Fields|Port Forward Information|
+    |--|--|
+    |Mapping Name|Name|
+    |Internal Host|Local IP|
+    |External port number|External Port|
+    |Internal port number|Internal Port|
+    |Protocol|Protocol|
+
+   ![HG8145X6-2](../../../static/img/sql-mobile-connect/on-premise-setup/HG8145X6-2.png)
+
+3. Click `Apply`.
+
+#### SR1041F
+
+1. Navigate to `Basic Setup` > `NAT` > `Port Forwarding`, click `Add Port Forwarding` to create a new entry.
+
+   ![SR1041F-1](../../../static/img/sql-mobile-connect/on-premise-setup/SR1041F-1.png)
+
+2. Fill in the details following the [Port Forwarding Information](#step-3---port-forwarding):
+
+    |Router Fields|Port Forward Information|
+    |--|--|
+    |Protocol|Protocol|
+    |Local IP Address|Local IP|
+    |Local Port Range|Internal Port|
+    |Remote Port Range|External Port|
+
+   ![SR1041F-2](../../../static/img/sql-mobile-connect/on-premise-setup/SR1041F-2.png)
+
+3. Click `Confirm`.
 
 ### Step 4 - Access SQL Mobile Connect
 
-1. Now, You can access `SQL Mobile Connect` by **Click** on `🌐`
+:::info[Important]
+Before access to the service, do remember to setup your users. To learn more, follow [SQL Mobile Connect - User Setup](user-setup).
+:::
 
-    ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/8.png)
+1. You can now access `SQL Mobile Connect` by **Clicking** on the globe `🌐`
 
-2. Then **Click** on `Copy` or **Scan** on `QR Code` to get `SQL Mobile Connect` link and open on web browser to access your company on SQL Mobile Connect
+   ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/8.png)
 
-    ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/9.png)
+2. We offer two options for users to access the service:
 
-    ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/10.png)
+   - **Click** on `Copy` (top left) to retrieve the link
+   - **Scan** the `QR Code` with your phone
 
-## Reference
+   ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/9.png)
 
-Your can refer to [SQL Mobile Connect - User Setup](user-setup) for user setup to login on SQL Mobile Connect
+3. You should see the login page.
+
+   ![alt text](../../../static/img/sql-mobile-connect/on-premise-setup/10.png)
