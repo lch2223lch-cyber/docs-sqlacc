@@ -93,6 +93,26 @@ You can **Click** on `Show Tips` to find all the information for port forwarding
 
 #### Examples of Port Forward
 
+#### C1200
+
+1. Navigate to `Advanced` > `NAT Forwarding` > `Virtual Servers`, click `Add` to create a new entry.
+
+   ![c1200-1](../../../static/img/sql-mobile-connect/on-premise-setup/C1200-1.png)
+
+2. Fill in the details following the [Port Forwarding Information](#step-3---port-forwarding):
+
+    |Router Fields|Port Forward Information|
+    |--|--|
+    |Service Type|Name|
+    |External Port|External Port|
+    |Internal IP|Local IP|
+    |Internal Port|Internal Port|
+    |Protocol|Protocol|
+
+   ![c1200-2](../../../static/img/sql-mobile-connect/on-premise-setup/C1200-2.png)
+
+3. Click `OK`.
+
 #### AX3000
 
 1. Navigate to `Advanced` > `NAT Forwarding` > `Port Forwarding`, click `Add` to create a new entry.
@@ -149,6 +169,26 @@ You can **Click** on `Show Tips` to find all the information for port forwarding
     |Remote Port Range|External Port|
 
    ![SR1041F-2](../../../static/img/sql-mobile-connect/on-premise-setup/SR1041F-2.png)
+
+3. Click `Confirm`.
+
+#### SR120-A
+
+1. Navigate to `Basic Setup` > `NAT` > `Port Forwarding`, click `Add` to create a new entry.
+
+   ![SR120-A-1](../../../static/img/sql-mobile-connect/on-premise-setup/SR120-A-1.png)
+
+2. Fill in the details following the [Port Forwarding Information](#step-3---port-forwarding):
+
+    |Router Fields|Port Forward Information|
+    |--|--|
+    |Local IP Address|Local IP|
+    |Local Port Range|Internal Port|
+    |Protocol|Protocol|
+    |Remote Port Range|External Port|
+    |Comment|Name|
+
+   ![SR120-A-2](../../../static/img/sql-mobile-connect/on-premise-setup/SR120-A-2.png)
 
 3. Click `Confirm`.
 
