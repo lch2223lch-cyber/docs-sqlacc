@@ -57,6 +57,38 @@ In the scenario where you already issued a lot of invoices but yet to submit E-I
 
     ![batch-submission-refresh](../../../static/img/myinvois/einvoice/batch-submission-refresh.png)
 
+### Resolving Submitting Status
+
+Submitting status is not a common status you will encounter. It will only stuck at submitting status during the event SQL Account fails to receive response from MyInvois Portal when the document may or may not be submitted. This mechanism is to **prevent double submission**.
+
+Below show the icon of submitting status, it is a **red** submitted icon.
+
+    ![submitting-status-detail](../../../static/img/myinvois/einvoice/submitting-status-detail.png)
+
+    ![submitting-status-browse](../../../static/img/myinvois/einvoice/submitting-status-browse.png)
+
+There are 2 way to resolve submitting status.
+
+    - Using [refresh status (Single Document)](#refresh-status-single-document).
+    - Using [batch refresh status](#batch-refresh-status).
+
+1. After refresh status is clicked, SQL Account will automatically check if the document was submitted successfully to MyInvois Portal. In the event that:
+
+    1. Document is **successfully found** in MyInvois Portal. Confirmation dialog will be prompted. (1) show the current document number that is being resolved. Select the correct document and click **OK** (2) to complete resolving submitting status.
+
+        ![submitting-status-resolving](../../../static/img/myinvois/einvoice/submitting-status-resolving.png)
+
+    2. Document is **not found** in MyInvois Portal. Action dialog will be prompted.
+
+        ![submitting-status-resolving-error](../../../static/img/myinvois/einvoice/submitting-status-resolving-error.png)
+
+        :::warning
+        Sometimes it take a long time for the submitted document to appear in MyInvois Portal. Please ensure it has not been submitted before Reset E-Invoice status to avoid double submission.
+        :::
+
+        - Click **Search again** to retry find from MyInvois Portal again.
+        - Click **Reset E-Invoice status** to remove submitting status, so you are able to resubmit the document again (This may lead to duplicate submission).
+
 ## Test E-Invoice Validation
 
 :::important
@@ -137,27 +169,27 @@ Preview the report and you can see the E-Invoice validation QR code is embedded 
 
 ![sales-invoice-preview](../../../static/img/myinvois/einvoice/sales-invoice-preview.png)
 
-## Check Status
+## Refresh Status
 
 You can easily check the latest status of an invoice in SQL Account to ensure it has been submitted and processed correctly.
 
-### Check Status (Single Document)
+### Refresh Status (Single Document)
 
-1. Click on **MyInvois** > **Check E-Invoice Status**
+1. Click on **MyInvois** > **Check E-Invoice Status** (1) or **Icon** (2).
 
-    ![sales-invoice-check-status-button](../../../static/img/myinvois/einvoice/sales-invoice-check-status-button.png)
+    ![sales-invoice-refresh-status-button](../../../static/img/myinvois/einvoice/sales-invoice-refresh-status-button.png)
 
 2. You will be able to see the current status of the submitted invoice, along with the QR code and a validation page.
 
-    ![sales-invoice-check-status-valid](../../../static/img/myinvois/einvoice/sales-invoice-check-status-valid.png)
+    ![sales-invoice-refresh-status-valid](../../../static/img/myinvois/einvoice/sales-invoice-refresh-status-valid.png)
 
     :::info[NOTE]
     If the invoice status is marked as invalid, a list of errors will be displayed. You can use this information to correct the invoice and resubmit it.
     :::
 
-    ![sales-invoice-check-status-invalid](../../../static/img/myinvois/einvoice/sales-invoice-check-status-invalid.png)
+    ![sales-invoice-refresh-status-invalid](../../../static/img/myinvois/einvoice/sales-invoice-refresh-status-invalid.png)
 
-### Batch Check Status
+### Batch Refresh Status
 
 In certain situations, the status of your E-Invoices may not reflect the latest updates due to various factors such as:
 
@@ -172,7 +204,7 @@ To ensure that you are viewing the most up-to-date status of your E-Invoices, fo
 
 This process will retrieve the latest status for all submitted documents, ensuring that your records are accurate and up to date.
 
-    ![batch-check-status](../../../static/img/myinvois/einvoice/batch-check-status.png)
+    ![batch-refresh-status](../../../static/img/myinvois/einvoice/batch-refresh-status.png)
 
 ## Submission Log
 
@@ -310,7 +342,7 @@ You can share invoice PDF to SQL buyer.
 
 1. Click on **MyInvois** > **Check E-Invoice Status**
 
-    ![sales-invoice-check-status-button](../../../static/img/myinvois/einvoice/sales-invoice-check-status-button.png)
+    ![sales-invoice-refresh-status-button](../../../static/img/myinvois/einvoice/sales-invoice-refresh-status-button.png)
 
 2. Click on **Share** to share the invoice PDF with SQL buyer
 
@@ -422,9 +454,9 @@ When selected invoices include those with E-Invoice Request (Hourglass icon), th
     ![batch-submit](../../../static/img/myinvois/einvoice-request/batch-submit.png)
 
     :::info[NOTE]
-    You may click the Valid icon to perform check status
+    You may click the Valid icon to perform refresh status
     :::
 
     ![batch-submit-valid](../../../static/img/myinvois/einvoice-request/batch-submit-valid.png)
 
-    ![batch-submit-check-status](../../../static/img/myinvois/einvoice-request/batch-submit-check-status.png)
+    ![batch-submit-refresh-status](../../../static/img/myinvois/einvoice-request/batch-submit-refresh-status.png)
