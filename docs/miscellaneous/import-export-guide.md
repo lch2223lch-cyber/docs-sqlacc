@@ -1,133 +1,133 @@
 ---
 sidebar_position: 16
 id: import-export-guide
-title: Import Export Guide
+title: XML Import & Export Guide
 description: A quick guide on Import and Export for SQL Account
 slug: /miscellaneous/import-export-guide
 tags: ["SQL Account", "Export", "Import"]
 ---
 
-<!-- # Topic : Export and Import Module -->
+import '@src/css/sidebar.css';
+import { YtLayout } from '@src/components/yt-layout';
 
-### Download path
+It is an external program that allows you to import and export master files and transactions to SQL Account in XML format.
 
-1. [Export Utility](http://www.sql.com.my/utility/SQLAccExportV4-setup.exe)
+:::info[Download]
+Click [here](https://download.sql.com.my/customer/Fairy/SQLAccTxtXMLImp-setup.exe) to download the import/export utility program.
+:::
 
-2. [Import Utility](http://www.sql.com.my/utility/SQLAccImportV4-setup.exe)
+## Video Guide
 
-   User Name & Password = **`sqlutility`**
+<YtLayout
+    videoId="V7eLIA7L0qY"
+/>
 
-   After download, please install accordingly.
+:::info
+For more details & updates, please click [here](https://wiki.sql.com.my/wiki/SQL_XML_Import).
+:::
 
-### Export Module Steps
+## Export
 
-   1. Logon to the company which you want to export out the data.(Make sure logon only 1 database.)
+1. Log on to the company from which you want to export data. (Make sure to have only a single instance of SQL Account open.)
+2. Launch `SQL Financial Accounting Text & XML Import Module V5`
 
-   2. Launch SQL Export Module.
+   ![export](../../static/img/miscellaneous/import-export-guide/export2.png)
 
-      ![1](../../static/img/miscellaneous/import-export-guide/1.png)
+   1. Click on `Fast XML Export` on the toolbar
+   2. Check the Date option
+   3. Select the Date Period
+   4. Click Change
+   5. Click Export > Select the location where you want to export > Enter the Export File Name > Press Save > Export the Data
+   6. Done
 
-      1. Click on Fast Export
+   ![export-succuess](../../static/img/miscellaneous/import-export-guide/export-success.png)
 
-      2. Tick Date
+## Import
 
-      3. Select the Date Period.
+### Import Sequence
 
-      4. Click Change
+The import sequence must always be followed to ensure data integrity:
 
-      5. Click on Export | Select the Place you want to export out | Enter the Export File name | Press Save | Exporting the Data
+1. **Master Data** (Import first)
+2. **Transactions** (Import after master data; the system will process automatically)
 
-      6.
+:::warning[Avoid Duplicate Stock Movements]
 
-         ![2](../../static/img/miscellaneous/import-export-guide/2.png)
+- Importing both Sales DO and Sales IV will cause double stock deduction
 
-         Done
-
-### Import Module Steps
-
-   1. Logon to the database you want to import the data.(Make sure logon 1 Database only)
-
-   2.
-
-   ![3](../../static/img/miscellaneous/import-export-guide/3.png)
-
-      1. Click on the Folder | Select the Export File you have export just now(Refer Step 1.2.5)
-
-      2. Tick at the area to import.
-
-      Import Seq :
-
-         1. Tick all the Maintenance Item First.
-
-      3. Click Verify Button | Once pop message : Verify Done | Press OK
-
-      4. Click On Import Button | Once Pop Message : Import Done | Press Ok
-
-      Import Sequence :
-
-         1. Sales DN
-
-            Cash Sales
-
-            Sales IV
-
-            Sales DO
-
-            Sales SO
-
-            Sales QT
-
-            Sales CN \*Same as Purchase Side
-
-            :::note
-            Import DO and Import IV will cause stock deduct twice. Same to Purchase GRN and Purchase IV will added 2 times.
-            :::
-            Customer IV
-
-            Customer DN
-
-         2. Customer Payment
-
-            Customer CN
-
-            Customer Refund
-
-            Customer Contra & Supplier Contra
-
-         3. GL Official Receipt
-
-:::note
-
-1. If duplicate transaction, you may choose to replace, below is the step to replace the transaction:
-
-   ![4](../../static/img/miscellaneous/import-export-guide/4.png)
-
-   1. Press Verify Button
-
-   2. Click on first transaction, press the shift key, click on last item
-
-   3. Click on the arrow down beside Action | Select Replace |
-
-   4. Press Import Button
-
-2. Error : Invalid Callee
-
-   Solution : Logon to the database | Tools | Option | Press Register | Done | Exit SQL and Logon again.
-
-3. Error : Field currency rate
-
-   Reason : Due to replace the IV, and this document already been knockoff.
-
-4. Error : Attempt to import EX15 failed
-
-   Error : Access violation at address 0043B65F in module 'Import.exe'. Read of address 0000000
-
-   Reason : Please check have any DIY Field for the export account book, make sure import account book have same Field.
-
-5. Error : The server threw an Exception :
-
-   Solution : This is due to open wrong version of SQL. V3 must use v3 import and Export. V4 must use v4 Import and Export.
-
-   <!-- - Export Maintain Tax with error : MainDataset : Type Mismatch for field Is Active, expecting String Actual Smallnt. -->
+- Importing both Purchase GRN and Purchase IV will cause double stock addition
 
 :::
+
+### Examples
+
+**Master Data** (Import first):
+
+- Maintain Customer, Supplier, Stock Item, Stock Group
+- Maintain Agent, Area, Project, Currency
+- And more...
+
+**Transactions** (Import after master data):
+
+- Sales documents (DN, IV, DO, SO, QT, CN)
+- Cash Sales, Customer IV/DN/Payment/CN/Refund
+- Customer Contra, Supplier Contra, GL Official Receipt
+- And more...
+
+### Import Steps
+
+1. Click `Tools` > `Fast XML Import`.
+
+   ![import](../../static/img/miscellaneous/import-export-guide/import.png)
+
+   1. Click the Folder Icon button to select the ZIP file containing the XML file.
+   2. Select the document type to import.
+   3. Click the `Verify` button to check for conflicts.
+   4. Any errors or conflicts will be displayed here.
+   5. In this section, you can change the option to either `Import` or `Replace`.
+   6. Click the `Import` button.
+
+   :::info[Import vs Replace]
+
+   | Description | Properties |
+   |-------------|------------|
+   | Import | Insert new record into SQL Account |
+   | Replace | Edit and update existing record |
+   | Action Button | Allow user to update the action in batch |
+
+   :::
+
+## Common Issues and Solutions
+
+### Replacing Existing Transactions
+
+If a transaction already exists in the target database, you can choose to replace it by following these steps:
+
+   ![import-duplicate](../../static/img/miscellaneous/import-export-guide/import-duplicate.png)
+
+   1. Click `Verify`
+   2. To select a range of transactions: Click the first transaction, hold `Shift`, and click the last transaction.
+      To select specific individual transactions: Hold `Ctrl` and click each desired transaction.
+   3. Click the dropdown arrow beside `Action` > Select `Replace`. The Action column will now show `Replace`.
+   4. Click the `Import` button
+
+### Error: Invalid Callee
+
+**Solution:**
+
+1. Open SQL Account and log on to the old database
+2. Click `Tools` > `Options` > `General` > `Register`
+3. Exit SQL Account and log on again
+4. Retry your import/export
+
+### Error: Field Currency Rate
+
+This error occurs when replacing an invoice (IV) that has already been knocked off. You will need to resolve this manually.
+
+### Error: Attempt to Import EX 15 Failed
+
+If you encounter this error message:
+`Access violation at address 0043B65F in module 'Import.exe'. Read of address 0000000.`
+
+**Solution:**
+Check if you have any DIY Fields in the source database and ensure the destination database has the same DIY Fields configured.
