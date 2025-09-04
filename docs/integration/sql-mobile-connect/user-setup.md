@@ -2,70 +2,126 @@
 sidebar_position: 2
 id: user-setup
 title: User Setup
-description: A guide to setup SQL Mobile Connect User
+description: Complete guide to setting up SQL Mobile Connect users and configuring mobile devices
 slug: /sql-mobile-connect/user-setup
-tags: ["SQL Account", "SQL Mobile Connect", "User Setup"]
+tags: ["SQL Account", "SQL Mobile Connect", "User Setup", "Mobile App"]
 ---
 
-## 1.0 SQL ACCOUNT SETUP
+This guide walks you through the complete process of setting up SQL Mobile Connect users and configuring the mobile application on user devices.
 
-### 1.1  HOW TO CREATE SQL MOBILE CONNECT USER
+## Overview
 
-Step 1: Tools | Maintain Agent… | Create New Agent | Save
+The setup process consists of two main parts:
 
-![1](../../../static/img/sql-mobile-connect/user-setup/1.png)
+1. **Administrator Setup** - Creating users and passkeys in SQL Account
+2. **User Setup** - Registering passkeys and installing the mobile app
 
-Step 2: Select **‘Create WebApp User’** , then will show one dialog **User is created**. | Press OK.
+---
 
-![2](../../../static/img/sql-mobile-connect/user-setup/2.png)
+## Part 1: Administrator Setup (SQL Account)
 
-Step 3: Select **+ Button** under Passkey windows
+### Step 1: Create a New Agent
 
-![3](../../../static/img/sql-mobile-connect/user-setup/3.png)
+1. Navigate to **Tools** → **Maintain Agent...**
+2. Click **Create New Agent**
+3. Fill in the agent details and click **Save**
 
-Step 4: Can press the Copy link **(Red Box)** or QR code shown
+   ![Create New Agent](../../../static/img/sql-mobile-connect/user-setup/1.png)
 
-Send to Salesman for register passkey on their device
+### Step 2: Create WebApp User
 
-![4](../../../static/img/sql-mobile-connect/user-setup/4.png)
+1. Select **Create WebApp User** from the agent options
+2. A dialog box will appear showing **"User is created"**
+3. Click **OK** to confirm
 
-After done registration of passkey on your device, it will show screen
+   ![Create WebApp User](../../../static/img/sql-mobile-connect/user-setup/2.png)
 
-Step 5: Rename the Nickname for this passkey | Press OK
+### Step 3: Generate Passkey Registration
 
-![5](../../../static/img/sql-mobile-connect/user-setup/5.png)
+1. Click the **+ Button** under the Passkey window
 
-![6](../../../static/img/sql-mobile-connect/user-setup/6.png)
+   ![Add Passkey](../../../static/img/sql-mobile-connect/user-setup/3.png)
 
-## 2.0 SQL MOBILE CONNECT SETUP
+2. A registration screen will appear with:
+   - **Copy Link** button (highlighted in red box)
+   - **QR Code** for mobile scanning
 
-Step 1: Press the link or scan the QR code provided
+   ![Passkey Registration Options](../../../static/img/sql-mobile-connect/user-setup/4.png)
 
-![7](../../../static/img/sql-mobile-connect/user-setup/7.png)
+3. Share either the link or QR code with the user for device registration
 
-Step 2: After press the link or scan the QR code, will show screen as above for you to register passkey. Then, select **‘Continue’** to proceed.
+### Step 4: Configure Passkey Nickname
 
-Step 3: After registered passkey successfully, will show the screen below.
+1. Enter a descriptive **Nickname** for this passkey
+2. Click **OK** to save
 
-![8](../../../static/img/sql-mobile-connect/user-setup/8.png)
+   ![Rename Passkey](../../../static/img/sql-mobile-connect/user-setup/5.png)
 
-You need to install the App on your device
+### Step 5: Verify Setup Completion
 
-- Android > click More > Install App
-- Windows > click Install App
-- IOS > Share > Add to Home Screen
+The new passkey will now appear under your agent, confirming successful setup.
 
-![9](../../../static/img/sql-mobile-connect/user-setup/9.png)
+![Passkey Added Successfully](../../../static/img/sql-mobile-connect/user-setup/6.png)
 
-The installed app will appear on your home screen as shown above.
+---
 
-Alternatively, you can copy the link or scan the QR code by pressing the red box to access SQL Mobile Connect on your device.
+## Part 2: User Setup (Mobile Device)
 
-![10](../../../static/img/sql-mobile-connect/user-setup/10.png)
+### Step 1: Access Registration Link
 
-![11](../../../static/img/sql-mobile-connect/user-setup/11.png)
-![12](../../../static/img/sql-mobile-connect/user-setup/12.png)
+Users can access the registration in two ways:
 
-Now you can start using and exploring the SQL Mobile Connect app.
+- Click the provided link
+- Scan the QR code with their mobile device
 
-Thank You
+![Access Registration](../../../static/img/sql-mobile-connect/user-setup/7.png)
+
+### Step 2: Register Passkey
+
+1. The registration screen will appear on the user's device
+2. Click **Continue** to proceed with passkey registration
+3. Follow the device-specific authentication prompts (fingerprint, face ID, etc.)
+
+### Step 3: Install Mobile Application
+
+After successful passkey registration, users will see the installation screen:
+
+![Installation Screen](../../../static/img/sql-mobile-connect/user-setup/8.png)
+
+#### Installation Instructions by Platform
+
+- **Android**: Click **More** → **Install App**
+- **Windows**: Click **Install App**
+- **iOS**: Click **Share** → **Add to Home Screen**
+
+![App Installation](../../../static/img/sql-mobile-connect/user-setup/9.png)
+
+### Step 4: Access the Application
+
+Once installed, the SQL Mobile Connect app will appear on the device's home screen.
+
+#### Alternative Access Methods
+
+Users can also access the application by:
+
+- Copying the provided link (red box)
+- Scanning the QR code for quick access
+
+![Alternative Access](../../../static/img/sql-mobile-connect/user-setup/10.png)
+
+### Step 5: Start Using SQL Mobile Connect
+
+![App Ready](../../../static/img/sql-mobile-connect/user-setup/11.png)
+![App Interface](../../../static/img/sql-mobile-connect/user-setup/12.png)
+
+The setup is now complete! Users can begin exploring and using the SQL Mobile Connect application.
+
+---
+
+## Next Steps
+
+After successful setup, users can:
+
+- Access real-time business data
+- Generate reports on mobile devices
+- Sync with SQL Account system
